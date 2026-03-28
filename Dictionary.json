@@ -1,0 +1,1287 @@
+{
+  "jQuery": [
+    "/jquery"
+  ],
+  "PHP": [
+    "phpsessid",
+    "server: php/?",
+    "x-powered-by: ^php/?"
+  ],
+  "WordPress": [
+    "^wordpress",
+    "wp-embed\\.min\\.js",
+    "x-pingback: /xmlrpc\\.php$",
+    "wp-static\\.assets\\.sh/",
+    "link: rel=\"https://api\\.w\\.org/\""
+  ],
+  "Nginx": [
+    "server: nginx"
+  ],
+  "HSTS": [
+    "^https://"
+  ],
+  "jQuery Migrate": [
+    "jquery-migrate"
+  ],
+  "Cloudflare": [
+    "server: ^cloudflare$",
+    "//cdn\\.cloudflare",
+    "__cfduid"
+  ],
+  "Google Analytics": [
+    "_ga_*",
+    "googletagmanager\\.com/gtag/js",
+    "_gat",
+    "google-analytics\\.com/",
+    "__utma"
+  ],
+  "Contact Form 7": [
+    "/wp-content/plugins/contact-form-7/.+\\.js"
+  ],
+  "Elementor": [
+    "elementor_pro_login",
+    "/wp-content/plugins/elementor",
+    "^elementor"
+  ],
+  "reCAPTCHA": [
+    "/recaptcha/",
+    "api-secure\\.recaptcha\\.net",
+    "recaptcha_ajax\\.js"
+  ],
+  "LiteSpeed": [
+    "x-turbo-charged-by: ^litespeed$",
+    "server: ^litespeed$"
+  ],
+  "React": [
+    "^web site created using create-react-app$",
+    "%react_app_seo_image_url%",
+    "^react\\b.*\\.js"
+  ],
+  "Lodash": [
+    "lodash.*\\.js"
+  ],
+  "Google Cloud CDN": [
+    "via: ^1\\.1 google$"
+  ],
+  "imagesLoaded": [
+    "imagesloaded"
+  ],
+  "Wix": [
+    "wix\\.com website builder",
+    "domain",
+    "static\\.parastorage\\.com"
+  ],
+  "Google Hosted Libraries": [
+    "ajax\\.googleapis\\.com/ajax/libs/"
+  ],
+  "OWL Carousel": [
+    "owl\\.carousel.*\\.js"
+  ],
+  "OpenResty": [
+    "server: openresty"
+  ],
+  "cdnjs": [
+    "cdnjs\\.cloudflare\\.com"
+  ],
+  "jQuery UI": [
+    "jquery-ui.*\\.js",
+    "jquery-ui"
+  ],
+  "Underscore.js": [
+    "underscore.*\\.js"
+  ],
+  "LiteSpeed Cache": [
+    "x-turbo-charged-by: litespeed"
+  ],
+  "WooCommerce": [
+    "/woocommerce",
+    "woocommerce",
+    "woocommerce_recently_viewed"
+  ],
+  "Magnific Popup": [
+    "magnific-popup"
+  ],
+  "Litespeed Cache": [
+    "x-turbo-charged-by: litespeed"
+  ],
+  "Site Kit": [
+    "^site kit by google ?"
+  ],
+  "jsDelivr": [
+    "cdn\\.jsdelivr\\.net"
+  ],
+  "Font Awesome": [
+    "\\.fontawesome\\.com/"
+  ],
+  "Slider Revolution": [
+    "jquery\\.themepunch\\.revolution\\.min\\.js",
+    "/wp-content/plugins/revslider/"
+  ],
+  "Cloudflare Bot Management": [
+    "__cf_bm"
+  ],
+  "Microsoft ASP.NET": [
+    "\\.aspx?",
+    "\\.aspxauth",
+    "asp\\.net_sessionid",
+    "set-cookie: \\.aspnetcore",
+    "x-powered-by: ^asp\\.net",
+    "aspsession"
+  ],
+  "Envoy": [
+    "server: ^envoy$"
+  ],
+  "Google Maps": [
+    "//maps\\.google"
+  ],
+  "jQuery CDN": [
+    "code\\.jquery\\.com/"
+  ],
+  "Hostinger": [
+    "platform: hostinger"
+  ],
+  "Shopify": [
+    "sdks\\.shopifycdn\\.com",
+    "^https?//.+\\.myshopify\\.com",
+    "_shopify_sa_p",
+    "_shopify_s",
+    "_shopify_sa_t",
+    "_shopify_essential_",
+    "_shopify_y",
+    "cdn\\.shopify\\.com"
+  ],
+  "Google AdSense": [
+    "ad\\.ca\\.doubleclick\\.net",
+    "googlesyndication\\.com/",
+    "2mdn\\.net"
+  ],
+  "Windows Server": [
+    "server: win32|win64"
+  ],
+  "Popper": [
+    "/popper"
+  ],
+  "All in One SEO": [
+    "^all in one seo \\"
+  ],
+  "All in One SEO Pack": [
+    "^all in one seo \\"
+  ],
+  "Ubuntu": [
+    "server: ubuntu",
+    "x-powered-by: ubuntu"
+  ],
+  "Divi": [
+    "divi/js/custom\\."
+  ],
+  "Cloudflare Browser Insights": [
+    "static\\.cloudflareinsights\\.com/beacon"
+  ],
+  "Varnish": [
+    "via: varnish"
+  ],
+  "WP Rocket": [
+    "x-powered-by: wp rocket",
+    "/wp-content/plugins/wp-rocket/",
+    "^wp rocket"
+  ],
+  "Google Tag Manager": [
+    "\\.googletagmanager\\.com/",
+    "googletagmanager\\.com/gtm\\.js",
+    "googletagmanager\\.com/ns\\.html"
+  ],
+  "FancyBox": [
+    "jquery\\.fancybox"
+  ],
+  "Java": [
+    "jsessionid"
+  ],
+  "YouTube": [
+    "\\.youtube\\.com/"
+  ],
+  "prettyPhoto": [
+    "jquery\\.prettyphoto\\.js"
+  ],
+  "Akismet": [
+    "/wp-content/plugins/akismet/.+\\.js"
+  ],
+  "CookieYes": [
+    "cdn-cookieyes\\.com/client_data/",
+    "app\\.cookieyes\\.com/client_data/",
+    "/wp-content/plugins/cookie-law-info/.+\\.js"
+  ],
+  "Unpkg": [
+    "unpkg\\.com/"
+  ],
+  "GoDaddy Website Builder": [
+    "go daddy website builder",
+    "dps_site_id"
+  ],
+  "Plesk": [
+    "x-powered-by-plesk: ^plesk",
+    "x-powered-by: ^plesk",
+    "common\\.js\\?plesk"
+  ],
+  "UNIX": [
+    "server: unix"
+  ],
+  "Joomla": [
+    "option=com_",
+    "x-content-encoded-by: joomla!",
+    "joomla_[a-z0-9]+"
+  ],
+  "Twitter": [
+    "//platform\\.twitter\\.com/widgets\\.js"
+  ],
+  "Vue.js": [
+    "\\.vue-notification-group"
+  ],
+  "Complianz": [
+    "wp-content/plugins/complianz-gdpr-premium"
+  ],
+  "BootstrapCDN": [
+    "bootstrapcdn\\.com\\/bootstrap\\/"
+  ],
+  "OpenGSE": [
+    "server: gse"
+  ],
+  "Blogger": [
+    "^https?://"
+  ],
+  "Adobe Fonts": [
+    "use\\.typekit\\.com"
+  ],
+  "Typekit": [
+    "use\\.typekit\\.com"
+  ],
+  "Gravity Forms": [
+    "/wp-content/plugins/gravityforms/js/"
+  ],
+  "Stripe": [
+    "js\\.stripe\\.com",
+    "__stripe_mid",
+    "__stripe_sid"
+  ],
+  "WP Engine": [
+    "x-powered-by: wp engine"
+  ],
+  "MonsterInsights": [
+    "/wp-content/plugins/google-analytics-for-wordpress/.+\\.js"
+  ],
+  "Infinite Scroll": [
+    "infinite-?scroll"
+  ],
+  "Amazon S3": [
+    "server: ^amazons3$"
+  ],
+  "WPML": [
+    "/wp-content/plugins/sitepress-multilingual-cms/",
+    "wp-wpml_current_language"
+  ],
+  "Jetpack": [
+    "/wp-content/plugins/jetpack/"
+  ],
+  "Next.js": [
+    "next_locale",
+    "x-powered-by: ^next\\.js ?"
+  ],
+  "OpenSSL": [
+    "server: openssl"
+  ],
+  "MailChimp": [
+    "chimpstatic\\.com/mcjs-connected",
+    "cdn-images\\.mailchimp\\.com/",
+    "s3\\.amazonaws\\.com/downloads\\.mailchimp\\.com/js/mc-validate\\.js",
+    "^https?://"
+  ],
+  "Hostinger CDN": [
+    "server: hcdn"
+  ],
+  "Debian": [
+    "server: debian"
+  ],
+  "Ruby on Rails": [
+    "/assets/application-",
+    "x-powered-by: mod_",
+    "server: mod_",
+    "_session_id",
+    "^authenticity_token$"
+  ],
+  "AddThis": [
+    "addthis\\.com/js/"
+  ],
+  "Cookie Notice": [
+    "/wp-content/plugins/cookie-notice/.+\\.js"
+  ],
+  "DataTables": [
+    "datatables.*\\.js"
+  ],
+  "Vercel": [
+    "server: ^now|vercel$"
+  ],
+  "UIKit": [
+    "uikit.*\\.js"
+  ],
+  "Express": [
+    "x-powered-by: ^express",
+    "connect\\.sid"
+  ],
+  "Backbone.js": [
+    "backbone.*\\.js"
+  ],
+  "Drupal": [
+    "drupal\\.js",
+    "sess[a-f0-9]{32}",
+    "expires: 19 nov 1978",
+    "x-generator: ^drupal"
+  ],
+  "WPForms": [
+    "/wp-content/plugins/wpforms"
+  ],
+  "Google Font API": [
+    "googleapis\\.com/.+webfont"
+  ],
+  "MooTools": [
+    "mootools.*\\.js"
+  ],
+  "RequireJS": [
+    "require.*\\.js"
+  ],
+  "Chart.js": [
+    "/chart",
+    "cdnjs\\.cloudflare\\.com/ajax/libs/chart\\.js/",
+    "chartjs\\.org/dist/",
+    "cdn\\.jsdelivr\\.net/"
+  ],
+  "AddToAny": [
+    "addtoany\\.com/menu/page\\.js"
+  ],
+  "Laravel": [
+    "laravel_session"
+  ],
+  "Essential Addons for Elementor": [
+    "/wp-content/uploads/essential-addons-elementor/"
+  ],
+  "Klaviyo": [
+    "klaviyo\\.com"
+  ],
+  "Fastly": [
+    "vary: fastly-ssl",
+    "server: fastly"
+  ],
+  "particles.js": [
+    "/particles"
+  ],
+  "Jimdo": [
+    "\\.jimdo"
+  ],
+  "Polylang": [
+    "pll_language",
+    "x-redirected-by: polylang"
+  ],
+  "Smash Balloon Instagram Feed": [
+    "/wp-content/plugins/instagram-feed/"
+  ],
+  "Aruba.it": [
+    "x-servername: \\.aruba\\.it"
+  ],
+  "ShareThis": [
+    "\\.sharethis\\.com/"
+  ],
+  "PayPal": [
+    "paypalobjects\\.com",
+    "in-context-paypal-metadata",
+    "content-security-policy: \\.paypal\\.com"
+  ],
+  "Cookiebot": [
+    "consent\\.cookiebot\\.com"
+  ],
+  "SweetAlert2": [
+    "limonte-sweetalert2/",
+    "/npm/sweetalert2@",
+    "sweetalert2",
+    "sweetalert2@"
+  ],
+  "Instagram Feed for WordPress": [
+    "instagram-feed"
+  ],
+  "The Events Calendar": [
+    "/wp-content/plugins/the-events-calendar"
+  ],
+  "ProgressBar.js": [
+    "progressbar"
+  ],
+  "CentOS": [
+    "x-powered-by: centos",
+    "server: centos"
+  ],
+  "WP Fastest Cache": [
+    "/wp-content/cache/wpfc-minified/"
+  ],
+  "FlexSlider": [
+    "jquery\\.flexslider"
+  ],
+  "WPMU DEV Smush": [
+    "/wp-content/plugins/wp-smushit"
+  ],
+  "MailChimp for WordPress": [
+    "/wp-content/plugins/mailchimp-for-wp/.+\\.js"
+  ],
+  "SWFObject": [
+    "swfobject.*\\.js"
+  ],
+  "Amazon ALB": [
+    "awsalbcors",
+    "awsalb"
+  ],
+  "Nuxt.js": [
+    "/_nuxt/"
+  ],
+  "Google Tag Manager for WordPress": [
+    "/wp-content/plugins/duracelltomi-google-tag-manager/.+\\.js"
+  ],
+  "Pinterest": [
+    "//assets\\.pinterest\\.com/js/pinit\\.js"
+  ],
+  "Netlify": [
+    "server: ^netlify",
+    "^https?://"
+  ],
+  "AddToAny Share Buttons": [
+    "/wp-content/plugins/add-to-any/addtoany\\.min\\.js"
+  ],
+  "DDoS-Guard": [
+    "server: ^ddos-guard$"
+  ],
+  "TYPO3 CMS": [
+    "/typo3/",
+    "^/?typo3"
+  ],
+  "EWWW Image Optimizer": [
+    "/wp-content/plugins/ewww-image-optimizer/"
+  ],
+  "Joinchat": [
+    "/js/joinchat\\.min\\.js"
+  ],
+  "DoubleClick Ad Exchange (AdX)": [
+    "googlesyndication\\.com.*abg\\.js",
+    "googlesyndication\\.com/pagead/show_ads\\.js",
+    "tpc\\.googlesyndication\\.com/safeframe"
+  ],
+  "Smart Slider 3": [
+    "/wp-content/plugins/smart-slider-3"
+  ],
+  "WooCommerce Stripe Payment Gateway": [
+    "/wp-content/plugins/woocommerce-gateway-stripe/"
+  ],
+  "Osano": [
+    "cmp\\.osano\\.com/"
+  ],
+  "HighLevel": [
+    "\\.leadconnectorhq\\.com/"
+  ],
+  "Elfsight": [
+    "\\.elfsight\\.com/"
+  ],
+  "Azure": [
+    "arraffinity",
+    "tipmix",
+    "server: ^windows-azure"
+  ],
+  "GitHub Pages": [
+    "server: ^github\\.com$",
+    "^https?://"
+  ],
+  "GoDaddy CoBlocks": [
+    "/wp-content/plugins/coblocks/"
+  ],
+  "Twenty Seventeen": [
+    "/wp-content/themes/twentyseventeen/"
+  ],
+  "CodeIgniter": [
+    "exp_last_activity",
+    "exp_tracker",
+    "ci_csrf_token",
+    "ci_session"
+  ],
+  "Imagely NextGEN Gallery": [
+    "/wp-content/plugins/nextgen-gallery"
+  ],
+  "Autoptimize": [
+    "/wp-content/plugins/autoptimize/.+\\.js"
+  ],
+  "iubenda": [
+    "iubenda\\.com/"
+  ],
+  "Linkedin Ads": [
+    "content-security-policy: px\\.ads\\.linkedin\\.com"
+  ],
+  "BeTheme": [
+    "/betheme/js/scripts"
+  ],
+  "Kadence WP Kadence": [
+    "/wp-content/themes/kadence/.+navigation\\.min\\.js"
+  ],
+  "Duda": [
+    "dd-cdn\\.multiscreensite\\.com/"
+  ],
+  "MyWebsite": [
+    "ionos mywebsite"
+  ],
+  "MyWebsite Creator": [
+    "website-editor\\.net",
+    "mywebsite-editor\\.com"
+  ],
+  "MetaSlider": [
+    "/wp-content/plugins/ml-slider"
+  ],
+  "MailChimp for WooCommerce": [
+    "/wp-content/plugins/mailchimp-for-woocommerce/.+\\.js"
+  ],
+  "Ninja Forms": [
+    "/wp-content/plugins/ninja-forms/.+\\.js"
+  ],
+  "Handlebars": [
+    "handlebars"
+  ],
+  "OneTrust": [
+    "optanonconsent",
+    "cdn\\.cookielaw\\.org",
+    "otsdkstub\\.js",
+    "optanon\\.blob\\.core\\.windows\\.net"
+  ],
+  "Spectra": [
+    "/wp-content/plugins/ultimate-addons-for-gutenberg/.+\\.js"
+  ],
+  "hCaptcha": [
+    "#cf-hcaptcha-container",
+    "hcaptcha\\.com/"
+  ],
+  "Flywheel": [
+    "x-fw-server: ^flywheel"
+  ],
+  "Performance Lab": [
+    "^performance lab ?"
+  ],
+  "W3 Total Cache": [
+    "x-powered-by: w3 total cache"
+  ],
+  "Google Sign-in": [
+    "accounts\\.google\\.com/gsi/client"
+  ],
+  "Usercentrics": [
+    "\\.usercentrics\\.eu/.+\\.js"
+  ],
+  "Caddy": [
+    "server: caddy"
+  ],
+  "JetEngine": [
+    "/wp-content/plugins/jet-engine/"
+  ],
+  "Responsive Lightbox & Gallery": [
+    "/wp-content/plugins/responsive-lightbox/.+front\\.js"
+  ],
+  "GeneratePress": [
+    "themes/generatepress\\s*\\.js"
+  ],
+  "GeneratePress GP Premium": [
+    "/wp-content/plugins/gp-premium/.+\\.js"
+  ],
+  "Photo Gallery": [
+    "/wp-content/plugins/photo-gallery/.+scripts\\.min\\.js"
+  ],
+  "Tengine": [
+    "server: tengine"
+  ],
+  "Blocksy": [
+    "/wp-content/themes/blocksy/"
+  ],
+  "Linkedin Sign-in": [
+    "platform\\.linkedin\\.com/"
+  ],
+  "EmbedPlus": [
+    "/wp-content/plugins/youtube-embed-plus"
+  ],
+  "Google Publisher Tag": [
+    "securepubads\\.g\\.doubleclick.net/tag/js/gpt\\.js",
+    "pagead2\\.googlesyndication\\.com/tag/js/gpt\\.js",
+    "googletagservices\\.com/tag/js/gpt\\.js"
+  ],
+  "WordPress Popular Posts": [
+    "/wp-content/plugins/wordpress-popular-posts/.+wpp\\.min\\.js"
+  ],
+  "Statcounter": [
+    "statcounter\\.com/counter/counter"
+  ],
+  "Premio Chaty": [
+    "/wp-content/plugins/chaty/"
+  ],
+  "WebNode": [
+    "_gat_wnd_header"
+  ],
+  "AOS": [
+    "/typo3conf/ext/udem_vendor/resources/public/aos-",
+    "unpkg\\.com/aos@",
+    "x-powered-by: ^administeraos"
+  ],
+  "WooCommerce PayPal Payments": [
+    "/wp-content/plugins/woocommerce-paypal-payments/.+\\.js"
+  ],
+  "Microsoft Ajax Content Delivery Network": [
+    "ajax\\.aspnetcdn\\.com/ajax/"
+  ],
+  "Adobe Portfolio": [
+    "@adobeportfolio"
+  ],
+  "Firebase": [
+    "/firebasejs/",
+    "vary: x-fh-requested-host"
+  ],
+  "Gutenberg": [
+    "/wp-content/plugins/gutenberg/"
+  ],
+  "Cloudways": [
+    "cache-provider: cloudways-cache-de"
+  ],
+  "ExactMetrics": [
+    "/wp-content/plugins/google-analytics-dashboard-for-wp/.+\\.js"
+  ],
+  "HubSpot": [
+    "\\.hs-scripts\\.com/"
+  ],
+  "FrontPage": [
+    "^frontpage\\.",
+    "microsoft frontpage"
+  ],
+  "PixelYourSite": [
+    "/wp-content/plugins/pixelyoursite/"
+  ],
+  "scrollreveal": [
+    "scrollreveal"
+  ],
+  "Microsoft Word": [
+    "microsoft word",
+    "^word\\."
+  ],
+  "Alpine.js": [
+    "/alpine"
+  ],
+  "Burst": [
+    "assets/js/build/burst"
+  ],
+  "HubSpot CMS Hub": [
+    "x-powered-by: hubspot"
+  ],
+  "SiteOrigin Page Builder": [
+    "/wp-content/plugins/siteorigin-panels/.+\\.js"
+  ],
+  "OneSignal": [
+    "cdn\\.onesignal\\.com"
+  ],
+  "Alibaba Cloud CDN": [
+    "\\.alicdn\\.com/"
+  ],
+  "Genesis theme": [
+    "/wp-content/themes/genesis/lib/js/"
+  ],
+  "Conditional Fields for Contact Form 7": [
+    "cf7-conditional-fields"
+  ],
+  "TinyMCE": [
+    "/tiny_?mce"
+  ],
+  "Zendesk": [
+    "_zendesk_shared_session",
+    "_help_center_session",
+    "_zendesk_cookie",
+    "static\\.zdassets\\.com"
+  ],
+  "UserWay": [
+    "cdn\\.userway\\.org/widget.*\\.js"
+  ],
+  "Yii": [
+    "powered by <a href=\"http://www\\.yiiframework\\.com/\" rel=\"external\">yii framework</a>",
+    "yii_csrf_token"
+  ],
+  "Twenty Twenty": [
+    "/wp-content/themes/twentytwenty/"
+  ],
+  "Weglot": [
+    "cdn\\.weglot\\.com",
+    "wp-content/plugins/weglot"
+  ],
+  "Medium": [
+    "x-powered-by: ^medium$",
+    "medium\\.com",
+    "^https?://"
+  ],
+  "SiteOrigin Widgets Bundle": [
+    "/wp-content/plugins/so-widgets-bundle/.+\\.js"
+  ],
+  "Calendly": [
+    "assets\\.calendly\\.com/"
+  ],
+  "Wistia": [
+    "\\.wistia\\.com"
+  ],
+  "Trustpilot": [
+    "\\.trustpilot\\.com"
+  ],
+  "Naver Analytics": [
+    "wcs\\.naver\\.net/wcslog\\.js"
+  ],
+  "Rich Plugins Reviews": [
+    "/wp-content/plugins/widget-google-reviews/"
+  ],
+  "ContentViews": [
+    "content-views"
+  ],
+  "jPlayer": [
+    "/jquery\\.jplayer\\.min\\.js"
+  ],
+  "Zepto": [
+    "zepto.*\\.js"
+  ],
+  "ProfilePress": [
+    "ppwp_wp_session",
+    "/wp-content/plugins/wp-user-avatar"
+  ],
+  "UltimatelySocial": [
+    "/wp-content/plugins/ultimate-social-media-icons/"
+  ],
+  "Twenty Twenty-One": [
+    "/wp-content/themes/twentytwentyone/"
+  ],
+  "Contao": [
+    "^contao open source cms$"
+  ],
+  "Sassy Social Share": [
+    "sassy-social-share"
+  ],
+  "Strato Website": [
+    "strato-editor\\.com/"
+  ],
+  "WooCommerce Multilingual": [
+    "/wp-content/plugins/woocommerce-multilingual/.+\\.js"
+  ],
+  "jQuery Payment": [
+    "/jquery-payment/jquery\\.payment\\.min\\.js"
+  ],
+  "Oxygen": [
+    "wp-content/plugins/oxygen"
+  ],
+  "Translate WordPress": [
+    "/wp-content/plugins/google-language-translator/.+scripts\\.js"
+  ],
+  "Phusion Passenger": [
+    "server: phusion passenger",
+    "x-powered-by: phusion passenger"
+  ],
+  "Modern Image Formats": [
+    "^webp-uploads"
+  ],
+  "VK Pixel": [
+    "vk\\.com/js/api/openapi\\.js"
+  ],
+  "Microsoft HTTPAPI": [
+    "server: microsoft-httpapi"
+  ],
+  "Moodle": [
+    "moodlesession",
+    "moodleid_"
+  ],
+  "Substack": [
+    "x-served-by: substack",
+    "x-cluster: substack"
+  ],
+  "GraphQL": [
+    "graphqlmethod"
+  ],
+  "MyWebsite Now": [
+    "mywebsite now"
+  ],
+  "PrestaShop": [
+    "/modules/ps_",
+    "powered-by: ^prestashop$",
+    "prestashop"
+  ],
+  "Tailwind CSS": [
+    "\\.tailwindcss",
+    "^tailwind css$"
+  ],
+  "Hostinger Website Builder": [
+    "userapp\\.zyrosite\\.com/",
+    "hostinger website builder"
+  ],
+  "FullCalendar": [
+    "/fullcalendar\\.min\\.js"
+  ],
+  "Odoo": [
+    "/web/js/"
+  ],
+  "Mapbox GL JS": [
+    "mapbox-gl\\.js"
+  ],
+  "OpenCart": [
+    "ocsessid"
+  ],
+  "Azure Front Door": [
+    "aslbsacors",
+    "aslbsa"
+  ],
+  "Ivory Search": [
+    "/wp-content/plugins/add-search-to-menu/.+\\.js"
+  ],
+  "a3 Lazy Load": [
+    "/wp-content/plugins/a3-lazy-load/.+\\.js"
+  ],
+  "ReCaptcha v2 for Contact Form 7": [
+    "/wp-content/plugins/wpcf7-recaptcha/.+\\.js"
+  ],
+  "html2canvas": [
+    "html2canvas"
+  ],
+  "JivoChat": [
+    "\\.jivosite\\.com"
+  ],
+  "Framer Sites": [
+    "framerusercontent\\.com"
+  ],
+  "Tippy.js": [
+    "/tippy\\.js"
+  ],
+  "Kakao": [
+    "\\.kakao\\.com/"
+  ],
+  "Imperva": [
+    "/_incapsula_resource",
+    "x-cdn: incapsula",
+    "x-cdn: ^imperva"
+  ],
+  "Email Encoder for Wordpress": [
+    "email-encoder-bundle"
+  ],
+  "Twenty Sixteen": [
+    "/wp-content/themes/twentysixteen/"
+  ],
+  "Cookie Script": [
+    "\\.cookie-script\\.com/"
+  ],
+  "Cookie Information plugin": [
+    "/wp-content/plugins/wp-gdpr-compliance/"
+  ],
+  "Optimizely": [
+    "optimizely\\.com.*\\.js",
+    "optimizelyenduserid"
+  ],
+  "Contentful": [
+    "server: ^contentful images api$"
+  ],
+  "LazySizes unveilhooks plugin": [
+    "ls\\.unveilhooks"
+  ],
+  "Judge.me": [
+    "cdn\\.judge\\.me"
+  ],
+  "aThemes Sydney": [
+    "/wp-content/themes/sydney"
+  ],
+  "Polyfill": [
+    "polyfill\\.io/v"
+  ],
+  "Perfmatters": [
+    "/wp-content/"
+  ],
+  "Pantheon": [
+    "server: ^pantheon"
+  ],
+  "FingerprintJS": [
+    "fingerprint",
+    "fingerprintjs"
+  ],
+  "GiveWP": [
+    "/wp-content/plugins/give/.+give\\.js"
+  ],
+  "Sensors Data": [
+    "sensorsdata2015session",
+    "sensorsdata",
+    "sensorsdata2015jssdkcross"
+  ],
+  "Snowplow Analytics": [
+    "unpkg.com/@snowplow/javascript-tracker@",
+    "sp\\.js",
+    "cdnjs\\.cloudflare\\.com/ajax/libs/snowplow/",
+    "cdn\\.jsdelivr\\.net/npm/@snowplow/javascript-tracker@",
+    "_sp_id",
+    "d1fc8wv8zag5ca\\.cloudfront\\.net/.+/sp\\.js",
+    "cdn\\.jsdelivr\\.net/gh/snowplow/sp-js-assets@"
+  ],
+  "Funding Choices": [
+    "fundingchoicesmessages\\.google\\.com"
+  ],
+  "Amazon Advertising": [
+    "\\.amazon-adsystem\\.com"
+  ],
+  "Lightning": [
+    "/wp-content/themes/lightning"
+  ],
+  "Hestia": [
+    "themes/hestia.*\\.js"
+  ],
+  "MediaWiki": [
+    "wiki\\d+_session",
+    "^mediawiki ?"
+  ],
+  "Azure Edge Network": [
+    "\\.azureedge\\.net/",
+    "content-security-policy: \\.azureedge\\.net"
+  ],
+  "EmbedPress": [
+    "embedpress"
+  ],
+  "Poptin": [
+    "cdn\\.popt\\.in/"
+  ],
+  "Popup Maker": [
+    "/wp-content/plugins/popup-maker/"
+  ],
+  "Elementor Addon Elements": [
+    "addon-elements-for-elementor-page-builder"
+  ],
+  "mobile-detect.js": [
+    "mobile-detect"
+  ],
+  "Shortcodes Ultimate": [
+    "/wp-content/plugins/shortcodes-ultimate/.+index\\.js"
+  ],
+  "Twenty Twelve": [
+    "/wp-content/themes/twentytwelve/"
+  ],
+  "Clicky": [
+    "static\\.getclicky\\.com"
+  ],
+  "Retina.js": [
+    "/js/retina"
+  ],
+  "ValueCommerce": [
+    "\\.valuecommerce\\.com"
+  ],
+  "Highcharts": [
+    "highcharts.*\\.js"
+  ],
+  "Showit": [
+    "lib\\.showit\\.co/engine/"
+  ],
+  "ActiveCampaign": [
+    "plugins/activecampaign-subscription-forms/site_tracking\\.js",
+    "\\.ac-page\\.com",
+    "\\.activehosted\\.com",
+    "\\.app-us1\\.com"
+  ],
+  "Thrive Architect": [
+    "/wp-content/plugins/thrive-visual-editor/.+\\.js"
+  ],
+  "Jotform": [
+    "\\.jotform\\.com/"
+  ],
+  "Cufon": [
+    "cufon-yui\\.js"
+  ],
+  "Speculative Loading": [
+    "^speculation-rules"
+  ],
+  "ThinkPHP": [
+    "thinkphp_show_page_trace",
+    "x-powered-by: thinkphp"
+  ],
+  "Perl": [
+    "server: \\bperl\\b"
+  ],
+  "Adobe Experience Manager": [
+    "/etc/clientlibs/",
+    "/etc/designs/",
+    "/etc\\.clientlibs/"
+  ],
+  "Craft CMS": [
+    "craftsessionid",
+    "x-powered-by: \\bcraft cms\\b",
+    "craft_csrf_token"
+  ],
+  "DNN": [
+    "/js/dnn\\.js",
+    "/js/dnncore\\.js",
+    "cookie: dnn_ismobile=",
+    "dotnetnuke",
+    "dotnetnukeanonymous",
+    "x-compressed-by: dotnetnuke"
+  ],
+  "Image Placeholders": [
+    "^dominant-color-images"
+  ],
+  "SVG Support": [
+    "/wp-content/plugins/svg-support/"
+  ],
+  "Tidio": [
+    "code\\.tidio\\.co"
+  ],
+  "Engintron": [
+    "x-server-powered-by: ^engintron$"
+  ],
+  "Bricks": [
+    "/wp-content/themes/bricks/assets/"
+  ],
+  "BigCommerce": [
+    "^bigcommerce",
+    "mybigcommerce\\.com"
+  ],
+  "AlmaLinux": [
+    "server: almalinux"
+  ],
+  "Axios": [
+    "/axios"
+  ],
+  "Cornerstone": [
+    "^cornerstone$",
+    "cornerstone"
+  ],
+  "Loox": [
+    "loox\\.io/widget"
+  ],
+  "mod_ssl": [
+    "server: mod_ssl"
+  ],
+  "HashThemes Total": [
+    "/wp-content/themes/"
+  ],
+  "Dynamic Conditions": [
+    "dynamic-conditions-public\\.js"
+  ],
+  "Imweb": [
+    "vendor-cdn\\.imweb\\.me/"
+  ],
+  "Symfony": [
+    "sf_redirect"
+  ],
+  "Awesomplete": [
+    "/awesomplete\\.js"
+  ],
+  "Google Optimize": [
+    "googleoptimize\\.com/optimize\\.js"
+  ],
+  "MailerLite": [
+    "\\.mailerlite\\.com/"
+  ],
+  "Kajabi": [
+    "_kjb_session"
+  ],
+  "Fathom": [
+    "cdn\\.usefathom\\.com/"
+  ],
+  "Twenty Fourteen": [
+    "/wp-content/themes/twentyfourteen/"
+  ],
+  "Twenty Fifteen": [
+    "/wp-content/themes/twentyfifteen/"
+  ],
+  "Colibri WP": [
+    "/wp-content/plugins/colibri-page-builder.+\\.js"
+  ],
+  "OpenLayers": [
+    "openlayers"
+  ],
+  "Embed Any Document": [
+    "embed-any-document"
+  ],
+  "ColorMag": [
+    "themes/colormag.*\\.js"
+  ],
+  "Apple MapKit JS": [
+    "//cdn\\.apple-mapkit\\.com/mk/",
+    "content-security-policy: \\.apple-mapkit\\.com"
+  ],
+  "Nette Framework": [
+    "nette-browser",
+    "x-powered-by: ^nette framework"
+  ],
+  "Kestrel": [
+    "server: ^kestrel"
+  ],
+  "ThemeGrill ColorMag": [
+    "/wp-content/themes/colormag"
+  ],
+  "WP Featherlight": [
+    "/wpfeatherlight\\.pkgd\\.min\\.js"
+  ],
+  "Akamai Bot Manager": [
+    "bm_sz",
+    "bm_sv",
+    "ak_bmsc"
+  ],
+  "Animate It": [
+    "animate-it"
+  ],
+  "HT Mega": [
+    "ht-mega-for-elementor"
+  ],
+  "GitBook": [
+    "^https?://"
+  ],
+  "Supersized": [
+    "supersized"
+  ],
+  "Moment Timezone": [
+    "moment-timezone"
+  ],
+  "JSZip": [
+    "/jszip\\.min\\.js"
+  ],
+  "Optimization Detective": [
+    "^optimization-detective"
+  ],
+  "Shoptet": [
+    "^https?://cdn\\.myshoptet\\.com/"
+  ],
+  "Constant Contact": [
+    "\\.ctctcdn\\.com/"
+  ],
+  "PageFly": [
+    "cdn\\.pagefly\\.io",
+    "x-powered-by: pagefly"
+  ],
+  "Creativ.eMail": [
+    "/wp-content/plugins/creative-mail-by-constant-contact/"
+  ],
+  "Red Hat": [
+    "server: red hat",
+    "x-powered-by: red hat"
+  ],
+  "Phlox": [
+    "/wp-content/themes/phlox"
+  ],
+  "Apache Tomcat": [
+    "x-powered-by: \\btomcat\\b",
+    "server: ^apache-coyote"
+  ],
+  "Bunny": [
+    "server: ^bunnycdn"
+  ],
+  "Jekyll": [
+    "powered by <a href=\"https?://jekyllrb\\.com\""
+  ],
+  "Yandex.Metrika": [
+    "mc\\.yandex\\.ru/metrika/",
+    "cdn\\.jsdelivr\\.net/npm/yandex\\-metrica\\-watch/watch\\.js"
+  ],
+  "SiteOrigin Vantage": [
+    "/wp-content/themes/vantage/"
+  ],
+  "MODX": [
+    "/assets/components/templates/",
+    "x-powered-by: ^modx"
+  ],
+  "Ahoy": [
+    "ahoy_visitor",
+    "ahoy_track",
+    "ahoy_visit"
+  ],
+  "Socket.io": [
+    "socket\\.io.*\\.js"
+  ],
+  "Concrete CMS": [
+    "concrete5",
+    "/concrete/js/",
+    "^concrete5"
+  ],
+  "phpBB": [
+    "phpbb group",
+    "phpbb"
+  ],
+  "RD Station": [
+    "d335luupugsy2\\.cloudfront\\.net/js/loader-scripts/.*-loader\\.js"
+  ],
+  "WookMark": [
+    "wookmark\\.min\\.js"
+  ],
+  "Mobirise": [
+    "^mobirise v"
+  ],
+  "Slimbox 2": [
+    "slimbox2\\.js"
+  ],
+  "Pixieset Website": [
+    "^pixieset$"
+  ],
+  "Afterpay": [
+    "portal\\.afterpay\\.com",
+    "static\\.afterpay\\.com",
+    "present-afterpay\\.js",
+    "afterpay-products\\.min\\.js",
+    "js\\.stripe\\.com/v3/fingerprinted/js/elements-afterpay-clearpay-message-.+\\.js"
+  ],
+  "Metronet Profile Picture": [
+    "metronet-profile-picture"
+  ],
+  "mod_perl": [
+    "server: mod_perl"
+  ],
+  "Responsive Nav": [
+    "responsive-nav"
+  ],
+  "Embed Optimizer": [
+    "^embed-optimizer"
+  ],
+  "Inertia.js": [
+    "vary: x-inertia"
+  ],
+  "Press Customizr": [
+    "/wp-content/themes/customizr/.+js"
+  ],
+  "Open Journal Systems": [
+    "ojssid",
+    "open journal systems"
+  ],
+  "Hatena Blog": [
+    "cdn\\.blog\\.st-hatena\\.com/"
+  ],
+  "Bookly": [
+    "/wp-content/plugins/bookly-responsive-appointment-booking-tool/.+\\.js"
+  ],
+  "Kadence WP Blocks": [
+    "/wp-content/plugins/kadence-blocks/dist/.+/kb-form-block\\.min\\.js"
+  ],
+  "Typeform": [
+    "embed\\.typeform\\.com/"
+  ],
+  "FreeBSD": [
+    "server: freebsd"
+  ],
+  "ThimPress LearnPress": [
+    "/wp-content/plugins/learnpress/.+\\.js"
+  ],
+  "LottieFiles": [
+    "/dist/tgs-player\\.js",
+    "/dist/lottie-player\\.js"
+  ],
+  "POWR": [
+    "www\\.powr\\.io/powr\\.js"
+  ],
+  "Rambler": [
+    "counter\\.rambler\\.ru"
+  ],
+  "BoldGrid": [
+    "/wp-content/plugins/post-and-page-builder"
+  ],
+  "Heroku": [
+    "\\.herokuapp\\.com"
+  ],
+  "Sentry": [
+    "\\.sentry-cdn\\.com/",
+    "browser\\.sentry\\-cdn\\.com/"
+  ],
+  "CakePHP": [
+    "cakephp"
+  ],
+  "WP Google Map Plugin": [
+    "/wp-content/plugins/wp-google-map-plugin/.+\\.js"
+  ]
+}

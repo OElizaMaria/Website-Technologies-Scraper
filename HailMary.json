@@ -1,0 +1,1884 @@
+{
+  "jQuery": [
+    "jquery",
+    "/jquery(?:-(\\d+\\.\\d+\\.\\d+))[/.-]\\;version:\\1",
+    "/(\\d+\\.\\d+\\.\\d+)/jquery(?!\\.popupoverlay\\.js)[/.-][^u]\\;version:\\1"
+  ],
+  "PHP": [
+    "\\.php(?:$|\\?)",
+    "server: php/?([\\d.]+)?\\;version:\\1",
+    "x-powered-by: ^php/?([\\d.]+)?\\;version:\\1",
+    "PHPSESSID"
+  ],
+  "MySQL": [],
+  "WordPress": [
+    "<link rel=[\"']stylesheet[\"'] [^>]+/wp-(?:content|includes)/",
+    "<link[^>]+s\\d+\\.wp\\.com",
+    "/wp-(?:content|includes)/",
+    "wp-embed\\.min\\.js",
+    "wp-static\\.assets\\.sh/",
+    "x-pingback: /xmlrpc\\.php$",
+    "link: rel=\"https://api\\.w\\.org/\"",
+    "^WordPress(?: ([\\d.]+))?\\;version:\\1",
+    ""
+  ],
+  "Nginx": [
+    "server: nginx(?:/([\\d.]+))?\\;version:\\1",
+    "x-fastcgi-cache: "
+  ],
+  "HTTP/3": [
+    "alt-svc: h3",
+    "x-firefox-http3: h3"
+  ],
+  "HSTS": [
+    "^https://[\\w\\d\\.\\-]+(?:\\.dev)(?:/.+||/)$",
+    "strict-transport-security: "
+  ],
+  "jQuery Migrate": [
+    "jquery-migrate(?:\\.min)?(?:-)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+    "jquery-migrate(?:\\.min)?(?:-?((?:\\d+\\.)+\\d+))?(?:\\.min)?\\.js\\;version:\\1"
+  ],
+  "Apache HTTP Server": [
+    "server: (?:Apache(?:$|/([\\d.]+)|[^/-])|(?:^|\\b)HTTPD)\\;version:\\1"
+  ],
+  "Cloudflare": [
+    "server: ^cloudflare$",
+    "cf-cache-status: ",
+    "cf-ray: ",
+    "//cdn\\.cloudflare",
+    "__cfduid"
+  ],
+  "Google Analytics": [
+    "google-analytics\\.com/(?:ga|urchin|analytics)\\.js",
+    "googletagmanager\\.com/gtag/js",
+    "__utma",
+    "_ga",
+    "_ga_*",
+    "_gat"
+  ],
+  "Bootstrap": [
+    "<style>\\s+/\\*!\\s+\\* Bootstrap v(\\d\\.\\d\\.\\d)\\;version:\\1",
+    "<link[^>]* href=[^>]*?bootstrap(?:[^>]*?([0-9a-fA-F]{7,40}|[\\d]+(?:.[\\d]+(?:.[\\d]+)?)?)|)[^>-]*?(?:\\.min)?\\.css\\;version:\\1",
+    "bootstrap(?:[^>]*?([0-9a-fA-F]{7,40}|[\\d]+(?:.[\\d]+(?:.[\\d]+)?)?)|)[^>]*?(?:\\.min)?\\.js\\;version:\\1"
+  ],
+  "Contact Form 7": [
+    "/wp-content/plugins/contact-form-7/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+  ],
+  "Elementor": [
+    "/wp-content/plugins/elementor(?:-pro)?/.+frontend-modules\\.min\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
+    "^Elementor\\s([\\d\\.]+)\\;version:\\1",
+    "elementor_pro_login"
+  ],
+  "reCAPTCHA": [
+    "api-secure\\.recaptcha\\.net",
+    "recaptcha_ajax\\.js",
+    "/recaptcha/(?:api|enterprise)\\.js"
+  ],
+  "LiteSpeed": [
+    "server: ^LiteSpeed$",
+    "x-turbo-charged-by: ^LiteSpeed$"
+  ],
+  "React": [
+    "<[^>]+data-react",
+    "react(?:-with-addons)?[.-](\\d+(?:\\.\\d+)+)[^/]*\\.js\\;version:\\1",
+    "/([\\d\\.]+)/react(?:\\.min)?\\.js\\;version:\\1",
+    "^react\\b.*\\.js",
+    "^Web site created using create-react-app$",
+    "%REACT_APP_SEO_IMAGE_URL%"
+  ],
+  "Lodash": [
+    "lodash.*\\.js"
+  ],
+  "Google Cloud": [],
+  "Google Cloud CDN": [
+    "via: ^1\\.1 google$"
+  ],
+  "imagesLoaded": [
+    "imagesloaded(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+  ],
+  "Wix": [
+    "static\\.parastorage\\.com",
+    "x-wix-renderer-server: ",
+    "x-wix-request-id: ",
+    "x-wix-server-artifact-id: ",
+    "Wix\\.com Website Builder",
+    "Domain"
+  ],
+  "Swiper": [
+    "swiper(?:\\.min)?\\.js"
+  ],
+  "Gravatar": [
+    "<[^>]+gravatar\\.com/avatar/"
+  ],
+  "Google Hosted Libraries": [
+    "ajax\\.googleapis\\.com/ajax/libs/"
+  ],
+  "Slick": [
+    "<link [^>]+(?:/([\\d.]+)/)?slick-theme\\.css\\;version:\\1",
+    "(?:/([\\d.]+))?/slick(?:\\.min)?\\.js\\;version:\\1"
+  ],
+  "OWL Carousel": [
+    "<link [^>]*href=\"[^\"]+owl\\.carousel(?:\\.min)?\\.css",
+    "owl\\.carousel.*\\.js"
+  ],
+  "OpenResty": [
+    "server: openresty(?:/([\\d.]+))?\\;version:\\1"
+  ],
+  "cdnjs": [
+    "cdnjs\\.cloudflare\\.com"
+  ],
+  "jQuery UI": [
+    "jquery-ui[.-]([\\d.]*\\d)[^/]*\\.js\\;version:\\1",
+    "([\\d.]+)/jquery-ui(?:\\.min)?\\.js\\;version:\\1",
+    "jquery-ui.*\\.js"
+  ],
+  "Underscore.js": [
+    "underscore.*\\.js(?:\\?ver=([\\d.]+))?\\;version:\\1"
+  ],
+  "Lightbox": [
+    "lightbox(?:-plus-jquery)?.{0,32}\\.js"
+  ],
+  "LiteSpeed Cache": [
+    "wp-content/plugins/litespeed-cache/",
+    "x-litespeed-cache: ",
+    "x-turbo-charged-by: LiteSpeed"
+  ],
+  "Modernizr": [
+    "modernizr(?:\\.([\\d.]+))?.*\\.js\\;version:\\1",
+    "([\\d.]+)?/modernizr.*\\.js\\;version:\\1"
+  ],
+  "WooCommerce": [
+    "woocommerce",
+    "/woocommerce(?:\\.min)?\\.js(?:\\?ver=([0-9.]+))?\\;version:\\1",
+    "WooCommerce ([\\d.]+)\\;version:\\1",
+    "woocommerce_recently_viewed"
+  ],
+  "Magnific Popup": [
+    "magnific-popup(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+  ],
+  "Litespeed Cache": [
+    "x-litespeed-cache: ",
+    "x-turbo-charged-by: LiteSpeed"
+  ],
+  "Site Kit": [
+    "^Site Kit by Google ?([\\d.]+)?\\;version:\\1"
+  ],
+  "jsDelivr": [
+    "cdn\\.jsdelivr\\.net"
+  ],
+  "Font Awesome": [
+    "(?:F|f)o(?:n|r)t-?(?:A|a)wesome(?:.*?([0-9a-fA-F]{7,40}|[\\d]+(?:.[\\d]+(?:.[\\d]+)?)?)|)",
+    "\\.fontawesome\\.com/([0-9a-z]+).js"
+  ],
+  "Slider Revolution": [
+    "/wp-content/plugins/revslider/",
+    "jquery\\.themepunch\\.revolution\\.min\\.js",
+    "Powered\\sby\\sSlider Revolution\\s([\\d\\.]+)\\;version:\\1"
+  ],
+  "FitVids.JS": [
+    "fitvids(?:\\.min)?\\.js(?:\\?ver=([\\d.]+))?\\;version:\\1"
+  ],
+  "Cloudflare Bot Management": [
+    "__cf_bm"
+  ],
+  "Microsoft ASP.NET": [
+    "<input[^>]+name=\"__VIEWSTATE",
+    "\\.aspx?(?:$|\\?)",
+    "x-aspnet-version: (.+)\\;version:\\1",
+    "x-powered-by: ^ASP\\.NET",
+    "set-cookie: \\.AspNetCore",
+    "ASPSESSION",
+    "ASP\\.NET_SessionId",
+    "\\.ASPXAUTH"
+  ],
+  "Envoy": [
+    "server: ^envoy$",
+    "x-envoy-upstream-service-time: "
+  ],
+  "Google Maps": [
+    "(?:maps\\.google\\.com/maps\\?file=api(?:&v=([\\d.]+))?|maps\\.google\\.com/maps/api/staticmap)\\;version:API v\\1",
+    "//maps\\.google(?:apis)?\\.com/maps/api/js"
+  ],
+  "jQuery CDN": [
+    "code\\.jquery\\.com/"
+  ],
+  "Hostinger": [
+    "platform: hostinger"
+  ],
+  "Shopify": [
+    "sdks\\.shopifycdn\\.com",
+    "cdn\\.shopify\\.com",
+    "^https?//.+\\.myshopify\\.com",
+    "x-shopid: \\;confidence:50",
+    "x-shopify-stage: ",
+    "",
+    "",
+    "_shopify_essential_",
+    "_shopify_s",
+    "_shopify_sa_p",
+    "_shopify_sa_t",
+    "_shopify_y"
+  ],
+  "WOW": [
+    "wow(?:\\.min)?\\.js(?:\\?ver=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+  ],
+  "wpBakery": [
+    "WPBakery"
+  ],
+  "Google AdSense": [
+    "googlesyndication\\.com/",
+    "ad\\.ca\\.doubleclick\\.net",
+    "2mdn\\.net",
+    "ad\\.ca\\.doubleclick\\.net"
+  ],
+  "Amazon Web Services": [
+    "x-amz-delete-marker: ",
+    "x-amz-err-code: ",
+    "x-amz-err-message: ",
+    "x-amz-id-2: ",
+    "x-amz-req-time-micros: ",
+    "x-amz-request-id: ",
+    "x-amz-rid: ",
+    "x-amz-version-id: "
+  ],
+  "Windows Server": [
+    "server: Win32|Win64"
+  ],
+  "IIS": [
+    "server: ^(?:Microsoft-)?IIS(?:/([\\d.]+))?\\;version:\\1"
+  ],
+  "Popper": [
+    "/popper(?:\\.min)?\\.js(?:/([0-9.]+))?\\;version:\\1",
+    "popperjs(?:/|-)core(?:@|-)([\\d\\.]+)\\;version:\\1"
+  ],
+  "Node.js": [],
+  "All in One SEO": [
+    "<!-- all in one seo ([\\d.]+) \\;version:\\1",
+    "<!-- all in one seo pack ([\\d.]+) \\;version:\\1",
+    "<!-- all in one seo pro ([\\d.]+) \\;version:pro \\1",
+    "^all in one seo \\(aioseo\\) ([\\d\\.]+)\\;version:\\1"
+  ],
+  "parallax.js": [
+    "parallax(?:\\/assets\\/js)?(?:\\/jquery)?(?:\\/scripts)?(?:\\/wow)?(?:[_\\.]move)?(?:\\.inview)?(?:\\.pkgd)?(?:\\.scrolling)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+    "(?:((?:\\d+\\.)+\\d+)\\/)?parallax(?:\\/assets\\/js)?(?:\\/jquery)?(?:\\/scripts)?(?:\\/wow)?(?:[_\\.]move)?(?:\\.inview)?(?:\\.pkgd)?(?:\\.scrolling)?(?:\\.min)?\\.js\\;version:\\1"
+  ],
+  "All in One SEO Pack": [
+    "<!-- All in One SEO Pack ([\\d.]+) \\;version:\\1",
+    "^All in One SEO \\(AIOSEO\\)\\s([\\d.]+)$\\;version:\\1"
+  ],
+  "Ubuntu": [
+    "server: Ubuntu",
+    "x-powered-by: Ubuntu"
+  ],
+  "Divi": [
+    "Divi/js/custom\\.(?:min|unified)\\.js\\?ver=([\\d.]+)\\;version:\\1",
+    "Divi(?:\\sv\\.([\\d\\.]+))?\\;version:\\1"
+  ],
+  "Cloudflare Browser Insights": [
+    "static\\.cloudflareinsights\\.com/beacon(?:\\.min)?\\.js"
+  ],
+  "Varnish": [
+    "via: varnish(?: \\(Varnish/([\\d.]+)\\))?\\;version:\\1",
+    "x-varnish: ",
+    "x-varnish-action: ",
+    "x-varnish-age: ",
+    "x-varnish-cache: ",
+    "x-varnish-hostname: "
+  ],
+  "WP Rocket": [
+    "<!--[^>]+WP Rocket",
+    "/wp-content/plugins/wp-rocket/",
+    "x-powered-by: WP Rocket(?:/([\\d.]+))?\\;version:\\1",
+    "x-rocket-nginx-bypass: ",
+    "^WP Rocket ([\\d.]+)\\;version:\\1"
+  ],
+  "Google Tag Manager": [
+    "googletagmanager\\.com/ns\\.html[^>]+></iframe>",
+    "<!-- (?:End )?Google Tag Manager -->",
+    "googletagmanager\\.com/gtm\\.js",
+    "\\.googletagmanager\\.com/"
+  ],
+  "FancyBox": [
+    "jquery\\.fancybox(?:\\.pack|\\.min)?\\.js(?:\\?v=([\\d.]+))?$\\;version:\\1"
+  ],
+  "Java": [
+    "JSESSIONID"
+  ],
+  "Moment.js": [
+    "moment(?:\\.min)?\\.js"
+  ],
+  "YouTube": [
+    "<(?:param|embed|iframe)[^>]+youtube(?:-nocookie)?\\.com/(?:v|embed)",
+    "\\.youtube\\.com/"
+  ],
+  "prettyPhoto": [
+    "(?:<link [^>]*href=\"[^\"]*prettyPhoto(?:\\.min)?\\.css|<a [^>]*rel=\"prettyPhoto)",
+    "jquery\\.prettyPhoto\\.js"
+  ],
+  "Akismet": [
+    "/wp-content/plugins/akismet/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+  ],
+  "Yoast SEO": [
+    "<!-- This site is optimized with the Yoast (?:WordPress )?SEO plugin v([^\\s]+) -\\;version:\\1",
+    "<!-- This site is optimized with the Yoast SEO Premium plugin v(?:[^\\s]+) \\(Yoast SEO v([^\\s]+)\\) -\\;version:\\1"
+  ],
+  "WordPress Block Editor": [
+    "<div[^>]+class=[\"']wp-block-*"
+  ],
+  "CookieYes": [
+    "app\\.cookieyes\\.com/client_data/",
+    "cdn-cookieyes\\.com/client_data/",
+    "/wp-content/plugins/cookie-law-info/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+  ],
+  "Unpkg": [
+    "unpkg\\.com/"
+  ],
+  "GoDaddy Website Builder": [
+    "Go Daddy Website Builder (.+)\\;version:\\1",
+    "dps_site_id"
+  ],
+  "Amazon CloudFront": [
+    "via: \\(CloudFront\\)$",
+    "x-amz-cf-id: "
+  ],
+  "Python": [
+    "server: (?:^|\\s)Python(?:/([\\d.]+))?\\;version:\\1"
+  ],
+  "bxSlider": [
+    "bxslider(?:\\.min)?\\.js(?:\\?ver=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+  ],
+  "Plesk": [
+    "common\\.js\\?plesk",
+    "x-powered-by: ^Plesk(?:L|W)in",
+    "x-powered-by-plesk: ^Plesk",
+    ""
+  ],
+  "UNIX": [
+    "server: Unix"
+  ],
+  "AMP": [
+    "<html[^>]* (?:amp|\u26a1)[^-]",
+    "<link rel=\"amphtml\""
+  ],
+  "Joomla": [
+    "(?:<div[^>]+id=\"wrapper_r\"|<(?:link|script)[^>]+(?:feed|components)/com_|<table[^>]+class=\"pill)\\;confidence:50",
+    "(?:^|/)(feed/com_|components/com_)",
+    "option=com_",
+    "x-content-encoded-by: Joomla! ([\\d.]+)\\;version:\\1",
+    "Joomla!(?: ([\\d.]+))?\\;version:\\1",
+    "joomla_[a-z0-9]+"
+  ],
+  "Twitter": [
+    "//platform\\.twitter\\.com/widgets\\.js"
+  ],
+  "Vue.js": [
+    "<(?!svg)[^>]+\\sdata-v(?:ue)?-",
+    "vue[.-]([\\d.]*\\d)[^/]*\\.js\\;version:\\1",
+    "(?:/([\\d.]+))?/vue(?:\\.min)?\\.js\\;version:\\1",
+    "\\.vue-notification-group"
+  ],
+  "Complianz": [
+    "wp-content/plugins/complianz-gdpr-premium"
+  ],
+  "Easy Pie Chart": [
+    "[Ee]asy-?[Pp]ie-?[Cc]hart(?:\\.min)?\\.js"
+  ],
+  "Select2": [
+    "select2(?:\\.min|\\.full)?\\.js"
+  ],
+  "BootstrapCDN": [
+    "bootstrapcdn\\.com\\/bootstrap\\/((?:\\d+\\.)+\\d+)?(?:\\/js\\/)?bootstrap(?:\\.min)?\\.js\\;version:\\1"
+  ],
+  "OpenGSE": [
+    "server: GSE"
+  ],
+  "Blogger": [
+    "^https?://[^/]+\\.(?:blogspot|blogger)\\.com",
+    "^Blogger$"
+  ],
+  "Adobe Fonts": [
+    "<link [^>]*href=\"[^\"]+use\\.typekit\\.(?:net|com)",
+    "use\\.typekit\\.com"
+  ],
+  "Typekit": [
+    "<link [^>]*href=\"[^\"]+use\\.typekit\\.(?:net|com)",
+    "use\\.typekit\\.com"
+  ],
+  "Webpack": [],
+  "Gravity Forms": [
+    "<div class=(?:\"|')[^>]*gform_wrapper",
+    "<div class=(?:\"|')[^>]*gform_body",
+    "<ul [^>]*class=(?:\"|')[^>]*gform_fields",
+    "<link [^>]*href=(?:\"|')[^>]*wp-content/plugins/gravityforms/css/",
+    "/wp-content/plugins/gravityforms/js/[^/]+\\.js\\?ver=([\\d.]+)$\\;version:\\1"
+  ],
+  "Weebly": [
+    "cdn\\d+\\.editmysite\\.com"
+  ],
+  "Stripe": [
+    "<input[^>]+data-stripe",
+    "js\\.stripe\\.com",
+    "__stripe_mid",
+    "__stripe_sid"
+  ],
+  "Clipboard.js": [
+    "clipboard(?:-([\\d.]+))?(?:\\.min)?\\.js\\;version:\\1"
+  ],
+  "WP Engine": [
+    "x-pass-why: ",
+    "x-powered-by: WP Engine",
+    "x-wpe-loopback-upstream-addr: ",
+    "wpe-backend: "
+  ],
+  "MonsterInsights": [
+    "/wp-content/plugins/google-analytics-for-wordpress/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+  ],
+  "Infinite Scroll": [
+    "infinite-?scroll(?:\\.pkgd)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+  ],
+  "punycode": [
+    "punycode(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.){1,2}\\d+))?\\;version:\\1"
+  ],
+  "Amazon S3": [
+    "s3[^ ]*\\.amazonaws\\.com/",
+    "content-security-policy: s3[^ ]*amazonaws\\.com",
+    "content-security-policy-report-only: s3[^ ]*\\.amazonaws\\.com",
+    "server: ^AmazonS3$",
+    "x-amz-server-side-encryption: "
+  ],
+  "WPML": [
+    "/wp-content/plugins/sitepress-multilingual-cms/",
+    "^WPML\\sver\\:([\\d\\.]+)\\;version:\\1",
+    "wp-wpml_current_language"
+  ],
+  "Jetpack": [
+    "/wp-content/plugins/jetpack/"
+  ],
+  "Mailcheck": [
+    "mailcheck(?:\\.min)?\\.js(?:\\?v(?:er)?=(\\d+\\.\\d+\\.\\d+))?\\;version:\\1"
+  ],
+  "Next.js": [
+    "x-powered-by: ^Next\\.js ?([0-9.]+)?\\;version:\\1",
+    "NEXT_LOCALE"
+  ],
+  "OpenSSL": [
+    "server: OpenSSL(?:/([\\d.]+[a-z]?))?\\;version:\\1"
+  ],
+  "MailChimp": [
+    "<input [^>]*id=\"mc-email\"\\;confidence:20",
+    "<!-- Begin MailChimp Signup Form -->",
+    "s3\\.amazonaws\\.com/downloads\\.mailchimp\\.com/js/mc-validate\\.js",
+    "cdn-images\\.mailchimp\\.com/[^>]*\\.css",
+    "chimpstatic\\.com/mcjs-connected",
+    "^https?://(?:www\\.)?mailchi\\.mp"
+  ],
+  "Ruby": [
+    "server: (?:Mongrel|Ruby(?:/([\\d\\.]+))?)\\;version:\\1"
+  ],
+  "Redux Framework": [
+    "Redux\\s([\\d\\.]+)\\;version:\\1",
+    "Redux\\s([\\d\\.]+)\\;version:\\1"
+  ],
+  "Hostinger CDN": [
+    "server: hcdn"
+  ],
+  "Debian": [
+    "server: Debian",
+    "x-powered-by: (?:Debian|dotdeb|(potato|woody|sarge|etch|lenny|squeeze|wheezy|jessie|stretch|buster|sid))\\;version:\\1"
+  ],
+  "Ruby on Rails": [
+    "/assets/application-[a-z\\d]{32}/\\.js\\;confidence:50",
+    "server: mod_(?:rails|rack)",
+    "x-powered-by: mod_(?:rails|rack)",
+    "^authenticity_token$\\;confidence:50",
+    "_session_id"
+  ],
+  "Onsen UI": [
+    "(/.*onsen.*min\\.js|.*angular-onsenui\\.min\\.js)"
+  ],
+  "AddThis": [
+    "addthis\\.com/js/"
+  ],
+  "ZURB Foundation": [
+    "<link[^>]+foundation[^>\"]+css",
+    "<div [^>]*class=\"[^\"]*(?:small|medium|large)-\\d{1,2} columns"
+  ],
+  "Cookie Notice": [
+    "/wp-content/plugins/cookie-notice/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+  ],
+  "jQuery Mobile": [
+    "jquery[.-]mobile(?:-([\\d.]+))?(?:\\.min)?\\.js\\;version:\\1",
+    "jquery[.-]mobile(?:-)?(?:\\.min)?\\.js(?:\\?ver=([\\d.]+))?\\;version:\\1"
+  ],
+  "DataTables": [
+    "dataTables.*\\.js"
+  ],
+  "Vercel": [
+    "server: ^now|Vercel$",
+    "x-now-trace: ",
+    "x-vercel-cache: ",
+    "x-vercel-id: "
+  ],
+  "UIKit": [
+    "<[^>]+class=\"[^\"]*(?:uk-container|uk-section)",
+    "uikit.*\\.js"
+  ],
+  "Express": [
+    "x-powered-by: ^Express(?:$|,)",
+    "connect\\.sid"
+  ],
+  "Backbone.js": [
+    "backbone.*\\.js"
+  ],
+  "Drupal": [
+    "<(?:link|style)[^>]+\"/sites/(?:default|all)/(?:themes|modules)/",
+    "drupal\\.js",
+    "expires: 19 Nov 1978",
+    "x-drupal-cache: ",
+    "x-generator: ^Drupal(?:\\s([\\d.]+))?\\;version:\\1",
+    "^Drupal(?:\\s([\\d.]+))?\\;version:\\1",
+    "SESS[a-f0-9]{32}"
+  ],
+  "WPForms": [
+    "/wp-content/plugins/wpforms(?:-lite)?/.+(?:frontend\\.min|wpforms)\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+  ],
+  "Google Font API": [
+    "googleapis\\.com/.+webfont"
+  ],
+  "Max Mega Menu": [
+    "(?:max)?megamenu(?:-pro)?(?:\\/assets)?(?:\\/public)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+  ],
+  "MooTools": [
+    "mootools.*\\.js"
+  ],
+  "RequireJS": [
+    "require.*\\.js"
+  ],
+  "Chart.js": [
+    "/Chart(?:\\.bundle)?(?:\\.min)?\\.js\\;confidence:75",
+    "chartjs\\.org/dist/([\\d.]+(?:-[^/]+)?|master|latest)/Chart.*\\.js\\;version:\\1",
+    "cdnjs\\.cloudflare\\.com/ajax/libs/Chart\\.js/([\\d.]+(?:-[^/]+)?)/Chart.*\\.js\\;version:\\1",
+    "cdn\\.jsdelivr\\.net/(?:npm|gh/chartjs)/chart\\.js@([\\d.]+(?:-[^/]+)?|latest)/dist/Chart.*\\.js\\;version:\\1"
+  ],
+  "AddToAny": [
+    "addtoany\\.com/menu/page\\.js"
+  ],
+  "Laravel": [
+    "laravel_session"
+  ],
+  "Chosen": [
+    "chosen(?:\\.jquery)?(?:\\.min)?\\.js(?:\\?ver=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+  ],
+  "GSAP": [
+    "TweenMax(?:\\.min)?\\.js"
+  ],
+  "Essential Addons for Elementor": [
+    "/wp-content/uploads/essential-addons-elementor/"
+  ],
+  "Klaviyo": [
+    "klaviyo\\.com"
+  ],
+  "Fastly": [
+    "fastly-debug-digest: ",
+    "vary: Fastly-SSL",
+    "x-fastly-request-id: ",
+    "server: Fastly",
+    "x-fastly-origin: ",
+    "x-fastly-request-id: ",
+    "x-via-fastly: "
+  ],
+  "particles.js": [
+    "/particles(?:\\.min)?\\.js"
+  ],
+  "Prototype": [
+    "(?:prototype|protoaculous)(?:-([\\d.]*[\\d]))?.*\\.js\\;version:\\1"
+  ],
+  "Jimdo": [
+    "\\.jimdo(?:site)?\\.com/",
+    "x-jimdo-instance: ",
+    "x-jimdo-wid: "
+  ],
+  "Polylang": [
+    "x-redirected-by: Polylang(?: (Pro))?\\;version:\\1",
+    "pll_language"
+  ],
+  "Smash Balloon Instagram Feed": [
+    "/wp-content/plugins/instagram-feed/"
+  ],
+  "Aruba.it": [
+    "x-servername: \\.aruba\\.it"
+  ],
+  "ShareThis": [
+    "\\.sharethis\\.com/"
+  ],
+  "Typed.js": [
+    "typed(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+  ],
+  "C3.js": [
+    "c3(?:\\.min)?(?:-[a-zA-Z0-9]{8})?\\.js(?:\\?ver=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+  ],
+  "PayPal": [
+    "paypalobjects\\.com",
+    "content-security-policy: \\.paypal\\.com",
+    "in-context-paypal-metadata"
+  ],
+  "Cookiebot": [
+    "consent\\.cookiebot\\.com"
+  ],
+  "Hammer.js": [
+    "hammer(?:\\.min)?\\.js"
+  ],
+  "SweetAlert2": [
+    "sweetalert2(?:\\.all)?(?:\\.min)?\\.js",
+    "/npm/sweetalert2@([\\d.]+)\\;version:\\1",
+    "sweetalert2@([\\d.]+)/dist/sweetalert2(?:\\.all)(?:\\.min)\\.js",
+    "limonte-sweetalert2/([\\d.]+)/sweetalert2(?:\\.all)(?:\\.min)\\.js"
+  ],
+  "Instagram Feed for WordPress": [
+    "instagram-feed(?:\\/js)?(?:\\/sbi-scripts)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+  ],
+  "The Events Calendar": [
+    "/wp-content/plugins/the-events-calendar(?:-pro)?/"
+  ],
+  "ProgressBar.js": [
+    "progressbar(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+    "(?:((?:\\d+\\.)+\\d+)\\/)?progressbar(?:\\.min)?\\.js\\;version:\\1"
+  ],
+  "CentOS": [
+    "server: CentOS",
+    "x-powered-by: CentOS"
+  ],
+  "Packery": [
+    "packery(?:\\.pkgd)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+  ],
+  "WP Fastest Cache": [
+    "/wp-content/cache/wpfc-minified/"
+  ],
+  "FlexSlider": [
+    "jquery\\.flexslider(?:\\.min)?\\.js$"
+  ],
+  "WPMU DEV Smush": [
+    "/wp-content/plugins/wp-smushit(?:-pro)?/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+  ],
+  "MailChimp for WordPress": [
+    "/wp-content/plugins/mailchimp-for-wp/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+  ],
+  "SWFObject": [
+    "swfobject.*\\.js"
+  ],
+  "Amazon ALB": [
+    "AWSALB",
+    "AWSALBCORS"
+  ],
+  "Nuxt.js": [
+    "<div [^>]*id=\"__nuxt\"",
+    "<script [^>]*>window\\.__NUXT__",
+    "/_nuxt/"
+  ],
+  "Google Tag Manager for WordPress": [
+    "/wp-content/plugins/duracelltomi-google-tag-manager/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+  ],
+  "Pinterest": [
+    "//assets\\.pinterest\\.com/js/pinit\\.js"
+  ],
+  "dc.js": [
+    "(?:((?:\\d+\\.)+\\d+)\\/(?:dc\\/)?)?dc(?:\\.leaflet)?\\.js\\;version:\\1"
+  ],
+  "Netlify": [
+    "^https?://[^/]+\\.netlify\\.(?:com|app)/",
+    "server: ^Netlify",
+    "x-nf-request-id: "
+  ],
+  "spin.js": [
+    "spin(?:\\.min)?\\.js(?:\\?ver=([\\d.]+))?\\;version:\\1"
+  ],
+  "waitForImages": [
+    "(?:((?:\\d+\\.)+\\d+)\\/(?:jquery\\.)?)?waitforimages(?:-modded)?(?:\\.min)?\\.js\\;version:\\1",
+    "(?:(?:jquery\\.)?)?waitforimages(?:-((?:\\d+\\.)+\\d+)-modded)?(?:\\.min)?\\.js\\;version:\\1"
+  ],
+  "AddToAny Share Buttons": [
+    "/wp-content/plugins/add-to-any/addtoany\\.min\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+  ],
+  "DDoS-Guard": [
+    "server: ^ddos-guard$"
+  ],
+  "TYPO3 CMS": [
+    "^/?typo3(?:conf|temp)/",
+    "/typo3/",
+    "TYPO3\\s+(?:CMS\\s+)?(?:[\\d.]+)?(?:\\s+CMS)?"
+  ],
+  "Tilda": [
+    "<link[^>]* href=[^>]+tilda(?:cdn|\\.ws|-blocks)",
+    "tilda(?:cdn|\\.ws|-blocks)"
+  ],
+  "Stellar.js": [
+    "stellar(?:\\.min)?\\.js(?:\\?ver=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+  ],
+  "EWWW Image Optimizer": [
+    "/wp-content/plugins/ewww-image-optimizer/"
+  ],
+  "1C-Bitrix": [],
+  "Joinchat": [
+    "/js/joinchat\\.min\\.js"
+  ],
+  "Mixitup": [
+    "mixitup(?:\\.min)?\\.js"
+  ],
+  "DoubleClick Ad Exchange (AdX)": [
+    "googlesyndication\\.com/pagead/show_ads\\.js",
+    "tpc\\.googlesyndication\\.com/safeframe",
+    "googlesyndication\\.com.*abg\\.js"
+  ],
+  "Smart Slider 3": [
+    "/wp-content/plugins/smart-slider-3(?:-pro)?/"
+  ],
+  "WooCommerce Stripe Payment Gateway": [
+    "/wp-content/plugins/woocommerce-gateway-stripe/"
+  ],
+  "Osano": [
+    "cmp\\.osano\\.com/"
+  ],
+  "HighLevel": [
+    "\\.leadconnectorhq\\.com/"
+  ],
+  "Elfsight": [
+    "\\.elfsight\\.com/"
+  ],
+  "Material Design Lite": [
+    "<link[^>]* href=\"[^\"]*material(?:\\.[\\w]+-[\\w]+)?(?:\\.min)?\\.css",
+    "(?:/([\\d.]+))?/material(?:\\.min)?\\.js\\;version:\\1"
+  ],
+  "Azure": [
+    "azure-regionname: ",
+    "azure-sitename: ",
+    "azure-slotname: ",
+    "azure-version: ",
+    "server: ^Windows-Azure",
+    "x-ms-client-request-id: ",
+    "x-ms-correlation-request-id: ",
+    "x-ms-gateway-requestid: ",
+    "ARRAffinity",
+    "TiPMix"
+  ],
+  "GitHub Pages": [
+    "^https?://[^/]+\\.github\\.io",
+    "server: ^GitHub\\.com$",
+    "x-github-request-id: "
+  ],
+  "GoDaddy CoBlocks": [
+    "/wp-content/plugins/coblocks/"
+  ],
+  "Twenty Seventeen": [
+    "/wp-content/themes/twentyseventeen/"
+  ],
+  "Google PageSpeed": [
+    "x-mod-pagespeed: ([\\d.]+)\\;version:\\1",
+    "x-page-speed: (.+)\\;version:\\1"
+  ],
+  "sidr": [
+    "sidr(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+  ],
+  "CodeIgniter": [
+    "<input[^>]+name=\"ci_csrf_token\"",
+    "ci_csrf_token",
+    "ci_session",
+    "exp_last_activity",
+    "exp_tracker"
+  ],
+  "Imagely NextGEN Gallery": [
+    "/wp-content/plugins/nextgen-gallery(?:-pro|-plus)?/"
+  ],
+  "Autoptimize": [
+    "/wp-content/plugins/autoptimize/.+\\.js(?:\\?ao_version=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+  ],
+  "Plupload": [
+    "plupload(?:\\.min)?\\.js(?:\\?ver=([\\d.]+))?\\;version:\\1"
+  ],
+  "iubenda": [
+    "iubenda\\.com/"
+  ],
+  "Linkedin Ads": [
+    "<img [^>]*src=\"[^/]*//[^/]*px\\.ads\\.linkedin\\.com",
+    "content-security-policy: px\\.ads\\.linkedin\\.com"
+  ],
+  "Moxie": [
+    "moxie(?:\\.min)?\\.js(?:\\?ver=([\\d.]+))?\\;version:\\1"
+  ],
+  "BeTheme": [
+    "/betheme/js/scripts(?:\\.min)?\\.js\\?ver=([\\d.]+)\\;version:\\1"
+  ],
+  "Kadence WP Kadence": [
+    "/wp-content/themes/kadence/.+navigation\\.min\\.js(?:\\?ver=([\\d\\.]+))?\\;version:\\1"
+  ],
+  "Duda": [
+    "dd-cdn\\.multiscreensite\\.com/"
+  ],
+  "MyWebsite": [
+    "IONOS MyWebsite\\;version:8"
+  ],
+  "MyWebsite Creator": [
+    "website-editor\\.net",
+    "mywebsite-editor\\.com"
+  ],
+  "MetaSlider": [
+    "/wp-content/plugins/ml-slider(?:-pro)?/"
+  ],
+  "SweetAlert": [
+    "sweet(?:-)?alert(?:\\.min)?\\.js"
+  ],
+  "MailChimp for WooCommerce": [
+    "/wp-content/plugins/mailchimp-for-woocommerce/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+  ],
+  "Ninja Forms": [
+    "/wp-content/plugins/ninja-forms/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+  ],
+  "Sucuri": [
+    "x-sucuri-cache:: ",
+    "x-sucuri-id: "
+  ],
+  "Handlebars": [
+    "handlebars(?:\\.runtime)?(?:-v([\\d.]+?))?(?:\\.min)?\\.js\\;version:\\1"
+  ],
+  "OneTrust": [
+    "cdn\\.cookielaw\\.org",
+    "optanon\\.blob\\.core\\.windows\\.net",
+    "otSDKStub\\.js",
+    "cdn\\.cookielaw\\.org",
+    "optanon\\.blob\\.core\\.windows\\.net",
+    "OptanonConsent"
+  ],
+  "Spectra": [
+    "/wp-content/plugins/ultimate-addons-for-gutenberg/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+  ],
+  "hCaptcha": [
+    "hcaptcha\\.com/([\\d]+?)/api\\.js\\;version:\\1",
+    "#cf-hcaptcha-container",
+    "content-security-policy: (?:\\.|//)hcaptcha\\.com"
+  ],
+  "Kinsta": [
+    "x-kinsta-cache: "
+  ],
+  "Webflow": [
+    "Webflow"
+  ],
+  "Flywheel": [
+    "x-fw-hash: ",
+    "x-fw-serve: ",
+    "x-fw-server: ^Flywheel(?:/([\\d.]+))?\\;version:\\1",
+    "x-fw-static: ",
+    "x-fw-type: "
+  ],
+  "Performance Lab": [
+    "^Performance Lab ?([\\d.]+)?\\;version:\\1"
+  ],
+  "W3 Total Cache": [
+    "<!--[^>]+W3 Total Cache",
+    "x-powered-by: W3 Total Cache(?:/([\\d.]+))?\\;version:\\1"
+  ],
+  "Google Sign-in": [
+    "accounts\\.google\\.com/gsi/client",
+    "",
+    ""
+  ],
+  "Usercentrics": [
+    "\\.usercentrics\\.eu/.+\\.js"
+  ],
+  "Caddy": [
+    "server: Caddy"
+  ],
+  "JetEngine": [
+    "/wp-content/plugins/jet-engine/"
+  ],
+  "Responsive Lightbox & Gallery": [
+    "/wp-content/plugins/responsive-lightbox/.+front\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+  ],
+  "GeneratePress": [
+    "themes/generatepress\\S*\\.js(?:\\?ver=([0-9.]+))?\\;version:\\1"
+  ],
+  "GeneratePress GP Premium": [
+    "/wp-content/plugins/gp-premium/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+  ],
+  "Photo Gallery": [
+    "/wp-content/plugins/photo-gallery/.+scripts\\.min\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+  ],
+  "Headroom.js": [
+    "headroom(?:\\.min)?\\.js(?:\\?ver=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+  ],
+  "Tengine": [
+    "server: Tengine"
+  ],
+  "Blocksy": [
+    "/wp-content/themes/blocksy/(?:.+main\\.js(?:\\?ver=([\\d\\.]+)))?\\;version:\\1"
+  ],
+  "Linkedin Sign-in": [
+    "platform\\.linkedin\\.com/(?:.*)?(?:in\\.js(?:\\?version)?([\\d.]+)?|litms/utag/[^?]+\\.js(?:\\?cb=[\\d]+)?)"
+  ],
+  "EmbedPlus": [
+    "/wp-content/plugins/youtube-embed-plus(?:-pro)?/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+  ],
+  "Google Publisher Tag": [
+    "googletagservices\\.com/tag/js/gpt\\.js",
+    "securepubads\\.g\\.doubleclick.net/tag/js/gpt\\.js",
+    "pagead2\\.googlesyndication\\.com/tag/js/gpt\\.js"
+  ],
+  "WordPress Popular Posts": [
+    "/wp-content/plugins/wordpress-popular-posts/.+wpp\\.min\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
+    "wordpresspopularposts: "
+  ],
+  "Statcounter": [
+    "statcounter\\.com/counter/counter"
+  ],
+  "Premio Chaty": [
+    "/wp-content/plugins/chaty/"
+  ],
+  "CNZZ": [
+    "//[^./]+\\.cnzz\\.com/(?:z_stat.php|core)\\?"
+  ],
+  "WebNode": [
+    "^Webnode(?:\\s([\\d.]+))?$\\;version:\\1",
+    "_gat_wnd_header"
+  ],
+  "AOS": [
+    "unpkg\\.com/aos@([\\d\\.]+)/dist/aos\\.js\\;version:\\1",
+    "/typo3conf/ext/udem_vendor/Resources/Public/aos-([\\d\\.]+)\\;version:\\1",
+    "x-powered-by: ^AdministerAOS"
+  ],
+  "script.aculo.us": [
+    "/(?:scriptaculous|protoaculous)(?:\\.js|/)"
+  ],
+  "Tiny Slider": [
+    "(?:/([\\d\\.]+)/min/)?tiny-slider(?:\\.min)?\\.js\\;version:\\1"
+  ],
+  "Google Cloud Trace": [
+    "x-cloud-trace-context: "
+  ],
+  "Matter.js": [
+    "matter(?:-wrap)?(?:\\/demo\\/js\\/lib(?:\\/matter-tools\\/jquery)?(?:\\/decomp)?)?(?:\\/?-?((?:\\d+\\.)+\\d+))?(?:\\.min)?\\.js\\;version:\\1"
+  ],
+  "WooCommerce PayPal Payments": [
+    "/wp-content/plugins/woocommerce-paypal-payments/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+  ],
+  "Web Font Loader": [
+    "(?:((?:\\d+\\.)+\\d+)\\/)?webfontloader(?:\\.min)?(?:[-\\.][\\d\\w]{0,32})?\\.js\\;version:\\1"
+  ],
+  "Microsoft Ajax Content Delivery Network": [
+    "ajax\\.aspnetcdn\\.com/ajax/"
+  ],
+  "Adobe Portfolio": [
+    "@AdobePortfolio"
+  ],
+  "Firebase": [
+    "/(?:([\\d.]+)/)?firebase(?:\\.min)?\\.js\\;version:\\1",
+    "/firebasejs/([\\d.]+)/firebase\\;version:\\1",
+    "vary: x-fh-requested-host"
+  ],
+  "Gutenberg": [
+    "/wp-content/plugins/gutenberg/"
+  ],
+  "pickadate.js": [
+    "pickadate(?:\\/translations)?(?:\\/de_DE)?(?:\\/picker)?(?:\\.date)?(?:\\.time)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+  ],
+  "Cloudways": [
+    "cache-provider: CLOUDWAYS-CACHE-DE"
+  ],
+  "ExactMetrics": [
+    "/wp-content/plugins/google-analytics-dashboard-for-wp/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+  ],
+  "HubSpot": [
+    "<!-- Start of Async HubSpot",
+    "\\.hs-scripts\\.com/"
+  ],
+  "Parsley.js": [
+    "parsley(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+  ],
+  "FrontPage": [
+    "^FrontPage\\.",
+    "Microsoft FrontPage(?:\\s((?:Express )?[\\d.]+))?\\;version:\\1"
+  ],
+  "PixelYourSite": [
+    "/wp-content/plugins/pixelyoursite/"
+  ],
+  "scrollreveal": [
+    "<[^>]+data-sr(?:-id)",
+    "scrollreveal(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+  ],
+  "Three.js": [
+    "three(?:\\.min)?\\.js"
+  ],
+  "Microsoft Word": [
+    "(?:<html [^>]*xmlns:w=\"urn:schemas-microsoft-com:office:word\"|<w:WordDocument>|<div [^>]*class=\"?WordSection1[\" >]|<style[^>]*>[^>]*@page WordSection1)",
+    "^Word\\.",
+    "Microsoft Word( [\\d.]+)?\\;version:\\1"
+  ],
+  "Alpine.js": [
+    "<[^>]+[^\\w-]x-data[^\\w-][^<]+\\;confidence:75",
+    "/alpine(?:\\.min)?\\.js"
+  ],
+  "Burst": [
+    "assets/js/build/burst"
+  ],
+  "HubSpot CMS Hub": [
+    "x-hs-hub-id: ",
+    "x-powered-by: HubSpot",
+    "HubSpot"
+  ],
+  "Highlight.js": [
+    "/(?:([\\d.])+/)?highlight(?:\\.min)?\\.js\\;version:\\1"
+  ],
+  "SiteOrigin Page Builder": [
+    "/wp-content/plugins/siteorigin-panels/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+  ],
+  "Backstretch": [
+    "(?:((?:\\d+\\.)+\\d+)\\/)?(?:jquery\\.)?backstretch(?:\\.min)?\\.js\\;version:\\1"
+  ],
+  "OneSignal": [
+    "cdn\\.onesignal\\.com"
+  ],
+  "Alibaba Cloud CDN": [
+    "\\.alicdn\\.com/"
+  ],
+  "Genesis theme": [
+    "/wp-content/themes/genesis/lib/js/"
+  ],
+  "Conditional Fields for Contact Form 7": [
+    "cf7-conditional-fields(?:\\/js)?(?:\\/scripts)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+  ],
+  "TinyMCE": [
+    "/tiny_?mce(?:\\.min)?\\.js"
+  ],
+  "Zendesk": [
+    "static\\.zdassets\\.com",
+    "x-zendesk-user-id: ",
+    "_help_center_session",
+    "_zendesk_cookie",
+    "_zendesk_shared_session"
+  ],
+  "UserWay": [
+    "cdn\\.userway\\.org/widget.*\\.js"
+  ],
+  "Yii": [
+    "Powered by <a href=\"http://www\\.yiiframework\\.com/\" rel=\"external\">Yii Framework</a>",
+    "<input type=\"hidden\" value=\"[a-zA-Z0-9]{40}\" name=\"YII_CSRF_TOKEN\" \\/>",
+    "<!\\[CDATA\\[YII-BLOCK-(?:HEAD|BODY-BEGIN|BODY-END)\\]",
+    "/assets/[a-zA-Z0-9]{8}\\/yii\\.js$",
+    "yii(?:\\.|)?(?:validation|activeform)\\.js",
+    "YII_CSRF_TOKEN"
+  ],
+  "Twenty Twenty": [
+    "/wp-content/themes/twentytwenty/"
+  ],
+  "Weglot": [
+    "cdn\\.weglot\\.com",
+    "wp-content/plugins/weglot",
+    "weglot-translated: "
+  ],
+  "Medium": [
+    "medium\\.com",
+    "^https?://(?:www\\.)?medium\\.com",
+    "x-powered-by: ^Medium$"
+  ],
+  "SiteOrigin Widgets Bundle": [
+    "/wp-content/plugins/so-widgets-bundle/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+  ],
+  "Calendly": [
+    "assets\\.calendly\\.com/"
+  ],
+  "Wistia": [
+    "\\.wistia\\.com"
+  ],
+  "JouwWeb": [
+    "(?:cdn)?\\.(?:jwwb|jouwweb)\\.nl/"
+  ],
+  "Yoast SEO Premium": [
+    "<!-- This site is optimized with the Yoast SEO Premium plugin v([^\\s]+) \\;version:\\1"
+  ],
+  "Trustpilot": [
+    "\\.trustpilot\\.com"
+  ],
+  "Naver Analytics": [
+    "wcs\\.naver\\.net/wcslog\\.js",
+    ""
+  ],
+  "Rich Plugins Reviews": [
+    "/wp-content/plugins/widget-google-reviews/"
+  ],
+  "ContentViews": [
+    "content-views(?:-pro)?(?:-query-and-display-post-page)?(?:\\/public)?(?:\\/assets)?(?:\\/js)?(?:\\/cv(?:pro)?)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+  ],
+  "jPlayer": [
+    "/jquery\\.jplayer\\.min\\.js"
+  ],
+  "Zepto": [
+    "zepto.*\\.js"
+  ],
+  "ProfilePress": [
+    "/wp-content/plugins/wp-user-avatar(?:-pro)?/.+frontend\\.min\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
+    "ppwp_wp_session"
+  ],
+  "UltimatelySocial": [
+    "/wp-content/plugins/ultimate-social-media-icons/"
+  ],
+  "Twenty Twenty-One": [
+    "/wp-content/themes/twentytwentyone/"
+  ],
+  "Contao": [
+    "^Contao Open Source CMS$"
+  ],
+  "Akamai": [
+    "x-akamai-transformed: ",
+    "x-edgeconnect-midmile-rtt: ",
+    "x-edgeconnect-origin-mex-latency: "
+  ],
+  "libphonenumber": [
+    "(?:/([\\d\\.]+))?/libphonenumber(?:-js\\.min)?\\.js\\;version:\\1"
+  ],
+  "Sassy Social Share": [
+    "sassy-social-share(?:-public)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+  ],
+  "Strato Website": [
+    "strato-editor\\.com/"
+  ],
+  "WooCommerce Multilingual": [
+    "/wp-content/plugins/woocommerce-multilingual/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+  ],
+  "Twitter typeahead.js": [
+    "(?:typeahead|bloodhound)\\.(?:jquery|bundle)?(?:\\.min)?\\.js"
+  ],
+  "Livewire": [
+    "<[^>]{1,512}\\bwire:",
+    "livewire(?:\\.min)?\\.js"
+  ],
+  "jQuery Payment": [
+    "/jquery-payment/jquery\\.payment\\.min\\.js"
+  ],
+  "Oxygen": [
+    "<body class=(?:\"|')[^\"']*oxygen-body",
+    "<link [^>]*href=(?:\"|')[^>]*wp-content/plugins/oxygen/",
+    "wp-content/plugins/oxygen"
+  ],
+  "Translate WordPress": [
+    "/wp-content/plugins/google-language-translator/.+scripts\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+  ],
+  "Phusion Passenger": [
+    "server: Phusion Passenger ([\\d.]+)\\;version:\\1",
+    "x-powered-by: Phusion Passenger(?:\\(R\\))? ?([\\d.]+)?\\;version:\\1"
+  ],
+  "Modern Image Formats": [
+    "^webp-uploads ([\\d.]+)?\\;version:\\1"
+  ],
+  "VK Pixel": [
+    "vk\\.com/js/api/openapi\\.js"
+  ],
+  "Microsoft HTTPAPI": [
+    "server: Microsoft-HTTPAPI(?:/([\\d.]+))?\\;version:\\1"
+  ],
+  "crypto-js": [
+    "(?:/([\\d\\.-]+))?/crypto-js(?:\\.min)?\\.js\\;version:\\1"
+  ],
+  "Moodle": [
+    "<img[^>]+moodlelogo",
+    "^moodle",
+    "MOODLEID_",
+    "MoodleSession"
+  ],
+  "Substack": [
+    "x-cluster: substack",
+    "x-served-by: Substack"
+  ],
+  "Tablesorter": [
+    "(?:((?:\\d+\\.)+\\d+)[-\\/](?:dist\\/js\\/)?)?(?:jquery\\.)?tablesorter(?:[\\.\\/]pager)?(?:-custom-controls)?(?:\\.widgets)?(?:\\.min)?\\.js\\;version:\\1"
+  ],
+  "GraphQL": [
+    "graphqlMethod"
+  ],
+  "MyWebsite Now": [
+    "MyWebsite NOW"
+  ],
+  "PrestaShop": [
+    "Powered by <a\\s+[^>]+>PrestaShop",
+    "<!-- /Block [a-z ]+ module (?:HEADER|TOP)?\\s?-->",
+    "<!-- /Module Block [a-z ]+ -->",
+    "/modules/ps_[a-z]+/",
+    "powered-by: ^Prestashop$",
+    "PrestaShop",
+    "PrestaShop"
+  ],
+  "PostgreSQL": [],
+  "Tailwind CSS": [
+    "\\.tailwindcss(?:tailwind-config-cdn)?\\.(?:com|js)|/npm/@tailwindcss/browser",
+    "--tw-(?:rotate|translate|space-x|text-opacity|border-opacity|bg-opacity|scale|ring|blur|shadow|brightness|contrast|grayscale|invert|sepia)",
+    "^Tailwind CSS$"
+  ],
+  "Less": [
+    "<link[^>]+ rel=\"stylesheet/less\""
+  ],
+  "Hostinger Website Builder": [
+    "userapp\\.zyrosite\\.com/",
+    "Hostinger Website Builder"
+  ],
+  "TypeScript": [],
+  "FullCalendar": [
+    "/fullcalendar\\.min\\.js"
+  ],
+  "Odoo": [
+    "<link[^>]* href=[^>]+/web/css/(?:web\\.assets_common/|website\\.assets_frontend/)\\;confidence:25",
+    "/web/js/(?:web\\.assets_common/|website\\.assets_frontend/)\\;confidence:25",
+    "Odoo"
+  ],
+  "WordPress Super Cache": [
+    "<!--[^>]+WP-Super-Cache",
+    "wp-super-cache: "
+  ],
+  "Mapbox GL JS": [
+    "mapbox-gl\\.js"
+  ],
+  "Morphext": [
+    "morphext(?:\\.min)?\\.js(?:\\?ver=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+  ],
+  "OpenCart": [
+    "OCSESSID"
+  ],
+  "Azure Front Door": [
+    "x-azure-ref: ",
+    "ASLBSA",
+    "ASLBSACORS"
+  ],
+  "Endurance Page Cache": [
+    "x-endurance-cache-level: "
+  ],
+  "Ivory Search": [
+    "/wp-content/plugins/add-search-to-menu/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+  ],
+  "a3 Lazy Load": [
+    "/wp-content/plugins/a3-lazy-load/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+  ],
+  "ReCaptcha v2 for Contact Form 7": [
+    "/wp-content/plugins/wpcf7-recaptcha/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+  ],
+  "Bootbox.js": [
+    "(?:((?:\\d+\\.)+\\d+)\\/)?bootbox(?:\\.min)?\\.js\\;version:\\1"
+  ],
+  "html2canvas": [
+    "html2canvas(?:\\.min)?(?:[_\\w]{0,8})?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+    "(?:((?:\\d+\\.)+\\d+)\\/)?html2canvas(?:\\.min)?(?:[_\\w]{0,8})?\\.js\\;version:\\1"
+  ],
+  "JivoChat": [
+    "\\.jivosite\\.com"
+  ],
+  "Framer Sites": [
+    "framerusercontent\\.com"
+  ],
+  "Tippy.js": [
+    "/tippy\\.js(?:@|/)?([\\d\\.]+)?\\;version:\\1"
+  ],
+  "Kakao": [
+    "\\.kakao\\.com/"
+  ],
+  "Imperva": [
+    "/_Incapsula_Resource",
+    "x-cdn: Incapsula",
+    "x-iinfo: ",
+    "x-cdn: ^Imperva"
+  ],
+  "Email Encoder for Wordpress": [
+    "email-encoder-bundle(?:\\/core)?(?:\\/includes)?(?:\\/assets)?(?:\\/js)?(?:\\/custom)?(?:\\/encoder-form)?\\.js"
+  ],
+  "Instafeed.js": [
+    "instafeed(?:\\.min)?\\.js"
+  ],
+  "Twenty Sixteen": [
+    "/wp-content/themes/twentysixteen/"
+  ],
+  "Cookie Script": [
+    "\\.cookie-script\\.com/"
+  ],
+  "Cookie Information": [],
+  "Cookie Information plugin": [
+    "/wp-content/plugins/wp-gdpr-compliance/"
+  ],
+  "Optimizely": [
+    "optimizely\\.com.*\\.js",
+    "optimizelyEndUserId"
+  ],
+  "Contentful": [
+    "<[^>]+(?:assets|downloads|images|videos)\\.(?:ct?fassets\\.net|contentful\\.com)",
+    "server: ^Contentful Images API$",
+    "x-contentful-request-id: "
+  ],
+  "Download Monitor": [
+    "^([\\d\\.]+)$\\;version:\\1"
+  ],
+  "Hugo": [
+    "Hugo ([\\d.]+)?\\;version:\\1"
+  ],
+  "MathJax": [
+    "([\\d.]+)?/mathjax\\.js\\;version:\\1"
+  ],
+  "MariaDB": [],
+  "LazySizes unveilhooks plugin": [
+    "ls\\.unveilhooks(?:\\.min)?\\.js"
+  ],
+  "Judge.me": [
+    "cdn\\.judge\\.me"
+  ],
+  "aThemes Sydney": [
+    "/wp-content/themes/sydney(?:-pro-ii)?/"
+  ],
+  "Gatsby": [
+    "^Gatsby(?: ([0-9.]+))?$\\;version:\\1"
+  ],
+  "Polyfill": [
+    "polyfill\\.io/v([\\d\\.]+)\\;version:\\1"
+  ],
+  "Perfmatters": [
+    "/wp-content/(?:plugins|cache|uploads)/perfmatters/"
+  ],
+  "Pantheon": [
+    "server: ^Pantheon",
+    "x-pantheon-styx-hostname: ",
+    "x-styx-req-id: "
+  ],
+  "FingerprintJS": [
+    "fingerprint(?:/fp)?(\\d)?(?:\\.min)?\\.js\\;version:\\1",
+    "fingerprintjs(?:\\-pro|2)?(?:@|/)(\\d.*?)?/\\;version:\\1"
+  ],
+  "GiveWP": [
+    "/wp-content/plugins/give/.+give\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+  ],
+  "WordPress Site Editor": [
+    "<div class=\"wp-site-blocks\">"
+  ],
+  "Sensors Data": [
+    "sensorsdata",
+    "sensorsdata2015jssdkcross",
+    "sensorsdata2015session"
+  ],
+  "NitroPack": [
+    "NitroPack"
+  ],
+  "Snowplow Analytics": [
+    "sp\\.js\\;confidence:50",
+    "d1fc8wv8zag5ca\\.cloudfront\\.net/.+/sp\\.js",
+    "cdn\\.jsdelivr\\.net/gh/snowplow/sp-js-assets@(?:.+)/sp\\.js",
+    "cdnjs\\.cloudflare\\.com/ajax/libs/snowplow/(?:.+)/sp.*\\.js",
+    "unpkg.com/@snowplow/javascript-tracker@(?:.+)/dist/sp.*\\.js",
+    "cdn\\.jsdelivr\\.net/npm/@snowplow/javascript-tracker@(?:.+)/dist/sp\\.js",
+    "_sp_id",
+    "sp"
+  ],
+  "Enquire.js": [
+    "enquire(?:\\.min)?\\.js(?:\\?ver=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+  ],
+  "Funding Choices": [
+    "fundingchoicesmessages\\.google\\.com"
+  ],
+  "slideout": [
+    "slideout(?:-init)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1",
+    "(?:((?:\\d+\\.)+\\d+)\\/)?slideout(?:-init)?(?:\\.min)?\\.js\\;version:\\1"
+  ],
+  "Amazon Advertising": [
+    "\\.amazon-adsystem\\.com"
+  ],
+  "Lightning": [
+    "/wp-content/themes/lightning(?:-pro)?/.+lightning\\.min\\.js(?:.+ver=([\\d\\.]+))?\\;version:\\1"
+  ],
+  "Hestia": [
+    "themes/hestia.*\\.js(?:\\?ver=([0-9.]+))?\\;version:\\1"
+  ],
+  "MediaWiki": [
+    "<body[^>]+class=\"mediawiki\"",
+    "<(?:a|img)[^>]+>Powered by MediaWiki</a>",
+    "<a[^>]+/Special:WhatLinksHere/",
+    "^MediaWiki ?(.+)$\\;version:\\1",
+    "wiki\\d+_session"
+  ],
+  "Azure Edge Network": [
+    "\\.azureedge\\.net/",
+    "content-security-policy: \\.azureedge\\.net"
+  ],
+  "EmbedPress": [
+    "embedpress(?:\\/assets)?(?:\\/js)?(?:\\/ads)?(?:\\/pdfobject)?(?:\\/front)?(?:\\/documents-viewer-script)?(?:\\/vimeo-player)?(?:\\/initplyr)?(?:\\/plyr)?(?:\\.polyfilled)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+  ],
+  "Poptin": [
+    "cdn\\.popt\\.in/"
+  ],
+  "Popup Maker": [
+    "/wp-content/plugins/popup-maker/(?:.+site(?:\\.min)?\\.js\\?.+ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+  ],
+  "Prism": [
+    "prism(?:\\.min)?(?:-\\w{0,64})?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+  ],
+  "iCheck": [
+    "/(?:js|iCheck)/icheck\\.min\\.js"
+  ],
+  "metisMenu": [
+    "(?:/|\\.)metisMenu(?:js)?(?:\\.min)?\\.js(?:\\?([\\d\\.]+))?\\;version:\\1"
+  ],
+  "Elementor Addon Elements": [
+    "addon-elements-for-elementor-page-builder(?:\\/assets)?(?:\\/js)?(?:\\/lib)?(?:\\/animated-main)?(?:\\/build)?(?:\\/eae)?(?:\\/iconHelper)?(?:\\/index)?(?:\\/magnific)?(?:\\/particles)?(?:\\/vegas){0,2}(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+  ],
+  "mobile-detect.js": [
+    "mobile-detect(?:\\.min)?\\.js(?:\\?ver=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+  ],
+  "Shortcodes Ultimate": [
+    "/wp-content/plugins/shortcodes-ultimate/.+index\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+  ],
+  "Twenty Twelve": [
+    "/wp-content/themes/twentytwelve/"
+  ],
+  "Clicky": [
+    "static\\.getclicky\\.com"
+  ],
+  "Retina.js": [
+    "/js/retina(\\.min)?\\.js\\?ver=([\\d\\.]+)\\;version:\\2"
+  ],
+  "ValueCommerce": [
+    "\\.valuecommerce\\.com"
+  ],
+  "Highcharts": [
+    "<svg[^>]*><desc>Created with Highcharts ([\\d.]*)\\;version:\\1",
+    "highcharts.*\\.js"
+  ],
+  "Showit": [
+    "lib\\.showit\\.co/engine/([\\d\\.]+)/\\;version:\\1"
+  ],
+  "RackCache": [
+    "x-rack-cache: "
+  ],
+  "ActiveCampaign": [
+    "plugins/activecampaign-subscription-forms/site_tracking\\.js",
+    "\\.activehosted\\.com",
+    "\\.app-us1\\.com",
+    "\\.ac-page\\.com",
+    "\\.activehosted\\.com",
+    "\\.ac-page\\.com"
+  ],
+  "Liveinternet": [
+    "<script [^>]*>[\\s\\S]*//counter\\.yadro\\.ru/hit",
+    "<!--LiveInternet counter-->",
+    "<!--/LiveInternet-->",
+    "<a href=\"http://www\\.liveinternet\\.ru/click\""
+  ],
+  "Thrive Architect": [
+    "/wp-content/plugins/thrive-visual-editor/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+  ],
+  "Jotform": [
+    "\\.jotform\\.com/"
+  ],
+  "Google Cloud Storage": [
+    "x-goog-storage-class: ^\\w+$"
+  ],
+  "Cufon": [
+    "cufon-yui\\.js"
+  ],
+  "Speculative Loading": [
+    "^speculation-rules ([\\d.]+)?\\;version:\\1"
+  ],
+  "Breadcrumb NavXT": [
+    "<!-- Breadcrumb NavXT ([\\d\\.]+)\\;version:\\1"
+  ],
+  "Glyphicons": [
+    "(?:<link[^>]* href=[^>]+glyphicons(?:\\.min)?\\.css|<img[^>]* src=[^>]+glyphicons)"
+  ],
+  "ThinkPHP": [
+    "x-powered-by: ThinkPHP",
+    "thinkphp_show_page_trace"
+  ],
+  "Perl": [
+    "server: \\bPerl\\b(?: ?/?v?([\\d.]+))?\\;version:\\1"
+  ],
+  "Adobe Experience Manager": [
+    "<div class=\"[^\"]*parbase",
+    "<div[^>]+data-component-path=\"[^\"+]jcr:",
+    "<div class=\"[^\"]*aem-Grid",
+    "/etc/designs/",
+    "/etc/clientlibs/",
+    "/etc\\.clientlibs/"
+  ],
+  "Craft CMS": [
+    "x-powered-by: \\bCraft CMS\\b",
+    "CRAFT_CSRF_TOKEN",
+    "CraftSessionId"
+  ],
+  "DNN": [
+    "<!-- by DotNetNuke Corporation",
+    "<!-- DNN Platform",
+    "/js/dnncore\\.js",
+    "/js/dnn\\.js",
+    "cookie: dnn_IsMobile=",
+    "dnnoutputcache: ",
+    "x-compressed-by: DotNetNuke",
+    "DotNetNuke",
+    "DotNetNukeAnonymous"
+  ],
+  "Image Placeholders": [
+    "^dominant-color-images ([\\d.]+)?\\;version:\\1"
+  ],
+  "SVG Support": [
+    "/wp-content/plugins/svg-support/"
+  ],
+  "Tidio": [
+    "code\\.tidio\\.co"
+  ],
+  "Engintron": [
+    "x-server-powered-by: ^Engintron$"
+  ],
+  "Bricks": [
+    "/wp-content/themes/bricks/assets/"
+  ],
+  "BigCommerce": [
+    "(?:\\.|plugins/)?bigcommerce(?:\\.com)?/(?:assets)?",
+    "mybigcommerce\\.com",
+    "^bigcommerce"
+  ],
+  "AlmaLinux": [
+    "server: AlmaLinux"
+  ],
+  "Axios": [
+    "/axios(@|/)([\\d.]+)(?:/[a-z]+)?/axios(?:.min)?\\.js\\;version:\\2"
+  ],
+  "Cornerstone": [
+    "cornerstone(?:\\/assets)?(?:\\/js)?(?:\\/site)?(?:\\/cs-classic)?\\.?((?:\\d+\\.)+\\d+)?\\.js\\;version:\\1",
+    "^Cornerstone$"
+  ],
+  "jQuery-pjax": [
+    "<div[^>]+data-pjax-container",
+    "jquery[.-]pjax(?:-([\\d.]+))?(?:\\.min)?\\.js\\;version:\\1",
+    "jquery[.-]pjax(?:-)?(?:\\.min)?\\.js(?:\\?ver=([\\d.]+))?\\;version:\\1",
+    "",
+    "",
+    ""
+  ],
+  "Loox": [
+    "loox\\.io/widget"
+  ],
+  "mod_ssl": [
+    "server: mod_ssl(?:/([\\d.]+))?\\;version:\\1"
+  ],
+  "HashThemes Total": [
+    "/wp-content/themes/(?:t|T)otal(?:-plus)?/"
+  ],
+  "Dynamic Conditions": [
+    "dynamic-conditions-public\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+  ],
+  "WP-Optimize": [
+    "<!--[^>]+Cached by WP-Optimize"
+  ],
+  "Imweb": [
+    "vendor-cdn\\.imweb\\.me/"
+  ],
+  "Symfony": [
+    "sf_redirect"
+  ],
+  "Awesomplete": [
+    "<link[^>]+href=\"[^>]*awesomplete(?:\\.min)?\\.css",
+    "/awesomplete\\.js(?:$|\\?)"
+  ],
+  "Google Optimize": [
+    "googleoptimize\\.com/optimize\\.js"
+  ],
+  "MailerLite": [
+    "\\.mailerlite\\.com/"
+  ],
+  "Ghost": [
+    "x-ghost-cache-status: ",
+    "Ghost(?:\\s([\\d.]+))?\\;version:\\1"
+  ],
+  "Kajabi": [
+    "_kjb_session"
+  ],
+  "All in One SEO 4.8.5": [],
+  "Fathom": [
+    "cdn\\.usefathom\\.com/"
+  ],
+  "Twenty Fourteen": [
+    "/wp-content/themes/twentyfourteen/"
+  ],
+  "Twenty Fifteen": [
+    "/wp-content/themes/twentyfifteen/"
+  ],
+  "Colibri WP": [
+    "/wp-content/plugins/colibri-page-builder.+\\.js(?:.+ver=([\\d\\.\\-\\w]+))?\\;version:\\1"
+  ],
+  "OpenLayers": [
+    "openlayers"
+  ],
+  "timeago": [
+    "(?:((?:\\d+\\.)+\\d+)\\/)?(?:jquery\\.)?[Tt]imeago(?:_mkdocs_material)?(?:\\.full)?(?:\\.locales)?(?:\\.native)?(?:\\.min)?\\.js\\;version:\\1"
+  ],
+  "Embed Any Document": [
+    "embed-any-document(?:\\/js)?(?:\\/embed-public)?(?:\\/pdfobject)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+  ],
+  "Astro": [
+    "^Astro(?:\\sv([\\d\\.]+))?$\\;version:\\1"
+  ],
+  "ColorMag": [
+    "themes/colormag.*\\.js(?:\\?ver=([0-9.]+))?\\;version:\\1"
+  ],
+  "Beaver Builder": [],
+  "Flickity": [
+    "flickity(?:/|@)([\\d\\.]+).+flickity(?:\\.pkgd)?(?:\\.min)?\\.js\\;version:\\1"
+  ],
+  "Apple MapKit JS": [
+    "//cdn\\.apple-mapkit\\.com/mk/([\\d\\.\\w]+)\\;version:\\1",
+    "content-security-policy: \\.apple-mapkit\\.com"
+  ],
+  "Nette Framework": [
+    "<input[^>]+data-nette-rules",
+    "<div[^>]+id=\"snippet-",
+    "<input[^>]+id=\"frm-",
+    "x-powered-by: ^Nette Framework",
+    "nette-browser"
+  ],
+  "Kestrel": [
+    "server: ^Kestrel"
+  ],
+  "ThemeGrill ColorMag": [
+    "/wp-content/themes/colormag(?:-pro)?/"
+  ],
+  "WP Featherlight": [
+    "/wpFeatherlight\\.pkgd\\.min\\.js"
+  ],
+  "Akamai Bot Manager": [
+    "ak_bmsc",
+    "bm_sv",
+    "bm_sz"
+  ],
+  "Animate It": [
+    "animate-it(?:\\/assets)?(?:\\/js)?(?:\\/animo)?(?:\\/edsanimate)?(?:\\/jquery)?(?:\\/viewportchecker)?(?:\\.ba-throttle-debounce)?(?:\\.min)?(?:\\.site)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+  ],
+  "HT Mega": [
+    "ht-mega-for-elementor(?:\\/admin)?\\/assets\\/js(?:\\/admin)?(?:\\/(?:htb)?bootstrap)?(?:\\/jquery)?(?:\\/popper)?(?:\\/slick)?(?:\\/waypoints)?(?:\\.counterup)?(?:\\/htmega-widgets-active)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+  ],
+  "GitBook": [
+    "^https?://[^/]+\\.gitbook\\.com/",
+    "GitBook ([\\d.]+)?\\;version:\\1"
+  ],
+  "Supersized": [
+    "supersized(?:\\.([\\d.]*[\\d]))?.*\\.js\\;version:\\1"
+  ],
+  "Moment Timezone": [
+    "moment-timezone(?:-data)?(?:\\.min)?\\.js"
+  ],
+  "JSZip": [
+    "/jszip\\.min\\.js"
+  ],
+  "Optimization Detective": [
+    "^optimization-detective ([\\d.]+)?\\;version:\\1"
+  ],
+  "Draftpress HFCM": [
+    "<!--[^>]*HFCM\\sby\\s99\\sRobots"
+  ],
+  "Shoptet": [
+    "<link [^>]*href=\"https?://cdn\\.myshoptet\\.com/",
+    "^https?://cdn\\.myshoptet\\.com/",
+    "^Shoptet"
+  ],
+  "Constant Contact": [
+    "\\.ctctcdn\\.com/"
+  ],
+  "PageFly": [
+    "cdn\\.pagefly\\.io",
+    "x-powered-by: PageFly"
+  ],
+  "Dojo": [
+    "((?:\\d+\\.)+\\d+)/dojo/dojo(?:\\.xd)?\\.js\\;version:\\1"
+  ],
+  "RxJS": [
+    "rx(?:\\.\\w+)?(?:\\.compat|\\.global)?(?:\\.min)?\\.js"
+  ],
+  "SyntaxHighlighter": [
+    "<(?:script|link)[^>]*sh(?:Core|Brush|ThemeDefault)"
+  ],
+  "Creativ.eMail": [
+    "/wp-content/plugins/creative-mail-by-constant-contact/"
+  ],
+  "Red Hat": [
+    "server: Red Hat",
+    "x-powered-by: Red Hat"
+  ],
+  "Phlox": [
+    "/wp-content/themes/phlox(?:-pro)?/"
+  ],
+  "Apache Tomcat": [
+    "server: ^Apache-Coyote",
+    "x-powered-by: \\bTomcat\\b(?:-([\\d.]+))?\\;version:\\1"
+  ],
+  "Bunny": [
+    "server: ^BunnyCDN"
+  ],
+  "AngularJS": [
+    "<(?:div|html)[^>]+ng-app=",
+    "<ng-app",
+    "angular[.-]([\\d.]*\\d)[^/]*\\.js\\;version:\\1",
+    "/([\\d.]+(?:-?rc[.\\d]*)*)/angular(?:\\.min)?\\.js\\;version:\\1",
+    "(?!angular\\.io)\\bangular.{0,32}\\.js"
+  ],
+  "Jekyll": [
+    "Powered by <a href=\"https?://jekyllrb\\.com\"[^>]*>Jekyll</",
+    "<!-- Created with Jekyll Now -",
+    "<!-- Begin Jekyll SEO tag",
+    "Jekyll\\sv([\\d.]+)?\\;version:\\1"
+  ],
+  "YUI": [
+    "(?:/yui/|yui\\.yahooapis\\.com)"
+  ],
+  "Yandex.Metrika": [
+    "mc\\.yandex\\.ru/metrika/(?:tag|watch)\\.js",
+    "cdn\\.jsdelivr\\.net/npm/yandex\\-metrica\\-watch/watch\\.js"
+  ],
+  "SiteOrigin Vantage": [
+    "/wp-content/themes/vantage/"
+  ],
+  "MODX": [
+    "<a[^>]+>Powered by MODX</a>",
+    "<!-- Modx process time debug info -->",
+    "<(?:link|script)[^>]+assets/snippets/\\;confidence:20",
+    "<form[^>]+id=\"ajaxSearch_form\\;confidence:20",
+    "<input[^>]+id=\"ajaxSearch_input\\;confidence:20",
+    "/assets/components/templates/\\;confidence:50",
+    "x-powered-by: ^MODX",
+    "MODX[^\\d.]*([\\d.]+)?\\;version:\\1"
+  ],
+  "Ahoy": [
+    "ahoy_track",
+    "ahoy_visit",
+    "ahoy_visitor"
+  ],
+  "Socket.io": [
+    "socket\\.io.*\\.js"
+  ],
+  "Concrete CMS": [
+    "/concrete/js/",
+    "^concrete5(?: - ([\\d.]+)$)?\\;version:\\1",
+    "CONCRETE5"
+  ],
+  "Acquia Cloud Platform": [
+    "x-ah-environment: ^(next)?.*$\\;version:\\1?Next:"
+  ],
+  "phpBB": [
+    "Powered by <a[^>]+phpBB",
+    "<div class=phpbb_copyright>",
+    "<[^>]+styles/(?:sub|pro)silver/theme",
+    "<img[^>]+i_icon_mini",
+    "<table class=\"[^\"]*forumline",
+    "phpBB Group",
+    "phpbb"
+  ],
+  "RD Station": [
+    "d335luupugsy2\\.cloudfront\\.net/js/loader-scripts/.*-loader\\.js"
+  ],
+  "Stimulus": [
+    "<[^>]+data-controller"
+  ],
+  "WookMark": [
+    "wookmark\\.min\\.js(?:\\?ver=([\\d\\.]+))?\\;version:\\1"
+  ],
+  "Mobirise": [
+    "<!-- Site made with Mobirise Website Builder v([\\d.]+)\\;version:\\1",
+    "^Mobirise v([\\d.]+)\\;version:\\1"
+  ],
+  "pdfmake": [
+    "pdfmake(?:[\\/-]((?:\\d+\\.)+\\d+)\\/(?:build\\/)?)?(?:pdfmake)?(?:vfs_fonts)?(?:\\.min)?\\.js\\;version:\\1"
+  ],
+  "Slimbox 2": [
+    "<link [^>]*href=\"[^/]*slimbox2(?:-rtl)?\\.css",
+    "slimbox2\\.js"
+  ],
+  "Pixieset Website": [
+    "^Pixieset$"
+  ],
+  "Afterpay": [
+    "portal\\.afterpay\\.com",
+    "static\\.afterpay\\.com",
+    "present-afterpay\\.js",
+    "afterpay-products\\.min\\.js",
+    "js\\.stripe\\.com/v3/fingerprinted/js/elements-afterpay-clearpay-message-.+\\.js"
+  ],
+  "D3": [
+    "/d3(?:\\.v\\d+)?(?:\\.min)?\\.js"
+  ],
+  "Metronet Profile Picture": [
+    "metronet-profile-picture(?:\\/js)?(?:\\/mpp-frontend)?(?:\\.min)?\\.js(?:\\?v(?:er)?=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+  ],
+  "Redis": [],
+  "mod_perl": [
+    "server: mod_perl(?:/([\\d\\.]+))?\\;version:\\1"
+  ],
+  "Responsive Nav": [
+    "responsive-nav(?:\\.min)?\\.js(?:\\?ver=((?:\\d+\\.)+\\d+))?\\;version:\\1"
+  ],
+  "Embed Optimizer": [
+    "^embed-optimizer ([\\d.]+)?\\;version:\\1"
+  ],
+  "Inertia.js": [
+    "vary: X-Inertia",
+    "x-inertia: "
+  ],
+  "Press Customizr": [
+    "/wp-content/themes/customizr/.+js(?:\\?ver=([\\d\\.]+))?\\;version:\\1"
+  ],
+  "Open Journal Systems": [
+    "Open Journal Systems(?: ([\\d.]+))?\\;version:\\1",
+    "OJSSID"
+  ],
+  "Hatena Blog": [
+    "cdn\\.blog\\.st-hatena\\.com/"
+  ],
+  "Bookly": [
+    "/wp-content/plugins/bookly-responsive-appointment-booking-tool/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+  ],
+  "Kadence WP Blocks": [
+    "/wp-content/plugins/kadence-blocks/dist/.+/kb-form-block\\.min\\.js(?:\\?ver=([\\d\\.]+))?\\;version:\\1"
+  ],
+  "Typeform": [
+    "embed\\.typeform\\.com/"
+  ],
+  "Timeago": [
+    "jquery\\.timeago\\.js"
+  ],
+  "FreeBSD": [
+    "server: FreeBSD(?: ([\\d.]+))?\\;version:\\1"
+  ],
+  "ThimPress LearnPress": [
+    "/wp-content/plugins/learnpress/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+  ],
+  "LottieFiles": [
+    "/dist/lottie-player\\.js",
+    "/dist/tgs-player\\.js"
+  ],
+  "POWR": [
+    "www\\.powr\\.io/powr\\.js"
+  ],
+  "Rambler": [
+    "counter\\.rambler\\.ru"
+  ],
+  "Pure CSS": [
+    "<link[^>]+(?:([\\d.])+/)?pure(?:-min)?\\.css\\;version:\\1",
+    "<div[^>]+class=\"[^\"]*pure-u-(?:sm-|md-|lg-|xl-)?\\d-\\d"
+  ],
+  "BoldGrid": [
+    "<link rel=[\"']stylesheet[\"'] [^>]+boldgrid",
+    "<link rel=[\"']stylesheet[\"'] [^>]+post-and-page-builder",
+    "<link[^>]+s\\d+\\.boldgrid\\.com",
+    "/wp-content/plugins/post-and-page-builder"
+  ],
+  "Heroku": [
+    "\\.herokuapp\\.com",
+    "via: [\\d.-]+ vegur$"
+  ],
+  "Sentry": [
+    "<script[^>]*>\\s*Raven\\.config\\('[^']*', \\{\\s+release: '([0-9\\.]+)'\\;version:\\1",
+    "<script[^>]*src=\"[^\"]*browser\\.sentry\\-cdn\\.com/([0-9.]+)/bundle(?:\\.tracing)?(?:\\.min)?\\.js\\;version:\\1",
+    "browser\\.sentry\\-cdn\\.com/([0-9.]+)/bundle(?:\\.tracing)?(?:\\.min)?\\.js\\;version:\\1",
+    "\\.sentry-cdn\\.com/",
+    "sentry-trace: "
+  ],
+  "CakePHP": [
+    "CakePHP",
+    "cakephp"
+  ],
+  "WP Google Map Plugin": [
+    "/wp-content/plugins/wp-google-map-plugin/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+  ]
+}
