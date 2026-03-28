@@ -88,9 +88,14 @@ def match(pattern, text):
 # regex matching with our dictionary
 def detect_tech(info):
     detected = []
+    html_lower = info["html"].lower()
 
     for tech, patterns in TECH.items():
         found = False
+        tech_name = tech.lower()
+        # check if its worth checking tech fingerprints
+        if tech_name not in html_lower and not any(p in html_lower for p in patterns[:2]):
+            continue
 
         for pattern in patterns:
             if found:
