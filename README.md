@@ -1,17 +1,18 @@
-Website Technologies Scraper
+#Website Technologies Scraper
 
-Content:
-1. Results
-2. Pipeline explanation
-3. How the solution came to be
-4. Debate Topics
+##Content:
+##1. Results
+##2. Pipeline explanation
+##3. How the solution came to be
+##4. Debate Topics
 
-        Results
+##        Results
 
     340 technologies found
+
     10 domains not found (server error)
 
-        Pipeline
+##        Pipeline
 
 The Scraper: A get request is sent which returns the html file found at the domain name. In case we get a >500 response (server error)
 we try multiple different domains with diferent protocols (such as https and http). We sort the info using BigSoup library so we have 
@@ -27,7 +28,7 @@ with our scraper and to run smoothly, we clean the strings to keep them in their
 it helps our program run much faster.
 
 
-        How the solution came to be
+##        How the solution came to be
 (all articles mentioned can be found in the ResearchBibliography file)
 
 When I first started this project I had no experience with web scrapers, therefore I had to start by studying how such applications work.
@@ -46,13 +47,18 @@ it shouldn't be is very low. This adds a few technologies without being too time
 increase the odds of them being found in the domains. For the implementation of the code I used this ranking [8].
         
         
-        Debate Topics 
+##        Debate Topics 
 
 1. What were the main issues with your current implementation and how would you tackle them?
     Main issues:
+
         - lack of java script rendering
+
         - limited dictionary with limited fingerprints
+
         - large files being handled
+
+
     Fixes:
         - 
         -
