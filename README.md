@@ -35,20 +35,20 @@ When I first started this project I had no experience with web scrapers, therefo
 1. What were the main issues with your current implementation and how would you tackle them?
     Main issues:
 
-        - lack of java script rendering
+        1. lack of java script rendering
 
-        - limited dictionary with limited fingerprints
+        2. limited dictionary with limited fingerprints
 
-        - large files being handled
+        3. large files being handled
 
 
     Fixes:
 
-        - for next iterations of the code, a library such as Pupeteer can be used to fully render pages before analyzing the content, to make sure this doesn't slow us down it will be used only as a fallback if no technologies have been found
+        1. for next iterations of the code, a library such as Pupeteer can be used to fully render pages before analyzing the content, to make sure this doesn't slow us down it will be used only as a fallback if no technologies have been found
 
-        - the library can be widened by including more technologies, either by looking for a wider list of ranked technologies or parsing each letter in the wappalyzer dictionary and choosing a set number of technologies at random. To fix the extra time caused by extra matching operations we could increase the number of threads and parallelizing the fingerprint evaluation
+        2. the library can be widened by including more technologies, either by looking for a wider list of ranked technologies or parsing each letter in the wappalyzer dictionary and choosing a set number of technologies at random. To fix the extra time caused by extra matching operations we could increase the number of threads and parallelizing the fingerprint evaluation
 
-        - some pages might be very large, for future iterations it would be helpful to limit the amount of the page we load or analyze smaller chunks at a time. Instead of loading the dictionary from a .json file we could use small databases such as SQL or Firebase which would be more efficient 
+        3. some pages might be very large, for future iterations it would be helpful to limit the amount of the page we load or analyze smaller chunks at a time. Instead of loading the dictionary from a .json file we could use small databases such as SQL or Firebase which would be more efficient 
 
 
 2. How would you scale this solution for millions of domains crawled in a timely manner (1-2 months)?
