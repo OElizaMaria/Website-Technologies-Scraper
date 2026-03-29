@@ -6,7 +6,6 @@ from bs4 import BeautifulSoup
 
 WAPP_BASE_URL = "https://raw.githubusercontent.com/enthec/webappanalyzer/main/src/technologies/{}.json"
 
-
 tech_dict = {}
 
 # 
