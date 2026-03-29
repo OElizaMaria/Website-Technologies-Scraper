@@ -6,17 +6,19 @@ from bs4 import BeautifulSoup
 
 WAPP_BASE_URL = "https://raw.githubusercontent.com/enthec/webappanalyzer/main/src/technologies/{}.json"
 
-# we get the top 500 most used technologies
-response = requests.get("https://docs.tomba.io/data/technology/top-500-web-technologies-2026")
-soup = BeautifulSoup(response.text, "html.parser")
+
 tech_dict = {}
 
+# 
 remove_generic = { "<div", "<div ", '<div class=', '<div class="',"<form", "<input", "<body", '<body class=',
     "<span", "<section", "<header", "<footer","<script", "<link", "<meta", "<html", "<head",
     "<!doctype", "text/html","server", "powered", "content", "assets", "/assets/","index", "default", "static", "public",
     "python", "ruby", "java", "node", "perl", "scala","golang", "swift", "kotlin", "rust"} 
 
 
+# we clean the string to make it quicker to match in the scraper
+    # technically cleaning is not necesarry but when building dictionary without it
+    # the matching took too long to be suitable
 def clean_string(n):
 
     if not isinstance(n, str):
@@ -35,11 +37,14 @@ def clean_string(n):
             res.append(clean)
     return res
 
+# check if its good pattern
 def is_good(clean, source):
     
+    #garbage check
     if not clean or clean in remove_generic:
         return False
     
+    # they must have a certain length so its enough for a match
     if source in ['cookies','headers', 'meta']:
         return len(clean) >= 3
     
@@ -61,6 +66,7 @@ def extract_fingerprints(tech_info):
             continue
 
         i = []
+        # checks what type it is
         if isinstance(data,str):
             i = [data]
         elif isinstance(data,list):
@@ -70,7 +76,7 @@ def extract_fingerprints(tech_info):
                 i.append(k)
                 if isinstance(v, str):
                     i.append(v)
-
+        # cleans it and adds it
         for raw in i:
             potential = clean_string(raw)
             for s in potential:
@@ -82,6 +88,7 @@ def extract_fingerprints(tech_info):
     return list(fingerprints)
 
 try:
+    # scrape top 500 technologies
     resp = requests.get("https://docs.tomba.io/data/technology/top-500-web-technologies-2026",timeout=15)
     soup = BeautifulSoup(resp.text,"html.parser")
 
@@ -95,27 +102,21 @@ except Exception as e:
     target_names = set()
 
 wappalyzer_db = {}
+# get the wappalyzer library
 for char in string.ascii_lowercase + "0": 
     res = requests.get(WAPP_BASE_URL.format(char))
     if res.status_code == 200:
         wappalyzer_db.update(res.json())
-
 final_dict = {}
+
 hail_mary_list = []
+
+#create the dictionaries
 for name, info in wappalyzer_db.items():
     lower_name = name.lower()
-    
-    is_match = (lower_name in target_names) or any(
-        (t in lower_name or lower_name in t) 
-        for t in target_names if len(t) > 3
-    )
-    
-    if is_match:
-        if name not in hail_mary_list:
-            hail_mary_list.append(name)
-        
+    if lower_name in target_names:
+        hail_mary_list.append(name)
         prints = extract_fingerprints(info)
-        
         if prints:
             final_dict[name] = prints
 

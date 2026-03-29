@@ -1,40 +1,23 @@
 {
   "a3 Lazy Load": [
     "a3_lazyload_extend_params",
-    "a3_lazyload_params",
-    "/wp-content/plugins/a3-lazy-load/.+.js?:\\?ver=\\d+?:.\\d++?"
-  ],
-  "Ace": [
-    "ace.editsession",
-    "ace.version",
-    "ace.editor"
+    "/wp-content/plugins/a3-lazy-load/.+.js?:\\?ver=\\d+?:.\\d++?",
+    "a3_lazyload_params"
   ],
   "Acquia Cloud Platform": [
     "next?",
     "x-ah-environment"
   ],
-  "Acquia Cloud Platform CDN": [
-    "via",
-    "acquia platform cdn .+"
-  ],
   "ActiveCampaign": [
     "plugins/activecampaign-subscription-forms/site_tracking.js",
-    ".ac-page.com",
+    ".activehosted.com",
     "acenabletracking",
-    ".app-us1.com",
-    ".activehosted.com"
-  ],
-  "Ad Lightning": [
-    ".adlightning.com"
-  ],
-  "Ada": [
-    "adaembed",
-    ".ada.support",
-    "__adaembedconstructor"
+    ".ac-page.com",
+    ".app-us1.com"
   ],
   "AddThis": [
-    "addthis.com/js/",
-    "addthis"
+    "addthis",
+    "addthis.com/js/"
   ],
   "AddToAny": [
     "addtoany.com/menu/page.js",
@@ -43,214 +26,159 @@
   "AddToAny Share Buttons": [
     "/wp-content/plugins/add-to-any/addtoany.min.js?:\\?ver=\\d+?:.\\d++?"
   ],
-  "Adloox": [
-    ".adlooxtracking.com/"
-  ],
   "Adobe Experience Manager": [
     "/etc.clientlibs/",
-    "/etc/designs/",
-    "/etc/clientlibs/"
-  ],
-  "Adobe Experience Manager Edge Delivery Services": [
-    ".+/scripts/lib-franklin.js",
-    ".+/scripts/aem.js"
-  ],
-  "Adobe Experience Manager Franklin": [
-    ".+/scripts/lib-franklin.js",
-    "hlx.rum_manual_enhance"
+    "/etc/clientlibs/",
+    "/etc/designs/"
   ],
   "Adobe Fonts": [
-    "typekit.config.js",
-    "use.typekit.com"
+    "use.typekit.com",
+    "typekit.config.js"
   ],
   "Adobe Portfolio": [
     "@adobeportfolio",
     "twitter:site"
   ],
   "Afterpay": [
-    "afterpaygenericerrorhtml",
-    "js.stripe.com/v3/fingerprinted/js/elements-afterpay-clearpay-message-.+.js",
-    "present-afterpay.js",
-    "portal.afterpay.com",
-    "checkout.enabledpayments.afterpay",
-    "afterpaywidgethtml",
-    "static.afterpay.com",
-    "afterpay",
     "afterpay-products.min.js",
-    "true",
-    "afterpay.version",
+    "checkout.enabledpayments.afterpay",
+    "afterpay_product",
+    "afterpay",
+    "static.afterpay.com",
     "afterpayattractwidget",
-    "afterpay_product"
+    "afterpay.version",
+    "js.stripe.com/v3/fingerprinted/js/elements-afterpay-clearpay-message-.+.js",
+    "true",
+    "portal.afterpay.com",
+    "afterpaygenericerrorhtml",
+    "present-afterpay.js",
+    "afterpaywidgethtml"
   ],
   "Ahoy": [
-    "ahoy_visitor",
     "ahoy",
     "ahoy_track",
+    "ahoy_visitor",
     "ahoy_visit"
   ],
   "Akamai": [
-    "x-akamai-transformed",
     "x-edgeconnect-origin-mex-latency",
-    "x-edgeconnect-midmile-rtt"
+    "x-edgeconnect-midmile-rtt",
+    "x-akamai-transformed"
   ],
   "Akamai Bot Manager": [
-    "bm_sv",
     "ak_bmsc",
+    "bm_sv",
     "bm_sz"
   ],
-  "Akamai Connected Cloud": [
-    "x-volterra-location",
-    "volt-adc"
-  ],
-  "Akamai mPulse": [
-    "boomr_api_key",
-    "akaas_ab-testing",
-    "<script>"
-  ],
-  "Akamai Web Application Protector": [
-    "aksb",
-    "ds-aksb-a.akamaihd.net/aksb.min.js",
-    "aksb.min.js"
-  ],
   "Akismet": [
-    "/wp-content/plugins/akismet/.+.js?:\\?ver=\\d+?:.\\d++?",
-    "ak_js.checkvalidity"
+    "ak_js.checkvalidity",
+    "/wp-content/plugins/akismet/.+.js?:\\?ver=\\d+?:.\\d++?"
   ],
   "Alibaba Cloud CDN": [
     ".alicdn.com/"
   ],
   "All in One SEO": [
-    "all in one seo \\aioseo\\",
     "<!-- all in one seo pro",
+    "all in one seo \\aioseo\\",
     "<!-- all in one seo",
     "generator",
     "<!-- all in one seo pack"
   ],
   "All in One SEO Pack": [
     "all in one seo \\aioseo\\\\s",
-    "generator",
-    "<!-- all in one seo pack"
+    "<!-- all in one seo pack",
+    "generator"
   ],
   "AlmaLinux": [
     "almalinux"
   ],
   "Alpine.js": [
-    "alpine.version",
-    "alpine",
     "deferloadingalpine",
-    "/alpine?:.min?.js"
+    "alpine.version",
+    "/alpine?:.min?.js",
+    "alpine"
   ],
   "Amazon Advertising": [
     ".amazon-adsystem.com"
   ],
   "Amazon ALB": [
-    "awsalb",
-    "awsalbcors"
+    "awsalbcors",
+    "awsalb"
   ],
   "Amazon CloudFront": [
-    "via",
     "x-amz-cf-id",
-    "\\cloudfront\\"
+    "\\cloudfront\\",
+    "via"
   ],
   "Amazon S3": [
     "x-amz-server-side-encryption",
+    "content-security-policy-report-only",
     "amazons3",
-    "content-security-policy",
-    "content-security-policy-report-only"
+    "content-security-policy"
   ],
   "Amazon Web Services": [
-    "x-amz-request-id",
-    "x-amz-delete-marker",
-    "x-amz-id-2",
-    "x-amz-version-id",
-    "x-amz-err-message",
-    "x-amz-err-code",
     "x-amz-req-time-micros",
+    "x-amz-delete-marker",
+    "x-amz-err-message",
+    "x-amz-id-2",
+    "x-amz-request-id",
+    "x-amz-err-code",
+    "x-amz-version-id",
     "x-amz-rid"
   ],
-  "Amex Express Checkout": [
-    "aexp-static.com"
-  ],
   "AMP": [
-    "amp_config",
-    "ampinaboxiframes",
-    "__amp_tag",
-    "amp_exp",
     "__amp_base_ce_class",
-    "<link rel=\"amphtml\"",
+    "__amp_tag",
+    "ampinaboxiframes",
+    "ampinaboxpendingmessages",
+    "amp_exp",
     "__amp_extended_elements",
-    "ampinaboxpendingmessages"
-  ],
-  "AMP for WordPress": [
-    "generator",
-    "amp plugin v\\d+.\\d+"
-  ],
-  "Angular": [
-    "getangulartestability",
-    "ng.probe",
-    "getallangularrootelements",
-    "ng.coretokens"
+    "<link rel=\"amphtml\"",
+    "amp_config"
   ],
   "AngularJS": [
-    "<?:div",
-    "angular",
+    "<ng-app",
     "angular.version.full",
-    "?!angular.io\\bangular.{0,32}.js",
+    "<?:div",
     "html",
-    "<ng-app"
-  ],
-  "Anima": [
-    "__anima_project_data__"
+    "angular",
+    "?!angular.io\\bangular.{0,32}.js"
   ],
   "Animate It": [
     "animate-it?:/assets??:/js??:/animo??:/edsanimate??:/jquery??:/viewportchecker??:.ba-throttle-debounce??:.min??:.site?.js?:\\?v?:er?=?:\\d+.+\\d+?"
   ],
   "AOS": [
+    "x-powered-by",
+    "aos.refresh",
+    "administeraos",
+    "/typo3conf/ext/udem_vendor/resources/public/aos-",
     "aos.refreshhard",
     "aos.init",
-    "unpkg.com/aos@",
-    "aos.refresh",
-    "x-powered-by",
-    "administeraos",
-    "/typo3conf/ext/udem_vendor/resources/public/aos-"
+    "unpkg.com/aos@"
   ],
   "Apache HTTP Server": [
     "\\bhttpd",
     "?:apache?:"
   ],
   "Apache Tomcat": [
+    "x-powered-by",
     "apache-coyote",
-    "\\btomcat\\b?:-",
-    "x-powered-by"
+    "\\btomcat\\b?:-"
   ],
   "Apple MapKit JS": [
-    "mapkit._tileprovider",
     ".apple-mapkit.com",
     "content-security-policy",
-    "//cdn.apple-mapkit.com/mk/"
-  ],
-  "Arc": [
-    "arc.p2pclient",
-    "arcwidgetjsonp",
-    "arc.io/widget.js"
-  ],
-  "ArcGIS API for JavaScript": [
-    "js.arcgis.com",
-    "basemaps.arcgis.com"
+    "//cdn.apple-mapkit.com/mk/",
+    "mapkit._tileprovider"
   ],
   "Aruba.it": [
     "x-servername",
     ".aruba.it"
   ],
-  "Ashop": [
-    "ashopkissmetricsaddclickevent",
-    "ashopkissmetricsaddevent",
-    "ashopkissmetricsaddidentity"
-  ],
   "Astro": [
     "astro?:\\sv",
-    "generator",
-    "astro"
+    "astro",
+    "generator"
   ],
   "aThemes Sydney": [
     "/wp-content/themes/sydney?:-pro-ii?/"
@@ -263,29 +191,20 @@
     "/awesomplete.js?:"
   ],
   "Axios": [
-    "/axios@",
-    "axios.get"
+    "axios.get",
+    "/axios@"
   ],
   "Azure": [
-    "windows-azure",
-    "x-ms-correlation-request-id",
     "arraffinity",
-    "x-ms-gateway-requestid",
-    "azure-sitename",
-    "tipmix",
+    "x-ms-correlation-request-id",
     "azure-version",
+    "tipmix",
+    "windows-azure",
+    "azure-sitename",
+    "azure-slotname",
     "azure-regionname",
-    "x-ms-client-request-id",
-    "azure-slotname"
-  ],
-  "Azure AD B2C": [
-    "https.+.b2clogin.com"
-  ],
-  "Azure CDN": [
-    "ecd",
-    "?:ecacc",
-    "ecs",
-    "x-ec-debug"
+    "x-ms-gateway-requestid",
+    "x-ms-client-request-id"
   ],
   "Azure Edge Network": [
     ".azureedge.net",
@@ -293,100 +212,61 @@
     ".azureedge.net/"
   ],
   "Azure Front Door": [
-    "aslbsa",
     "x-azure-ref",
-    "aslbsacors"
-  ],
-  "Azure Monitor": [
-    "content-security-policy",
-    "js.monitor.azure.com/",
-    "js.monitor.azure.com"
+    "aslbsacors",
+    "aslbsa"
   ],
   "Backbone.js": [
-    "backbone.version",
-    "backbone"
+    "backbone",
+    "backbone.version"
   ],
   "Backstretch": [
     "?:?:\\d+.+\\d+/??:jquery.?backstretch?:.min?.js"
-  ],
-  "Base": [
-    "base_api.shop_id",
-    "thebase.in/js",
-    "base-theme-name",
-    "\\d+",
-    "base-theme-version",
-    "base.app.open_nav"
   ],
   "BeTheme": [
     "/betheme/js/scripts?:.min?.js\\?ver="
   ],
   "BigCommerce": [
-    "bigcommerce_i18n",
-    "bigcommerce_config",
-    "platform",
     "plugins/?bigcommerce?:.com?/?:assets?",
+    "platform",
+    "bigcommerce",
     "mybigcommerce.com",
-    "bigcommerce"
-  ],
-  "BigCommerce B2B Edition": [
-    "bundleb2bfeatureflags",
-    "cdn.bundleb2b.net/",
-    "bundleb2b.text.tpa"
-  ],
-  "Blessing Skin": [
-    "blessing.version"
+    "bigcommerce_config",
+    "bigcommerce_i18n"
   ],
   "Blocksy": [
-    "blocksyresponsivemenucache",
+    "blocksyjsonp",
     "/wp-content/themes/blocksy/?:.+main.js?:\\?ver=",
-    "blocksyjsonp"
-  ],
-  "Blocksy Companion": [
-    "/wp-content/plugins/blocksy-companion?:-pro?/"
+    "blocksyresponsivemenucache"
   ],
   "Blogger": [
-    "https?://",
-    "generator",
     "blogger.com",
-    "blogger"
+    "https?://",
+    "blogger",
+    "generator"
   ],
   "BoldGrid": [
     "<link rel=",
     "/wp-content/plugins/post-and-page-builder"
   ],
   "Bookly": [
-    "bookly",
-    "booklycustomerprofile",
     "/wp-content/plugins/bookly-responsive-appointment-booking-tool/.+.js?:\\?ver=\\d+?:.\\d++?",
-    "booklyl10n.daysshort"
-  ],
-  "Bool TypeScript": [
-    "bool typescript",
-    "x-powered-by"
+    "booklycustomerprofile",
+    "booklyl10n.daysshort",
+    "bookly"
   ],
   "Bootbox.js": [
     "?:?:\\d+.+\\d+/?bootbox?:.min?.js"
   ],
   "Bootstrap": [
-    "jquery.fn.tooltip.constructor.version",
+    "bootstrap.alert",
     "<style>\\s+/\\*!\\s+\\* bootstrap v\\d.\\d.\\d",
     "bootstrap.alert.version",
-    "bootstrap.alert",
+    "jquery.fn.tooltip.constructor.version",
     "bootstrap?:"
-  ],
-  "Bootstrap Table": [
-    "bootstrap-table?:.min?.js"
   ],
   "BootstrapCDN": [
     "bootstrapcdn.com/bootstrap/?:\\d+.+\\d+??:/js/?bootstrap?:.min?.js"
-  ],
-  "Bread": [
-    ".getbread.com",
-    "breadshopify",
-    "breaderror",
-    "breadloaded",
-    "bread.apphost",
-    "breadcalc"
   ],
   "Breadcrumb NavXT": [
     "<!-- breadcrumb navxt"
@@ -394,28 +274,15 @@
   "Bricks": [
     "/wp-content/themes/bricks/assets/"
   ],
-  "Bricksite": [
-    ".bricksite.com",
-    "bricksite",
-    "generator",
-    "bricksite.common.apiurls.base"
-  ],
-  "bun": [
-    "bun",
-    "x-powered-by"
-  ],
   "Bunny": [
     "bunnycdn"
   ],
   "Burst": [
-    "burst.url",
-    "assets/js/build/burst"
+    "assets/js/build/burst",
+    "burst.url"
   ],
   "bxSlider": [
     "bxslider?:.min?.js?:\\?ver=?:\\d+.+\\d+?"
-  ],
-  "C": [
-    "x-powered-by"
   ],
   "C3.js": [
     "c3?:.min??:-"
@@ -424,66 +291,52 @@
     "caddy"
   ],
   "CakePHP": [
-    "__cakedebugblockinit",
     "cakephp",
+    "__cakedebugblockinit",
     "application-name"
   ],
   "Calendly": [
+    "calendly.closepopupwidget",
     "assets.calendly.com/",
-    "calendly.showpopupwidget",
-    "calendly.closepopupwidget"
-  ],
-  "Canva": [
-    "canva_debounceresize",
-    "canva_scriptexecutor"
+    "calendly.showpopupwidget"
   ],
   "cdnjs": [
     "cdnjs.cloudflare.com"
   ],
   "CentOS": [
-    "centos",
-    "x-powered-by"
+    "x-powered-by",
+    "centos"
   ],
   "Chart.js": [
-    "/chart?:.bundle??:.min?.js",
-    "cdnjs.cloudflare.com/ajax/libs/chart.js/",
-    "chart.defaults.doughnut",
-    "chartjs.org/dist/",
-    "latest/dist/chart",
-    "master",
-    "latest/chart",
-    "chart.ctx.beziercurveto",
-    "chart",
     "cdn.jsdelivr.net/?:npm",
-    "gh/chartjs/chart.js@"
-  ],
-  "Chaty": [
-    "launch_chaty",
-    "cdn.chaty.app/",
-    "close_chaty"
-  ],
-  "Choices": [
-    "/modules/choices/js/choices.js",
-    "choices",
-    "choices.js?:@"
+    "cdnjs.cloudflare.com/ajax/libs/chart.js/",
+    "latest/dist/chart",
+    "chart",
+    "/chart?:.bundle??:.min?.js",
+    "chart.defaults.doughnut",
+    "chart.ctx.beziercurveto",
+    "latest/chart",
+    "gh/chartjs/chart.js@",
+    "chartjs.org/dist/",
+    "master"
   ],
   "Chosen": [
     "chosen?:.jquery??:.min?.js?:\\?ver=?:\\d+.+\\d+?"
   ],
   "Clicky": [
-    "static.getclicky.com",
-    "clicky"
+    "clicky",
+    "static.getclicky.com"
   ],
   "Clipboard.js": [
     "clipboard?:-"
   ],
   "Cloudflare": [
-    "cf-ray",
-    "//cdn.cloudflare",
-    "cloudflare",
+    "__cfduid",
     "image",
+    "cloudflare",
     "cf-cache-status",
-    "__cfduid"
+    "//cdn.cloudflare",
+    "cf-ray"
   ],
   "Cloudflare Bot Management": [
     "__cf_bm"
@@ -492,40 +345,25 @@
     "__cfbeaconcustomtag",
     "static.cloudflareinsights.com/beacon?:.min?.js"
   ],
-  "Cloudflare Rocket Loader": [
-    "__cfqr.done",
-    "__cfrlunblockhandlers"
-  ],
-  "Cloudflare Turnstile": [
-    "turnstile"
-  ],
-  "Cloudflare Workers": [
-    "cloudflare workers",
-    "runtime"
-  ],
-  "Cloudflare Zaraz": [
-    "zaraz",
-    "zarazdata"
-  ],
   "Cloudways": [
-    "cache-provider",
-    "cloudways-cache-de"
+    "cloudways-cache-de",
+    "cache-provider"
   ],
   "CNZZ": [
     "cnzz_protocol",
     "core\\?"
   ],
   "CodeIgniter": [
-    "ci_csrf_token",
-    "ci_session",
+    "exp_tracker",
     "exp_last_activity",
-    "exp_tracker"
+    "ci_session",
+    "ci_csrf_token"
   ],
   "Colibri WP": [
-    "/wp-content/plugins/colibri-page-builder.+.js?:.+ver=",
-    "colibri",
+    "colibrifrontenddata",
     "colibridata",
-    "colibrifrontenddata"
+    "/wp-content/plugins/colibri-page-builder.+.js?:.+ver=",
+    "colibri"
   ],
   "ColorMag": [
     "themes/colormag"
@@ -535,14 +373,14 @@
     "complianz.version"
   ],
   "Concrete CMS": [
-    "/concrete/js/",
-    "concretealert",
     "concrete5",
-    "concrete",
     "concreteevent",
     "concrete5?: -",
+    "/concrete/js/",
+    "concretealert",
+    "generator",
     "ccm_image_path",
-    "generator"
+    "concrete"
   ],
   "Conditional Fields for Contact Form 7": [
     "cf7-conditional-fields?:/js??:/scripts??:.min?.js?:\\?v?:er?=?:\\d+.+\\d+?"
@@ -553,20 +391,20 @@
     ".ctctcdn.com/"
   ],
   "Contact Form 7": [
-    "wpcf7",
-    "/wp-content/plugins/contact-form-7/.+.js?:\\?ver=\\d+?:.\\d++?"
+    "/wp-content/plugins/contact-form-7/.+.js?:\\?ver=\\d+?:.\\d++?",
+    "wpcf7"
   ],
   "Contao": [
     "contao open source cms",
     "generator"
   ],
   "Contentful": [
-    "downloads",
-    "images",
     "videos.?:ct?fassets.net",
     "contentful images api",
+    "images",
     "x-contentful-request-id",
-    "contentful.com"
+    "contentful.com",
+    "downloads"
   ],
   "ContentViews": [
     "content-views?:-pro??:-query-and-display-post-page??:/public??:/assets??:/js??:/cv?:pro???:.min?.js?:\\?v?:er?=?:\\d+.+\\d+?"
@@ -584,27 +422,27 @@
     ".cookie-script.com/"
   ],
   "Cookiebot": [
-    "consent.cookiebot.com",
-    "cookiebot.version"
+    "cookiebot.version",
+    "consent.cookiebot.com"
   ],
   "CookieYes": [
-    "cookieyes",
-    "/wp-content/plugins/cookie-law-info/.+.js?:\\?ver=\\d+?:.\\d++?",
+    "app.cookieyes.com/client_data/",
     "cdn-cookieyes.com/client_data/",
-    "app.cookieyes.com/client_data/"
+    "/wp-content/plugins/cookie-law-info/.+.js?:\\?ver=\\d+?:.\\d++?",
+    "cookieyes"
   ],
   "Cornerstone": [
-    "cornerstone",
+    "cornerstonearticleforms",
     "cornerstone?:/assets??:/js??:/site??:/cs-classic?.??:\\d+.+\\d+?.js",
     "cornerstone.audio",
-    "cornerstonearticleforms",
-    "generator"
+    "generator",
+    "cornerstone"
   ],
   "Craft CMS": [
+    "x-powered-by",
     "craftsessionid",
-    "craft_csrf_token",
     "\\bcraft cms\\b",
-    "x-powered-by"
+    "craft_csrf_token"
   ],
   "Creativ.eMail": [
     "/wp-content/plugins/creative-mail-by-constant-contact/"
@@ -617,9 +455,6 @@
     "cufon-yui.js",
     "cufon"
   ],
-  "Custom Twitter Feeds": [
-    "custom-twitter-feeds?:/js??:/ctf-scripts??:.min?.js?:\\?v?:er?=?:\\d+.+\\d+?"
-  ],
   "D3": [
     "d3.version",
     "/d3?:.v\\d+??:.min?.js"
@@ -630,124 +465,86 @@
     ".fn.datatable.version"
   ],
   "dc.js": [
-    "dcapikey",
-    "?:?:\\d+.+\\d+/?:dc/??dc?:.leaflet?.js"
+    "?:?:\\d+.+\\d+/?:dc/??dc?:.leaflet?.js",
+    "dcapikey"
   ],
   "DDoS-Guard": [
     "ddos-guard"
   ],
   "Debian": [
-    "lenny",
-    "jessie",
-    "potato",
-    "sid",
-    "sarge",
-    "stretch",
-    "dotdeb",
-    "x-powered-by",
     "squeeze",
     "buster",
-    "debian",
-    "?:debian",
     "wheezy",
+    "debian",
+    "x-powered-by",
+    "dotdeb",
+    "potato",
+    "sid",
+    "etch",
+    "lenny",
+    "stretch",
+    "jessie",
+    "?:debian",
     "woody",
-    "etch"
-  ],
-  "Dito": [
-    "dito.appsettings",
-    "storage.googleapis.com/dito/sdk.js"
+    "sarge"
   ],
   "Divi": [
-    "diviarea",
-    "diviareaconfig",
-    "divi?:\\sv.",
-    "unified.js\\?ver=",
-    "divi/js/custom.?:min",
     "divi",
-    "generator"
-  ],
-  "Divide": [
-    "divide.cookies",
-    "setdividecookiepreferences"
-  ],
-  "DivideBuy": [
-    "display_dividebuy_modal"
-  ],
-  "Divido": [
-    "cdn.divido.com"
+    "diviarea",
+    "divi?:\\sv.",
+    "generator",
+    "divi/js/custom.?:min",
+    "diviareaconfig",
+    "unified.js\\?ver="
   ],
   "DNN": [
-    "/js/dnn.js",
     "dnn.apiversion",
-    "dotnetnuke",
-    "generator",
+    "dnnjscriptversion",
     "dnn_ismobile=",
+    "/js/dnn.js",
+    "dotnetnuke",
+    "<!-- dnn platform",
+    "dnnoutputcache",
     "dotnetnukeanonymous",
     "<!-- by dotnetnuke corporation",
-    "<!-- dnn platform",
-    "cookie",
-    "x-compressed-by",
-    "/js/dnncore.js",
-    "dnnjscriptversion",
     "__dnncore",
-    "dnnoutputcache"
+    "generator",
+    "x-compressed-by",
+    "cookie",
+    "/js/dnncore.js"
   ],
   "Dojo": [
+    "?:\\d+.+\\d+/dojo/dojo?:.xd?.js",
     "dojo",
-    "dojo.version.major",
-    "?:\\d+.+\\d+/dojo/dojo?:.xd?.js"
-  ],
-  "Dominate WooCommerce": [
-    "/wp-content/plugins/iwd-checkout-connector/"
-  ],
-  "Doppler for WooCommerce": [
-    "/wp-content/plugins/doppler-for-woocommerce/.+.js?:\\?ver=\\d+?:.\\d++?"
+    "dojo.version.major"
   ],
   "DoubleClick Ad Exchange (AdX)": [
-    "googlesyndication.com",
     "tpc.googlesyndication.com/safeframe",
+    "googlesyndication.com",
     "googlesyndication.com/pagead/show_ads.js"
   ],
   "Download Monitor": [
-    "dlmxhr.prevent_duplicates",
+    "dlm-version",
     "dlm_xhr_download",
-    "dlm-version"
-  ],
-  "Doxygen": [
-    "doxygen",
-    "generator",
-    "?:<!-- generated by doxygen"
+    "dlmxhr.prevent_duplicates"
   ],
   "Draftpress HFCM": [
     "<!--"
   ],
   "Drupal": [
-    "<?:link",
-    "all/?:themes",
-    "sess",
-    "modules/",
     "expires",
+    "drupal?:\\s",
+    "sess",
     "19 nov 1978",
+    "drupal.js",
+    "drupal",
+    "x-generator",
     "x-drupal-cache",
     "style",
-    "drupal?:\\s",
-    "drupal.js",
-    "x-generator",
     "generator",
-    "drupal"
-  ],
-  "Drupal Commerce": [
-    "/sites/?:all",
-    "default/modules/?:contrib/?commerce/modules/checkout/commerce_checkout.js",
-    "/profiles/commerce_kickstart/modules/contrib/commerce/modules/checkout/commerce_checkout.js",
-    "class=\"commerce",
-    "/modules/?:contrib/?commerce/js/conditions.js"
-  ],
-  "Drupal Multisite": [
-    "/sites/?!?:default",
+    "<?:link",
     "modules/",
-    "all/",
-    "themes"
+    "all/?:themes"
   ],
   "Duda": [
     "d_version",
@@ -757,31 +554,20 @@
   "Dynamic Conditions": [
     "dynamic-conditions-public.js?:\\?v?:er?=?:\\d+.+\\d+?"
   ],
-  "Easy Hide PayPal": [
-    "easyhide.herculesapps.com/"
-  ],
-  "Element": [
-    "element",
-    "application-name"
-  ],
   "Elementor": [
+    "elementorprofrontend",
+    "elementorfrontend.getelements",
+    "elementor_pro_login",
+    "elementormodules",
     "/wp-content/plugins/elementor?:-pro?/.+frontend-modules.min.js?:\\?ver=\\d+?:.\\d++?",
     "elementskit_helper.ajaxloading",
-    "elementor_pro_login",
-    "elementorfrontend.getelements",
-    "elementorprofrontend",
-    "elementorprofrontendconfig",
-    "elementormodules",
-    "elementorfrontendconfig.version",
     "generator",
-    "elementor\\s"
+    "elementor\\s",
+    "elementorprofrontendconfig",
+    "elementorfrontendconfig.version"
   ],
   "Elementor Addon Elements": [
     "addon-elements-for-elementor-page-builder?:/assets??:/js??:/lib??:/animated-main??:/build??:/eae??:/iconhelper??:/index??:/magnific??:/particles??:/vegas{0,2}?:.min?.js?:\\?v?:er?=?:\\d+.+\\d+?"
-  ],
-  "Elementor Cloud": [
-    "elementor cloud",
-    "x-powered-by"
   ],
   "Elfsight": [
     ".elfsight.com/"
@@ -793,8 +579,8 @@
     "embed-any-document?:/js??:/embed-public??:/pdfobject??:.min?.js?:\\?v?:er?=?:\\d+.+\\d+?"
   ],
   "Embed Optimizer": [
-    "embed-optimizer",
-    "generator"
+    "generator",
+    "embed-optimizer"
   ],
   "EmbedPlus": [
     "/wp-content/plugins/youtube-embed-plus?:-pro?/.+.js?:\\?ver=\\d+?:.\\d++?"
@@ -824,61 +610,49 @@
     "/wp-content/plugins/ewww-image-optimizer/"
   ],
   "ExactMetrics": [
-    "exactmetrics",
     "exactmetrics_frontend",
+    "exactmetrics",
     "/wp-content/plugins/google-analytics-dashboard-for-wp/.+.js?:\\?ver=\\d+?:.\\d++?"
   ],
-  "Excentos": [
-    "service.excentos.com",
-    "_excentospaq"
-  ],
   "Express": [
-    "express?:",
+    "x-powered-by",
     "connect.sid",
-    "x-powered-by"
-  ],
-  "ExpressionEngine": [
-    "exp_last_activity",
-    "exp_tracker",
-    "exp_csrf_token"
+    "express?:"
   ],
   "FancyBox": [
-    "jquery.fancybox?:.pack",
     ".min?.js?:\\?v=",
-    ".fancybox.version",
     "jquery.fancybox.version",
-    "fancybox.version"
+    ".fancybox.version",
+    "fancybox.version",
+    "jquery.fancybox?:.pack"
   ],
   "Fastly": [
-    "x-fastly-origin",
     "fastly-debug-digest",
     "x-fastly-request-id",
-    "fastly-ssl",
+    "x-fastly-origin",
+    "x-via-fastly",
     "vary",
-    "fastly",
-    "x-via-fastly"
+    "fastly-ssl",
+    "fastly"
   ],
   "Fathom": [
-    "fathom.blocktrackingforme",
-    "cdn.usefathom.com/"
-  ],
-  "Fing": [
-    "fing"
+    "cdn.usefathom.com/",
+    "fathom.blocktrackingforme"
   ],
   "FingerprintJS": [
-    "fingerprint2",
-    "fingerprintjs",
-    "fingerprintjs?:\\-pro",
-    "fingerprint",
-    "2??:@",
     "fingerprint2.version",
-    "fingerprint?:/fp?\\d??:.min?.js"
+    "fingerprintjs",
+    "fingerprint2",
+    "fingerprint?:/fp?\\d??:.min?.js",
+    "fingerprint",
+    "fingerprintjs?:\\-pro",
+    "2??:@"
   ],
   "Firebase": [
+    "/firebasejs/",
     "x-fh-requested-host",
-    "vary",
     "firebase.sdk_version",
-    "/firebasejs/"
+    "vary"
   ],
   "FitVids.JS": [
     "fitvids?:.min?.js?:\\?ver="
@@ -887,49 +661,32 @@
     "jquery.flexslider?:.min?.js"
   ],
   "Flickity": [
-    "flickity?:/",
-    "flickity"
-  ],
-  "Flow": [
-    "?:shopify-?cdn.flow.io/",
-    "flow.cart",
-    "flow_cart_localize",
-    "flow.countrypicker"
+    "flickity",
+    "flickity?:/"
   ],
   "Flywheel": [
     "x-fw-server",
+    "x-fw-static",
     "x-fw-serve",
     "x-fw-type",
-    "x-fw-static",
     "flywheel?:/",
     "x-fw-hash"
   ],
   "Font Awesome": [
-    "fontawesomecdnconfig",
-    "rt-??:a",
-    "___font_awesome___",
-    ".fontawesome.com/",
-    "fontawesomekitconfig.asyncloading",
     "awesome?:",
-    "fo?:n"
-  ],
-  "Format": [
-    "x-format-path"
-  ],
-  "Formless": [
-    "__formless_cleanup_signals",
-    "__formless_init"
-  ],
-  "Four": [
-    "scripts.paywithfour.com",
-    "four"
+    "fo?:n",
+    "___font_awesome___",
+    "fontawesomekitconfig.asyncloading",
+    ".fontawesome.com/",
+    "fontawesomecdnconfig",
+    "rt-??:a"
   ],
   "Framer Sites": [
-    "framerusercontent.com",
-    "__framer_importfrompackage",
     "framer",
     "framer.animatable",
-    "framer.version"
+    "framer.version",
+    "__framer_importfrompackage",
+    "framerusercontent.com"
   ],
   "FreeBSD": [
     "freebsd?:"
@@ -948,63 +705,49 @@
     "__googlefc",
     "fundingchoicesmessages.google.com"
   ],
-  "Gallery": [
-    "<div id=\"gsnavbar\" class=\"gcborder1\">",
-    "galleryauthtoken",
-    "version\\s*",
-    ".fn.gallery_valign",
-    "<a href=\"http://gallery.sourceforge.net\"><img"
-  ],
-  "Gastronaut": [
-    "api.gastronaut.ai/"
-  ],
   "Gatsby": [
     "gatsby?:",
     "generator"
   ],
   "GeneratePress": [
-    "themes/generatepress\\s*.js?:\\?ver=",
     "generatepressnavsearch",
+    "themes/generatepress\\s*.js?:\\?ver=",
     "generatepressmenu"
   ],
   "GeneratePress GP Premium": [
     "/wp-content/plugins/gp-premium/.+.js?:\\?ver=\\d+?:.\\d++?"
   ],
   "Genesis theme": [
-    "genesis_responsive_menu",
+    "genesisblocksshare",
     "/wp-content/themes/genesis/lib/js/",
-    "genesisblocksshare"
+    "genesis_responsive_menu"
   ],
   "Ghost": [
+    "ghost?:\\s",
     "x-ghost-cache-status",
-    "generator",
-    "ghost?:\\s"
-  ],
-  "git": [
-    "generator",
-    "\\bgit/"
-  ],
-  "GitBook": [
-    "https?://",
-    "__gitbook_initial_props__",
-    "__gitbook_initial_state__",
-    "__gitbook_lazy_modules__",
-    "gitbook",
     "generator"
   ],
-  "GitHub Pages": [
+  "GitBook": [
+    "__gitbook_initial_state__",
+    "__gitbook_initial_props__",
+    "gitbook",
+    "generator",
     "https?://",
-    "x-github-request-id",
-    "github.com"
+    "__gitbook_lazy_modules__"
+  ],
+  "GitHub Pages": [
+    "github.com",
+    "https?://",
+    "x-github-request-id"
   ],
   "GiveWP": [
+    "giveapisettings",
     "give.donor",
-    "/wp-content/plugins/give/.+give.js?:\\?ver=\\d+?:.\\d++?",
-    "giveapisettings"
+    "/wp-content/plugins/give/.+give.js?:\\?ver=\\d+?:.\\d++?"
   ],
   "Glyphicons": [
-    "?:<link",
-    "<img"
+    "<img",
+    "?:<link"
   ],
   "GoDaddy CoBlocks": [
     "/wp-content/plugins/coblocks/"
@@ -1015,38 +758,30 @@
     "go daddy website builder .+"
   ],
   "Google AdSense": [
+    "adsbygoogle",
+    "googlesyndication.com/",
+    "goog_adsense_osdadapter",
+    "google_ad_",
+    "goog_adsense_",
     "ad.ca.doubleclick.net",
     "2mdn.net",
-    "googlesyndication.com/",
-    "adsbygoogle",
-    "goog_adsense_",
-    "goog_adsense_osdadapter",
-    "__google_ad_urls",
-    "google_ad_"
+    "__google_ad_urls"
   ],
   "Google Analytics": [
-    "googletagmanager.com/gtag/js",
-    "__utma",
-    "gaglobal",
-    "googleanalyticsobject",
-    "_ga",
-    "urchin",
-    "_ga_*",
-    "_gat",
     "google-analytics.com/?:ga",
-    "analytics.js"
-  ],
-  "Google Analytics Enhanced eCommerce": [
-    "gaplugins.ec",
-    "ecommerce.js",
-    "google-analytics.com/plugins/ua/?:ec"
+    "_ga",
+    "googleanalyticsobject",
+    "_gat",
+    "__utma",
+    "analytics.js",
+    "googletagmanager.com/gtag/js",
+    "_ga_*",
+    "gaglobal",
+    "urchin"
   ],
   "Google Cloud CDN": [
     "via",
     "1.1 google"
-  ],
-  "Google Cloud Load Balancing": [
-    "google frontend"
   ],
   "Google Cloud Storage": [
     "\\w+",
@@ -1063,15 +798,15 @@
     "ajax.googleapis.com/ajax/libs/"
   ],
   "Google Maps": [
-    "googlemapsconfig",
-    "//maps.google?:apis?.com/maps/api/js",
-    "googlemap",
     "?:maps.google.com/maps\\?file=api?:&v=",
-    "maps.google.com/maps/api/staticmap"
+    "googlemap",
+    "maps.google.com/maps/api/staticmap",
+    "//maps.google?:apis?.com/maps/api/js",
+    "googlemapsconfig"
   ],
   "Google Optimize": [
-    "google_optimize",
-    "googleoptimize.com/optimize.js"
+    "googleoptimize.com/optimize.js",
+    "google_optimize"
   ],
   "Google PageSpeed": [
     "x-mod-pagespeed",
@@ -1083,19 +818,19 @@
     "securepubads.g.doubleclick.net/tag/js/gpt.js"
   ],
   "Google Sign-in": [
-    "google-signin-client_id",
     "googlesigninclientid",
-    "google-signin-scope",
-    "accounts.google.com/gsi/client"
+    "accounts.google.com/gsi/client",
+    "google-signin-client_id",
+    "google-signin-scope"
   ],
   "Google Tag Manager": [
-    "google_tag_manager",
-    "googletagmanager.com/gtm.js",
-    "googletagmanager.com/ns.html",
-    ".googletagmanager.com/",
     "google_tag_data",
-    "<!-- ?:end ?google tag manager -->",
-    "googletag"
+    "googletagmanager.com/ns.html",
+    "googletag",
+    ".googletagmanager.com/",
+    "googletagmanager.com/gtm.js",
+    "google_tag_manager",
+    "<!-- ?:end ?google tag manager -->"
   ],
   "Google Tag Manager for WordPress": [
     "/wp-content/plugins/duracelltomi-google-tag-manager/.+.js?:\\?ver=\\d+?:.\\d++?"
@@ -1104,43 +839,33 @@
     "store-config",
     "graphqlmethod"
   ],
-  "Grav": [
-    "generator",
-    "gravcms?:\\s"
-  ],
   "Gravatar": [
     "gravatar"
   ],
-  "Gravity": [
-    "gravi_version",
-    "gravi_api.chatmode",
-    "gravi_init",
-    ".gravi.org/"
-  ],
   "Gravity Forms": [
-    "<div class=?:\"",
-    "/wp-content/plugins/gravityforms/js/"
+    "/wp-content/plugins/gravityforms/js/",
+    "<div class=?:\""
   ],
   "GSAP": [
-    "gsap.version",
-    "gsapversions",
-    "tweenmax?:.min?.js",
     "tweenmax.version",
+    "gsapversions",
+    "gsap.version",
+    "tweenmax?:.min?.js",
     "tweenlite.version"
   ],
   "Gutenberg": [
     "/wp-content/plugins/gutenberg/"
   ],
   "Hammer.js": [
+    "hammer.version",
     "hammer?:.min?.js",
     "hammer",
-    "ha.version",
-    "hammer.version"
+    "ha.version"
   ],
   "Handlebars": [
+    "handlebars",
     "handlebars.version",
-    "handlebars?:.runtime??:-v",
-    "handlebars"
+    "handlebars?:.runtime??:-v"
   ],
   "HashThemes Total": [
     "total?:-plus?/",
@@ -1150,33 +875,29 @@
     "cdn.blog.st-hatena.com/"
   ],
   "hCaptcha": [
-    "?:.",
+    "hcaptcha_sitekey",
+    "hcaptchaonload",
+    "#cf-hcaptcha-container",
+    "//hcaptcha.com",
     "content-security-policy",
     "hcaptcha.getrespkey",
     "hcaptcha.com/",
-    "//hcaptcha.com",
-    "hcaptcha_sitekey",
-    "hcaptchaonload",
-    "#cf-hcaptcha-container"
+    "?:."
   ],
   "Headroom.js": [
     "headroom?:.min?.js?:\\?ver=?:\\d+.+\\d+?"
   ],
-  "Hero": [
-    "herowebpluginsettings",
-    "cdn.usehero.com"
-  ],
   "Heroku": [
-    "via",
-    ".herokuapp.com"
+    ".herokuapp.com",
+    "via"
   ],
   "Hestia": [
     "themes/hestia"
   ],
   "Highcharts": [
     "highcharts",
-    "highcharts.version",
-    "<svg"
+    "<svg",
+    "highcharts.version"
   ],
   "HighLevel": [
     "leadconnector.chatwidget",
@@ -1193,15 +914,10 @@
   "Hostinger CDN": [
     "hcdn"
   ],
-  "Hostinger Horizons": [
-    "hostinger horizons",
-    "generator",
-    "x-powered-by"
-  ],
   "Hostinger Website Builder": [
+    "hostinger website builder",
     "generator",
-    "userapp.zyrosite.com/",
-    "hostinger website builder"
+    "userapp.zyrosite.com/"
   ],
   "HSTS": [
     "https://",
@@ -1215,8 +931,8 @@
     "?:?:\\d+.+\\d+/?html2canvas?:.min??:"
   ],
   "HTTP/3": [
-    "alt-svc",
-    "x-firefox-http3"
+    "x-firefox-http3",
+    "alt-svc"
   ],
   "HubSpot": [
     "<!-- start of async hubspot",
@@ -1224,81 +940,52 @@
     ".hs-scripts.com/",
     "_hsq"
   ],
-  "HubSpot Analytics": [
-    "js.hs-analytics.net/analytics"
-  ],
-  "HubSpot Chat": [
-    "hubspotconversations",
-    "js.usemessages.com"
-  ],
   "HubSpot CMS Hub": [
     "hubspot",
     "x-powered-by",
     "generator",
     "x-hs-hub-id"
   ],
-  "HubSpot WordPress plugin": [
-    "leadin_wordpress.leadinpluginversion"
-  ],
   "Hugo": [
-    "generator",
-    "hugo"
-  ],
-  "Hyperlane": [
-    ".hyperlane.co/"
-  ],
-  "ICE": [
-    "www.enterice.com/"
+    "hugo",
+    "generator"
   ],
   "iCheck": [
-    "icheck/icheck.min.js",
-    "/?:js"
+    "/?:js",
+    "icheck/icheck.min.js"
   ],
   "IIS": [
     "?:microsoft-?iis?:/"
   ],
   "Image Placeholders": [
-    "dominant-color-images",
-    "generator"
+    "generator",
+    "dominant-color-images"
   ],
   "Imagely NextGEN Gallery": [
-    "/wp-content/plugins/nextgen-gallery?:-pro",
-    "-plus?/"
+    "-plus?/",
+    "/wp-content/plugins/nextgen-gallery?:-pro"
   ],
   "imagesLoaded": [
     "imagesloaded?:.min?.js?:\\?v?:er?=?:\\d+.+\\d+?"
   ],
-  "ImBox": [
-    "_imbox",
-    "imboxmanager",
-    "__imbox_initialized__",
-    "imboxbuilt",
-    "__imbox_global__"
-  ],
   "Imperva": [
     "x-cdn",
-    "/_incapsula_resource",
-    "x-iinfo",
     "imperva",
+    "x-iinfo",
+    "/_incapsula_resource",
     "incapsula"
   ],
   "Imweb": [
-    "vendor-cdn.imweb.me/",
-    "imweb_template"
+    "imweb_template",
+    "vendor-cdn.imweb.me/"
   ],
   "Inertia.js": [
     "x-inertia",
     "vary"
   ],
   "Infinite Scroll": [
-    "infinitescroll",
-    "infinite-?scroll?:.pkgd??:.min?.js?:\\?v?:er?=?:\\d+.+\\d+?"
-  ],
-  "Infor": [
-    ".cloud.infor.com"
-  ],
-  "Instafeed": [
-    "instafeed.nfcube.com/"
+    "infinite-?scroll?:.pkgd??:.min?.js?:\\?v?:er?=?:\\d+.+\\d+?",
+    "infinitescroll"
   ],
   "Instafeed.js": [
     "instafeed?:.min?.js"
@@ -1306,53 +993,26 @@
   "Instagram Feed for WordPress": [
     "instagram-feed?:/js??:/sbi-scripts??:.min?.js?:\\?v?:er?=?:\\d+.+\\d+?"
   ],
-  "IPB": [
-    "ipb_var",
-    "ipbwwlsession_id",
-    "ipbwwlmodpids",
-    "jscripts/ips_",
-    "ipssettings",
-    "ipboard"
-  ],
   "iubenda": [
     "_iub",
     "iubenda.com/",
     "addiubendacs"
   ],
   "Ivory Search": [
+    "ivory_search_analytics",
     "ivorysearchvars",
-    "/wp-content/plugins/add-search-to-menu/.+.js?:\\?ver=\\d+?:.\\d++?",
-    "ivory_search_analytics"
+    "/wp-content/plugins/add-search-to-menu/.+.js?:\\?ver=\\d+?:.\\d++?"
   ],
   "Java": [
     "jsessionid"
   ],
-  "Java Servlet": [
-    "servlet?:/",
-    "x-powered-by"
-  ],
-  "Javadoc": [
-    "<!-- generated by javadoc -->"
-  ],
-  "JavaScript Infovis Toolkit": [
-    "jit?:-yc?.js",
-    "jit.version"
-  ],
-  "JavaServer Faces": [
-    "jsf?:/",
-    "x-powered-by"
-  ],
-  "JavaServer Pages": [
-    "jsp?:/",
-    "x-powered-by"
-  ],
   "Jekyll": [
-    "jekyll\\sv",
-    "<!-- created with jekyll now -",
     "powered by <a href=\"https?://jekyllrb.com\"",
-    "simplejekyllsearch",
     "<!-- begin jekyll seo tag",
-    "generator"
+    "generator",
+    "simplejekyllsearch",
+    "jekyll\\sv",
+    "<!-- created with jekyll now -"
   ],
   "JetEngine": [
     "/wp-content/plugins/jet-engine/"
@@ -1360,108 +1020,87 @@
   "Jetpack": [
     "/wp-content/plugins/jetpack/"
   ],
-  "Jetpack Boost": [
-    "/wp-content/plugins/jetpack-boost/"
-  ],
   "Jimdo": [
     "jimdodolphindata",
-    "x-jimdo-wid",
     ".jimdo?:site?.com/",
-    "x-jimdo-instance"
+    "x-jimdo-instance",
+    "x-jimdo-wid"
   ],
   "JivoChat": [
-    "jivo_version",
     "jivo_api",
-    ".jivosite.com"
+    ".jivosite.com",
+    "jivo_version"
   ],
   "Joinchat": [
-    "joinchat_obj",
-    "/js/joinchat.min.js"
+    "/js/joinchat.min.js",
+    "joinchat_obj"
   ],
   "Joomla": [
-    "<?:link",
+    "script",
+    "<table",
+    "joomla!?:",
+    "components/com_",
+    "x-content-encoded-by",
     "joomla_",
     "jcomments",
-    "option=com_",
-    "x-content-encoded-by",
     "/feed/com_",
-    "joomla!?:",
-    "<table",
-    "joomla!",
     "joomla",
-    "components/com_",
-    "script",
+    "option=com_",
+    "generator",
+    "<?:link",
     "?:<div",
-    "generator"
+    "joomla!"
   ],
   "Jotform": [
+    "jotformactions",
     "jotform.fbcollectinformation",
     ".jotform.com/",
-    "jotform_env",
-    "jotformactions"
+    "jotform_env"
   ],
   "JouwWeb": [
+    "?:cdn?.?:jwwb",
     "jouwweb.nl/",
-    "jouwweb",
-    "?:cdn?.?:jwwb"
+    "jouwweb"
   ],
   "jPlayer": [
-    "/jquery.jplayer.min.js",
-    "jplayerplaylist"
+    "jplayerplaylist",
+    "/jquery.jplayer.min.js"
   ],
   "jQuery": [
-    "jquery",
-    "jquery.fn.jquery",
-    ".fn.jquery",
-    "/jquery?:-\\d+.\\d+.\\d+",
     "/\\d+.\\d+.\\d+/jquery?!.popupoverlay.js",
-    "jquery.prototype.jquery"
-  ],
-  "jQuery BlockUI": [
-    "/jquery.blockui.js"
+    "jquery.fn.jquery",
+    "jquery.prototype.jquery",
+    ".fn.jquery",
+    "jquery",
+    "/jquery?:-\\d+.\\d+.\\d+"
   ],
   "jQuery CDN": [
     "code.jquery.com/"
   ],
-  "jQuery DevBridge Autocomplete": [
-    "/jquery.devbridge-autocomplete/",
-    ".devbridgeautocomplete",
-    "/devbridgeautocomplete?:-min?.js",
-    "jquery.devbridgeautocomplete"
-  ],
   "jQuery Migrate": [
-    "jquery.migratewarnings",
+    "jquery.migrateversion",
     "jquerymigrate",
     "jquery-migrate?:.min??:-??:.min?.js?:\\?v?:er?=?:\\d+.+\\d+?",
-    "jquery-migrate?:.min??:-??:\\d+.+\\d+??:.min?.js",
-    "jquery.migrateversion"
+    "jquery.migratewarnings",
+    "jquery-migrate?:.min??:-??:\\d+.+\\d+??:.min?.js"
   ],
   "jQuery Mobile": [
-    "jquery",
-    "jquery.mobile.version"
-  ],
-  "jQuery Modal": [
-    "jquery-modal/"
+    "jquery.mobile.version",
+    "jquery"
   ],
   "jQuery Payment": [
     "/jquery-payment/jquery.payment.min.js"
   ],
-  "jQuery Popup Overlay": [
-    "\\d+.\\d+.\\d+/jquery.popupoverlay.js"
-  ],
-  "jQuery Sparklines": [
-    "jquery.sparkline"
-  ],
   "jQuery UI": [
-    "jquery.ui.version",
-    "jquery-ui"
+    "jquery-ui",
+    "jquery.ui.version"
   ],
   "jQuery-pjax": [
-    "pjax-timeout",
-    "jquery",
     "jquery.pjax",
+    "pjax-push",
     "pjax-replace",
-    "pjax-push"
+    "jquery",
+    "pjax-timeout"
   ],
   "jsDelivr": [
     "cdn.jsdelivr.net"
@@ -1471,16 +1110,16 @@
     "/jszip.min.js"
   ],
   "Judge.me": [
-    "cdn.judge.me",
-    "judgeme"
+    "judgeme",
+    "cdn.judge.me"
   ],
   "Kadence WP Blocks": [
     "/wp-content/plugins/kadence-blocks/dist/.+/kb-form-block.min.js?:\\?ver="
   ],
   "Kadence WP Kadence": [
-    "kadenceconfig",
     "/wp-content/themes/kadence/.+navigation.min.js?:\\?ver=",
-    "kadence"
+    "kadence",
+    "kadenceconfig"
   ],
   "Kajabi": [
     "_kjb_session",
@@ -1496,55 +1135,25 @@
   "Kinsta": [
     "x-kinsta-cache"
   ],
-  "Kit": [
-    "www.fanbridge.com/"
-  ],
   "Klaviyo": [
-    "klaviyosubscribe",
+    "klaviyo.com",
     "klaviyo",
-    "klaviyo.com"
-  ],
-  "Klaviyo Customer Hub": [
-    "customerhub"
-  ],
-  "Klaviyo Data Platform": [
-    "static-tracking.klaviyo.com/onsite/js/web_personalization"
-  ],
-  "Klaviyo Reviews": [
-    "klaviyoreviewsproductdesignmode",
-    "klaviyo.com/onsite/js/reviews"
-  ],
-  "KPHP": [
-    "kphp/",
-    "x-powered-by"
+    "klaviyosubscribe"
   ],
   "Laravel": [
     "laravel_session",
     "laravel"
   ],
-  "Laravel Echo": [
-    "echo.connector"
-  ],
-  "Layers": [
-    "layers"
-  ],
-  "LazySizes": [
-    "lazysizesconfig",
-    "lazysizes"
-  ],
   "LazySizes unveilhooks plugin": [
     "ls.unveilhooks?:.min?.js"
   ],
   "libphonenumber": [
-    "libphonenumber.digits",
-    "libphonenumber.asyoutype"
-  ],
-  "libwww-perl-daemon": [
-    "libwww-perl-daemon?:/"
+    "libphonenumber.asyoutype",
+    "libphonenumber.digits"
   ],
   "Lightbox": [
-    "lightbox.lightbox",
     "lightbox?:-plus-jquery?.{0,32}.js",
+    "lightbox.lightbox",
     "lightbox.activeimage"
   ],
   "Lightning": [
@@ -1557,62 +1166,52 @@
     "content-security-policy"
   ],
   "Linkedin Sign-in": [
-    "onlinkedinload",
     "platform.linkedin.com/?:",
     "litms/utag/",
+    "onlinkedinload",
     "onlinkedinauth"
   ],
   "LiteSpeed": [
-    "litespeed",
-    "x-turbo-charged-by"
+    "x-turbo-charged-by",
+    "litespeed"
   ],
   "LiteSpeed Cache": [
-    "x-turbo-charged-by",
     "litespeed_docref",
-    "x-litespeed-cache",
     "litespeed",
-    "wp-content/plugins/litespeed-cache/"
-  ],
-  "Litespeed Cache": [
     "x-litespeed-cache",
-    "litespeed",
+    "wp-content/plugins/litespeed-cache/",
     "x-turbo-charged-by"
   ],
+  "Litespeed Cache": [
+    "x-turbo-charged-by",
+    "litespeed",
+    "x-litespeed-cache"
+  ],
   "Liveinternet": [
+    "<a href=\"http://www.liveinternet.ru/click\"",
     "<!--/liveinternet-->",
-    "<!--liveinternet counter-->",
-    "<a href=\"http://www.liveinternet.ru/click\""
+    "<!--liveinternet counter-->"
   ],
   "Livewire": [
+    "livewirescriptconfig",
     "livewire",
-    "livewire?:.min?.js",
-    "livewirescriptconfig"
-  ],
-  "LocalExpress": [
-    "cdn.localexpress.io/"
+    "livewire?:.min?.js"
   ],
   "Lodash": [
-    "_.templatesettings.imports._.templatesettings.imports._.version",
-    "lodash",
+    "_.differenceby",
     "_.version",
-    "_.differenceby"
+    "lodash",
+    "_.templatesettings.imports._.templatesettings.imports._.version"
   ],
   "Loox": [
-    "loox.io/widget",
-    "loox_global_hash"
+    "loox_global_hash",
+    "loox.io/widget"
   ],
   "LottieFiles": [
+    "dotlottie-player",
     "lottie.version",
     "/dist/tgs-player.js",
-    "/dist/lottie-player.js",
-    "dotlottie-player"
-  ],
-  "LOU": [
-    "cdn.louassist.com*"
-  ],
-  "Lytics": [
-    "__lytics__jstag__.version",
-    ".lytics.io/"
+    "/dist/lottie-player.js"
   ],
   "Magnific Popup": [
     "magnific-popup?:.min?.js?:\\?v?:er?=?:\\d+.+\\d+?"
@@ -1621,38 +1220,26 @@
     "mailcheck?:.min?.js?:\\?v?:er?=\\d+.\\d+.\\d+?"
   ],
   "MailChimp": [
+    "https?://?:www.?mailchi.mp",
+    "chimpstatic.com/mcjs-connected",
     "s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js",
     "<!-- begin mailchimp signup form -->",
-    "chimpstatic.com/mcjs-connected",
-    "cdn-images.mailchimp.com/",
-    "https?://?:www.?mailchi.mp"
+    "cdn-images.mailchimp.com/"
   ],
   "MailChimp for WooCommerce": [
     "/wp-content/plugins/mailchimp-for-woocommerce/.+.js?:\\?ver=\\d+?:.\\d++?"
   ],
   "MailChimp for WordPress": [
-    "/wp-content/plugins/mailchimp-for-wp/.+.js?:\\?ver=\\d+?:.\\d++?",
-    "mc4wp"
+    "mc4wp",
+    "/wp-content/plugins/mailchimp-for-wp/.+.js?:\\?ver=\\d+?:.\\d++?"
   ],
   "MailerLite": [
     ".mailerlite.com/",
     "mailerliteobject"
   ],
-  "MailerLite plugin": [
-    "/wp-content/plugins/woo-mailerlite/.+.js?:\\?ver=\\d+?:.\\d++?"
-  ],
-  "MailerLite Website Builder": [
-    "cdn.mailerlite.com/moment/moment.min.js"
-  ],
-  "Maker": [
-    "makerembeds.run",
-    "makerexperiment",
-    "makerenhanceembed",
-    "makerenhance"
-  ],
   "Mapbox GL JS": [
-    "mapbox-gl.js",
-    "mapboxgl.version"
+    "mapboxgl.version",
+    "mapbox-gl.js"
   ],
   "Material Design Lite": [
     "materialbutton",
@@ -1660,49 +1247,38 @@
     "materialicontoggle"
   ],
   "MathJax": [
-    "mathjax",
-    "mathjax.version"
+    "mathjax.version",
+    "mathjax"
   ],
   "Matter.js": [
-    "matter?:-wrap??:/demo/js/lib?:/matter-tools/jquery??:/decomp???:/?-??:\\d+.+\\d+??:.min?.js",
-    "matter.version"
+    "matter.version",
+    "matter?:-wrap??:/demo/js/lib?:/matter-tools/jquery??:/decomp???:/?-??:\\d+.+\\d+??:.min?.js"
   ],
   "Max Mega Menu": [
     "?:max?megamenu?:-pro??:/assets??:/public?.js?:\\?v?:er?=?:\\d+.+\\d+?",
     "megamenu"
   ],
-  "MDBootstrap": [
-    "mdb.scrollspy",
-    "?:/mdbootstrap/"
-  ],
   "MediaWiki": [
-    "mw.util.toggletoc",
-    "<?:a",
-    "wgversion",
-    "mediawiki ?.+",
     "wgtitle",
+    "<?:a",
     "wiki\\d+_session",
-    "generator"
+    "mw.util.toggletoc",
+    "mediawiki ?.+",
+    "generator",
+    "wgversion"
   ],
   "Medium": [
-    "medium",
+    "x-powered-by",
     "https?://?:www.?medium.com",
     "medium.com",
-    "x-powered-by"
-  ],
-  "Meetup Express": [
-    "meetup_express_quick_appointment_session"
-  ],
-  "Mega": [
-    "cdn.gomega.ai",
-    "megatag.getattribution"
+    "medium"
   ],
   "MetaSlider": [
     "/wp-content/plugins/ml-slider?:-pro?/"
   ],
   "metisMenu": [
-    "metismenu",
-    ".metismenu?:js??:.min?.js?:\\?"
+    ".metismenu?:js??:.min?.js?:\\?",
+    "metismenu"
   ],
   "Metronet Profile Picture": [
     "metronet-profile-picture?:/js??:/mpp-frontend??:.min?.js?:\\?v?:er?=?:\\d+.+\\d+?"
@@ -1711,31 +1287,27 @@
     "ajax.aspnetcdn.com/ajax/"
   ],
   "Microsoft ASP.NET": [
-    ".aspnetcore",
-    "asp.net",
-    ".aspx??:",
-    ".aspxauth",
     "x-aspnet-version",
     "x-powered-by",
-    "aspsession",
+    ".aspx??:",
     "set-cookie",
-    "asp.net_sessionid"
-  ],
-  "Microsoft Azure Maps": [
-    "enabled-features",
-    "geojson_azure_maps"
+    ".aspnetcore",
+    "asp.net",
+    ".aspxauth",
+    "asp.net_sessionid",
+    "aspsession"
   ],
   "Microsoft HTTPAPI": [
     "microsoft-httpapi?:/"
   ],
   "Microsoft Word": [
+    "<w:worddocument>",
+    "progid",
+    "<style",
+    "generator",
     "microsoft word",
     "?:<html",
-    "<w:worddocument>",
-    "word.",
-    "progid",
-    "generator",
-    "<style"
+    "word."
   ],
   "Mixitup": [
     "mixitup?:.min?.js"
@@ -1751,57 +1323,50 @@
   "mod_perl": [
     "mod_perl?:/"
   ],
-  "mod_python": [
-    "mod_python?:/"
-  ],
   "mod_ssl": [
     "mod_ssl?:/"
   ],
-  "Moder": [
-    "modersettings.property",
-    "moder.attrs"
-  ],
   "Modern Image Formats": [
-    "generator",
-    "webp-uploads"
+    "webp-uploads",
+    "generator"
   ],
   "Modernizr": [
     "modernizr?:.",
     "modernizr._version"
   ],
   "MODX": [
-    "<?:link",
-    "modx",
-    "/assets/components/templates/",
-    "minishop2config.actionurl",
+    "script",
     "modx_media_path",
     "<!-- modx process time debug info -->",
+    "minishop2config.actionurl",
     "x-powered-by",
-    "script",
     "/assets/components/minishop2/",
-    "generator"
+    "/assets/components/templates/",
+    "modx",
+    "generator",
+    "<?:link"
   ],
   "Moment Timezone": [
     "moment-timezone?:-data??:.min?.js"
   ],
   "Moment.js": [
     "moment",
-    "moment?:.min?.js",
-    "moment.version"
+    "moment.version",
+    "moment?:.min?.js"
   ],
   "MonsterInsights": [
-    "monsterinsights",
     "monsterinsights_frontend",
+    "monsterinsights",
     "/wp-content/plugins/google-analytics-for-wordpress/.+.js?:\\?ver=\\d+?:.\\d++?"
   ],
   "Moodle": [
+    "keywords",
+    "moodleid_",
+    "moodlesession",
+    "y.moodle",
     "moodle",
     "<img",
-    "moodleid_",
-    "m.core",
-    "y.moodle",
-    "moodlesession",
-    "keywords"
+    "m.core"
   ],
   "MooTools": [
     "mootools",
@@ -1817,9 +1382,9 @@
     "moxie"
   ],
   "MyWebsite": [
-    "ionos mywebsite",
+    "generator",
     "systemid",
-    "generator"
+    "ionos mywebsite"
   ],
   "MyWebsite Creator": [
     "website-editor.net",
@@ -1834,96 +1399,66 @@
     "wcs.naver.net/wcslog.js"
   ],
   "Netlify": [
-    "netlify",
-    "https?://",
     "app/",
-    "x-nf-request-id"
-  ],
-  "Netlify Create": [
-    ".stackbit.com",
-    "__next_data__.props.pageprops.withstackbit"
+    "https?://",
+    "x-nf-request-id",
+    "netlify"
   ],
   "Nette Framework": [
     "nette.version",
+    "x-powered-by",
     "nette framework",
     "nette-browser",
-    "nette",
-    "x-powered-by"
+    "nette"
   ],
   "Next.js": [
     "next.js ?",
+    "__next_data__",
     "x-powered-by",
     "next_locale",
-    "__next_data__",
     "next.version"
-  ],
-  "Next.js App Router": [
-    "true",
-    "next.appdir"
-  ],
-  "Next.js Page Router SSG": [
-    "true",
-    ".__next_data__.nextexport",
-    ".__next_data__.autoexport",
-    ".__next_data__.gsp"
-  ],
-  "Next.js Page Router SSR": [
-    ".__next_data__.gssp",
-    "true",
-    ".__next_data__.gip"
-  ],
-  "NextGEN Gallery": [
-    "/nextgen-gallery/js/",
-    "nextgen_lightbox_settings.static_path",
-    "nextgen",
-    "/wp-content/plugins/nextgen-gallery/",
-    "<!-- <meta name=\"nextgen\" version=\""
   ],
   "Nginx": [
     "nginx?:/",
     "x-fastcgi-cache"
   ],
   "Ninja Forms": [
-    "/wp-content/plugins/ninja-forms/.+.js?:\\?ver=\\d+?:.\\d++?",
-    "nfforms"
+    "nfforms",
+    "/wp-content/plugins/ninja-forms/.+.js?:\\?ver=\\d+?:.\\d++?"
   ],
   "NitroPack": [
-    "nitropack",
-    "generator"
+    "generator",
+    "nitropack"
   ],
   "Nuxt.js": [
+    "nuxt",
     "__nuxt__",
     "usenuxtapp",
-    "nuxt",
     "/_nuxt/"
   ],
   "Odoo": [
     "odoo.csrf_token",
-    "odoo.session_info",
-    "odoo",
     "/web/js/?:web.assets_common/",
+    "website.assets_frontend/",
+    "odoo.session_info",
     "generator",
-    "website.assets_frontend/"
-  ],
-  "OnePage Express": [
-    "/wp-content/themes/one-page-express?:-pro?/",
-    "one_page_express_settings"
+    "odoo"
   ],
   "OneSignal": [
-    "__onesignalsdkloadcount",
+    "onesignal",
     "cdn.onesignal.com",
-    "onesignal"
+    "__onesignalsdkloadcount"
   ],
   "OneTrust": [
     "optanon.blob.core.windows.net",
-    "cdn.cookielaw.org",
     "optanonconsent",
-    "otsdkstub.js"
+    "otsdkstub.js",
+    "cdn.cookielaw.org"
   ],
   "Open Journal Systems": [
     "open journal systems?:",
-    "generator",
-    "ojssid"
+    "ojssid",
+    "generator"
   ],
   "OpenCart": [
     "ocsessid"
@@ -1932,10 +1467,10 @@
     "gse"
   ],
   "OpenLayers": [
-    "ol.assertionerror",
+    "openlayers",
     "openlayers.version_number",
-    "ol.canvasmap",
-    "openlayers"
+    "ol.assertionerror",
+    "ol.canvasmap"
   ],
   "OpenResty": [
     "openresty?:/"
@@ -1944,39 +1479,19 @@
     "openssl?:/"
   ],
   "Optimization Detective": [
-    "generator",
-    "optimization-detective"
-  ],
-  "Optimizely": [
-    "optimizely.com",
-    "optimizelyclient.clientversion",
-    "optimizelysdk",
-    "optimizely",
-    "optimizelyenduserid"
-  ],
-  "Optimizely Commerce": [
-    "epi:statemarker",
-    "generator",
-    "episerver"
-  ],
-  "Optimizely Content Management": [
-    ".episerver.net",
-    "epi.episerver",
-    "content-security-policy",
-    "episerver",
-    "epitrace",
-    "episessionid",
-    "epi:statemarker",
-    ".episerver.net/",
+    "optimization-detective",
     "generator"
   ],
-  "Oracle Application Express": [
-    "apex.libversions",
-    "apex_img_dir"
+  "Optimizely": [
+    "optimizelyenduserid",
+    "optimizelysdk",
+    "optimizely.com",
+    "optimizelyclient.clientversion",
+    "optimizely"
   ],
   "Osano": [
-    "cmp.osano.com/",
-    "osano"
+    "osano",
+    "cmp.osano.com/"
   ],
   "OWL Carousel": [
     "owl.carousel"
@@ -1989,25 +1504,21 @@
     "packery?:.pkgd??:.min?.js?:\\?v?:er?=?:\\d+.+\\d+?"
   ],
   "PageFly": [
-    "pagefly",
+    "x-powered-by",
     "cdn.pagefly.io",
     "__pagefly_setting__",
-    "x-powered-by"
+    "pagefly"
   ],
   "Pantheon": [
     "pantheon",
-    "x-styx-req-id",
-    "x-pantheon-styx-hostname"
-  ],
-  "Paperless Pipeline": [
-    "application-name",
-    "paperless pipeline"
+    "x-pantheon-styx-hostname",
+    "x-styx-req-id"
   ],
   "parallax.js": [
-    "parallax",
-    "parallaxinstance",
     "?:?:\\d+.+\\d+/?parallax?:/assets/js??:/jquery??:/scripts??:/wow??:",
-    "parallax?:/assets/js??:/jquery??:/scripts??:/wow??:"
+    "parallax?:/assets/js??:/jquery??:/scripts??:/wow??:",
+    "parallax",
+    "parallaxinstance"
   ],
   "Parsley.js": [
     "parsley?:.min?.js?:\\?v?:er?=?:\\d+.+\\d+?",
@@ -2017,38 +1528,26 @@
     "/particles?:.min?.js",
     "particlesjs"
   ],
-  "Patient Prism": [
-    "next-api.patientprism.com"
-  ],
   "PayPal": [
-    "checkout.enabledpayments.paypal",
-    "content-security-policy",
-    "paypalclientid",
-    "in-context-paypal-metadata",
-    "wc_ga_pro.available_gateways.paypal",
-    ".paypal.com",
-    "true",
-    "__paypal_global__",
     "enablepaypal",
+    ".paypal.com",
+    "__paypal_global__",
+    "wc_ga_pro.available_gateways.paypal",
+    "paypal",
+    "in-context-paypal-metadata",
+    "checkout.enabledpayments.paypal",
+    "true",
     "paypaljs",
+    "content-security-policy",
     "paypalobjects.com",
-    "paypal"
-  ],
-  "PayPal Credit": [
-    "paypaloffersobject",
-    ".paypalobjects.com/.+/smart-credit-message@",
-    "paypalcreditpopover"
-  ],
-  "PayPal Marketing Solutions": [
-    ".paypalobjects.com/muse/",
-    ".paypal.com/tagmanager/pptm.js"
+    "paypalclientid"
   ],
   "pdfmake": [
     "pdfmake?:"
   ],
   "Perfmatters": [
-    "uploads/perfmatters/",
     "/wp-content/?:plugins",
+    "uploads/perfmatters/",
     "cache"
   ],
   "Performance Lab": [
@@ -2065,26 +1564,26 @@
     "/wp-content/plugins/photo-gallery/.+scripts.min.js?:\\?ver=\\d+?:.\\d++?"
   ],
   "PHP": [
-    ".php?:",
+    "x-powered-by",
     "phpsessid",
-    "php/?",
-    "x-powered-by"
+    ".php?:",
+    "php/?"
   ],
   "phpBB": [
-    "<img",
-    "<div class=phpbb_copyright>",
     "<table class=\"",
-    "phpbb group",
-    "prosilver/theme",
     "phpbb",
-    "copyright",
+    "style_cookie_settings",
+    "<div class=phpbb_copyright>",
     "powered by <a",
-    "style_cookie_settings"
+    "phpbb group",
+    "<img",
+    "prosilver/theme",
+    "copyright"
   ],
   "Phusion Passenger": [
+    "x-powered-by",
     "phusion passenger",
-    "phusion passenger?:\\r\\? ?",
-    "x-powered-by"
+    "phusion passenger?:\\r\\? ?"
   ],
   "pickadate.js": [
     "pickadate?:/translations??:/de_de??:/picker??:.date??:.time??:.min?.js?:\\?v?:er?=?:\\d+.+\\d+?",
@@ -2093,128 +1592,107 @@
   "Pinterest": [
     "//assets.pinterest.com/js/pinit.js"
   ],
-  "Pinterest Conversion Tag": [
-    "pintrk"
-  ],
   "PixelYourSite": [
-    "pysoptions",
+    "/wp-content/plugins/pixelyoursite/",
     "pys.facebook",
     "pys_generate_token",
-    "/wp-content/plugins/pixelyoursite/"
+    "pysoptions"
   ],
   "Pixieset Website": [
     "pixieset",
     "generator"
   ],
-  "Play": [
-    "play_session"
-  ],
   "Plesk": [
     "win",
+    "x-powered-by",
     "plesk.form",
+    "plesk",
+    "plesk-build",
     "plesk?:l",
     "x-powered-by-plesk",
-    "x-powered-by",
-    "plesk-build",
-    "plesk",
     "common.js\\?plesk"
   ],
   "Plupload": [
-    "plupload.version",
     "plupload.done",
-    "plupload?:.min?.js?:\\?ver="
+    "plupload?:.min?.js?:\\?ver=",
+    "plupload.version"
   ],
   "Polyfill": [
     "polyfill.io/v"
   ],
   "Polylang": [
-    "pll_language",
     "polylang?: pro?",
+    "pll_language",
     "x-redirected-by"
   ],
   "Popper": [
+    "popper.applystyles",
     "-core?:@",
     "popperjs?:/",
-    "popper.applystyles",
     "createpopper",
-    "/popper?:.min?.js?:/",
-    "popper.defaults"
+    "popper.defaults",
+    "/popper?:.min?.js?:/"
   ],
   "Poptin": [
-    "cdn.popt.in/",
-    "poptinafterpageload"
+    "poptinafterpageload",
+    "cdn.popt.in/"
   ],
   "Popup Maker": [
-    "/wp-content/plugins/popup-maker/?:.+site?:.min?.js\\?.+ver=\\d+?:.\\d++?",
-    "pum_popups"
+    "pum_popups",
+    "/wp-content/plugins/popup-maker/?:.+site?:.min?.js\\?.+ver=\\d+?:.\\d++?"
   ],
   "POWR": [
+    "powr_receivers",
     "www.powr.io/powr.js",
-    "loadpowr",
-    "powr_receivers"
+    "loadpowr"
   ],
   "Premio Chaty": [
-    "chaty_settings.chaty_widgets",
     "/wp-content/plugins/chaty/",
+    "chaty_settings.chaty_widgets",
     "chaty_settings.object_settings"
   ],
   "Press Customizr": [
     "/wp-content/themes/customizr/.+js?:\\?ver="
   ],
   "PrestaShop": [
-    "freeproducttranslation",
-    "rcanalyticsevents.eventprestashopcheckout",
-    "pricedisplaymethod",
     "top?\\s?-->",
-    "prestashop",
-    "/modules/ps_",
-    "<!-- /module block",
-    "powered-by",
-    "<!-- /block",
     "pricedisplayprecision",
+    "rcanalyticsevents.eventprestashopcheckout",
+    "powered-by",
     "powered by <a\\s+",
-    "generator"
+    "prestashop",
+    "freeproducttranslation",
+    "pricedisplaymethod",
+    "generator",
+    "<!-- /module block",
+    "<!-- /block",
+    "/modules/ps_"
   ],
   "prettyPhoto": [
     "pp_images",
-    "pp_titles",
     "?:<link",
-    "jquery.prettyphoto.js",
+    "pp_descriptions",
+    "pp_titles",
     "pp_alreadyinitialized",
-    "pp_descriptions"
-  ],
-  "PrimeReact": [
-    ".p-?:toast",
-    "menuitem-text",
-    "sidebar?:-content?\\{",
-    "calendar",
-    "dialog-mask"
+    "jquery.prettyphoto.js"
   ],
   "Prism": [
     "prism?:.min??:-\\w{0,64}?.js?:\\?v?:er?=?:\\d+.+\\d+?",
-    "prism",
-    "apex.libversions.prismjs"
-  ],
-  "Prismic": [
-    ".prismic.io/"
+    "apex.libversions.prismjs",
+    "prism"
   ],
   "ProfilePress": [
-    "ppwp_wp_session",
-    "/wp-content/plugins/wp-user-avatar?:-pro?/.+frontend.min.js?:\\?ver=\\d+?:.\\d++?"
+    "/wp-content/plugins/wp-user-avatar?:-pro?/.+frontend.min.js?:\\?ver=\\d+?:.\\d++?",
+    "ppwp_wp_session"
   ],
   "ProgressBar.js": [
-    "?:?:\\d+.+\\d+/?progressbar?:.min?.js",
-    "progressbar?:.min?.js?:\\?v?:er?=?:\\d+.+\\d+?"
+    "progressbar?:.min?.js?:\\?v?:er?=?:\\d+.+\\d+?",
+    "?:?:\\d+.+\\d+/?progressbar?:.min?.js"
   ],
   "Prototype": [
+    "?:prototype",
     "prototype.version",
-    "protoaculous?:-",
-    "?:prototype"
-  ],
-  "Ptengine": [
-    "com?/'",
-    "ptengine",
-    "js.ptengine.?:jp"
+    "protoaculous?:-"
   ],
   "punycode": [
     "punycode?:.min?.js?:\\?v?:er?=?:\\d+.{1,2}\\d+?"
@@ -2225,9 +1703,6 @@
   "Python": [
     "\\spython?:/"
   ],
-  "PythonAnywhere": [
-    "pythonanywhere"
-  ],
   "RackCache": [
     "x-rack-cache"
   ],
@@ -2235,78 +1710,50 @@
     "counter.rambler.ru"
   ],
   "RD Station": [
-    "rdstation",
     "rdstationtrackingcodechecker",
-    "d335luupugsy2.cloudfront.net/js/loader-scripts/"
+    "d335luupugsy2.cloudfront.net/js/loader-scripts/",
+    "rdstation"
   ],
   "React": [
-    "react?:-with-addons?",
+    "__react_on_rails_event_handlers_ran_once__",
     "__isreactfizzcontext",
-    "web site created using create-react-app",
+    "%react_app_seo_image_url%",
+    "react\\b",
+    "react?:-with-addons?",
+    "description",
     "og:image",
     "reactonrails",
-    "%react_app_seo_image_url%",
-    "__react_on_rails_event_handlers_ran_once__",
-    "react\\b",
     "react.version",
-    "description"
-  ],
-  "React Redux": [
-    "/react-redux@"
-  ],
-  "React Router": [
-    "__reactrouterversion",
-    "?:/react-router@"
-  ],
-  "Reactful": [
-    "visitor.reactful.com"
-  ],
-  "Reactive": [
-    "reactive",
-    "generator",
-    "https?//.+.reactiveonline.io"
-  ],
-  "REC": [
-    "rec",
-    "generator"
+    "web site created using create-react-app"
   ],
   "reCAPTCHA": [
-    "recaptcha",
     "/recaptcha/?:api",
+    "enterprise.js",
     "recaptcha_ajax.js",
     "api-secure.recaptcha.net",
-    "enterprise.js"
+    "recaptcha"
   ],
   "ReCaptcha v2 for Contact Form 7": [
     "/wp-content/plugins/wpcf7-recaptcha/.+.js?:\\?ver=\\d+?:.\\d++?"
   ],
   "Red Hat": [
-    "red hat",
-    "x-powered-by"
-  ],
-  "Redis Object Cache": [
-    "<!--\\s+performance optimized by redis object cache"
-  ],
-  "Redux": [
-    "redux.applymiddleware",
-    "reactredux",
-    "/redux@",
-    "__redux_devtools_extension__"
+    "x-powered-by",
+    "red hat"
   ],
   "Redux Framework": [
     "redux\\s",
-    "generator",
-    "framework"
+    "framework",
+    "generator"
   ],
   "RequireJS": [
-    "require",
-    "requirejs.version"
+    "requirejs.version",
+    "require"
   ],
   "Responsive Lightbox & Gallery": [
-    "rl_hide_image",
-    "rl_view_image",
     "rlargs.activegalleries",
-    "/wp-content/plugins/responsive-lightbox/.+front.js?:\\?ver=\\d+?:.\\d++?"
+    "/wp-content/plugins/responsive-lightbox/.+front.js?:\\?ver=\\d+?:.\\d++?",
+    "rl_hide_image",
+    "rl_view_image"
   ],
   "Responsive Nav": [
     "responsive-nav?:.min?.js?:\\?ver=?:\\d+.+\\d+?"
@@ -2319,133 +1766,92 @@
   "Rich Plugins Reviews": [
     "/wp-content/plugins/widget-google-reviews/"
   ],
-  "Rive": [
-    "rive.rive"
-  ],
   "Ruby": [
-    "ruby?:/",
-    "?:mongrel"
-  ],
-  "Ruby Chat": [
-    "rubychatloading",
-    "chatwidget.ruby.com/"
+    "?:mongrel",
+    "ruby?:/"
   ],
   "Ruby on Rails": [
+    "__react_on_rails_event_handlers_ran_once__",
     "/assets/application-",
-    "_rails_loaded",
-    "reactonrails",
-    "_session_id",
     "rack",
     "x-powered-by",
+    "_session_id",
     "mod_?:rails",
-    "csrf-param",
-    "__react_on_rails_event_handlers_ran_once__",
-    "authenticity_token"
-  ],
-  "Ruby Receptionists": [
-    "rubyapi",
-    "chatwidget.ruby.com"
+    "_rails_loaded",
+    "reactonrails",
+    "authenticity_token",
+    "csrf-param"
   ],
   "RxJS": [
-    "rx.compositedisposable",
-    ".global??:.min?.js",
     "rx.symbol",
-    "rx?:.\\w+??:.compat"
-  ],
-  "SAP": [
-    "sap netweaver application server"
+    "rx?:.\\w+??:.compat",
+    ".global??:.min?.js",
+    "rx.compositedisposable"
   ],
   "Sassy Social Share": [
     "sassy-social-share?:-public?.js?:\\?v?:er?=?:\\d+.+\\d+?"
   ],
   "script.aculo.us": [
-    "/?:scriptaculous",
     "protoaculous?:.js",
-    "scriptaculous.version"
+    "scriptaculous.version",
+    "/?:scriptaculous"
   ],
   "scrollreveal": [
-    "scrollreveal?:.min?.js?:\\?v?:er?=?:\\d+.+\\d+?",
-    "scrollreveal"
-  ],
-  "SeamlessCMS": [
-    "seamless.?cms",
-    "generator"
+    "scrollreveal",
+    "scrollreveal?:.min?.js?:\\?v?:er?=?:\\d+.+\\d+?"
   ],
   "Select2": [
-    "jquery.fn.select2",
     "select2?:.min",
-    ".full?.js"
-  ],
-  "Selless": [
-    ".selless.us/",
-    "__next_data__.assetprefix"
+    ".full?.js",
+    "jquery.fn.select2"
   ],
   "Sensors Data": [
-    "sensorsdata2015jssdkcross",
-    "sensorsdata2015session",
     "sensorsdata",
     "sensorsdata_app_js_bridge_call_js",
-    "sa.lib_version"
+    "sensorsdata2015session",
+    "sa.lib_version",
+    "sensorsdata2015jssdkcross"
   ],
   "Sentry": [
-    ".sentry-cdn.com/",
-    "sentry-trace",
+    "ravenoptions.whitelisturls",
     "browser.sentry\\-cdn.com/",
-    "sentry",
+    "sentry.sdk_version",
+    ".sentry-cdn.com/",
+    "__sentry__",
     "raven.config",
     "sentry_sdk_source",
-    "__sentry__",
-    "sentry.sdk_version",
-    "ravenoptions.whitelisturls"
+    "sentry-trace",
+    "sentry"
   ],
   "ShareThis": [
-    "sharethis",
     ".sharethis.com/",
+    "sharethis",
     "__sharethis__docready"
   ],
   "Shopify": [
     "x-shopid",
-    "_shopify_sa_t",
-    "goaffproshopifystvariablefix",
-    "sdks.shopifycdn.com",
-    "_shopify_y",
-    "cdn.shopify.com",
-    "shopify-checkout-api-token",
+    "_shopify_sa_p",
+    "shopifyaccessurl",
     "shopify-digital-wallet",
-    "https?//.+.myshopify.com",
-    "shopifyapi",
     "shopify_api_base_url",
+    "goaffproshopifystvariablefix",
+    "cdn.shopify.com",
+    "shopifycustomer",
+    "shopifyapi",
+    "https?//.+.myshopify.com",
+    "shopify",
     "shopifyanalytics",
     "_shopify_essential_",
-    "_shopify_s",
-    "shopify",
     "x-shopify-stage",
-    "shopifycustomer",
-    "shopifyaccessurl",
-    "_shopify_sa_p"
-  ],
-  "Shopify Buy Button": [
-    "sdk. shopifycdn.com/buy-button/latest/",
-    "shopifybuy"
-  ],
-  "Shopify Chat": [
-    "cdn.shopify.com/shopifycloud/shopify_chat/"
-  ],
-  "Shopify Consent Management": [
-    "cookie_consent_shopify.js"
-  ],
-  "Shopify Geolocation App": [
-    "geolocation-recommendations.shopifycloud.com/"
-  ],
-  "Shopify Product Reviews": [
-    "productreviews.shopifycdn.com"
-  ],
-  "Shopify Web Components": [
-    "cdn.shopify.com/storefront/web-components.js"
+    "_shopify_y",
+    "shopify-checkout-api-token",
+    "_shopify_s",
+    "sdks.shopifycdn.com",
+    "_shopify_sa_t"
   ],
   "Shoptet": [
-    "shoptet",
     "https?://cdn.myshoptet.com/",
+    "shoptet",
     "web_author"
   ],
   "Shortcodes Ultimate": [
@@ -2457,16 +1863,6 @@
   ],
   "sidr": [
     "sidr?:.min?.js?:\\?v?:er?=?:\\d+.+\\d+?"
-  ],
-  "Signal": [
-    "//s.thebrighttag.com/iframe\\?",
-    "//s.btstatic.com/tag.js",
-    "signaldata"
-  ],
-  "Silverstripe": [
-    "powered by <a href=\"",
-    "generator",
-    "silverstripe"
   ],
   "Site Kit": [
     "site kit by google ?",
@@ -2481,37 +1877,24 @@
   "SiteOrigin Widgets Bundle": [
     "/wp-content/plugins/so-widgets-bundle/.+.js?:\\?ver=\\d+?:.\\d++?"
   ],
-  "Slate": [
-    "slate-technolutions-net.cdn.technolutions.net/"
-  ],
-  "SlickStack": [
-    "slickstack",
-    "x-powered-by"
-  ],
-  "SlickText": [
-    "cdn.slicktext.com/"
-  ],
   "slideout": [
     "?:?:\\d+.+\\d+/?slideout?:-init??:.min?.js",
-    "slideout?:-init??:.min?.js?:\\?v?:er?=?:\\d+.+\\d+?",
-    "slideout"
+    "slideout",
+    "slideout?:-init??:.min?.js?:\\?v?:er?=?:\\d+.+\\d+?"
   ],
   "Slider Revolution": [
+    "revapi4",
+    "revapi2",
     "revapi1",
-    "revslider_showdoublejqueryerror",
-    "slider revolution\\s",
-    "powered\\sby\\sslider revolution\\s",
     "jquery.themepunch.revolution.min.js",
     "revapi5",
-    "revapi3",
-    "revapi2",
-    "rs_modules.main.version",
+    "revslider_showdoublejqueryerror",
+    "powered\\sby\\sslider revolution\\s",
     "generator",
-    "revapi4",
-    "/wp-content/plugins/revslider/"
-  ],
-  "Slimbox": [
-    "slimbox.js"
+    "rs_modules.main.version",
+    "revapi3",
+    "/wp-content/plugins/revslider/",
+    "slider revolution\\s"
   ],
   "Slimbox 2": [
     "slimbox2.js"
@@ -2524,25 +1907,19 @@
   ],
   "Snowplow Analytics": [
     "cdn.jsdelivr.net/npm/@snowplow/javascript-tracker@?:.+/dist/sp.js",
-    "unpkg.com/@snowplow/javascript-tracker@?:.+/dist/sp",
     "sp.js",
-    "globalsnowplownamespace",
+    "unpkg.com/@snowplow/javascript-tracker@?:.+/dist/sp",
     "_sp_id",
-    "snowplow",
-    "cdnjs.cloudflare.com/ajax/libs/snowplow/?:.+/sp",
+    "cdn.jsdelivr.net/gh/snowplow/sp-js-assets@?:.+/sp.js",
     "d1fc8wv8zag5ca.cloudfront.net/.+/sp.js",
-    "cdn.jsdelivr.net/gh/snowplow/sp-js-assets@?:.+/sp.js"
-  ],
-  "SOCi": [
-    ".meetsoci.com"
+    "globalsnowplownamespace",
+    "snowplow",
+    "cdnjs.cloudflare.com/ajax/libs/snowplow/?:.+/sp"
   ],
   "Socket.io": [
     "socket.io",
     "io.socket",
     "io.version"
-  ],
-  "Spatie Laravel Cookie Consent": [
-    "laravelcookieconsent"
   ],
   "Spectra": [
     "/wp-content/plugins/ultimate-addons-for-gutenberg/.+.js?:\\?ver=\\d+?:.\\d++?"
@@ -2552,50 +1929,47 @@
     "generator"
   ],
   "Spin.js": [
-    "spinner",
-    "cdnjs.cloudflare.com/ajax/libs/spin.js/"
+    "cdnjs.cloudflare.com/ajax/libs/spin.js/",
+    "spinner"
   ],
   "spin.js": [
     "spin?:.min?.js?:\\?ver="
   ],
   "Statcounter": [
     "sc_project",
-    "_statcounter",
+    "sc_security",
     "statcounter.com/counter/counter",
-    "sc_security"
+    "_statcounter"
   ],
   "Stellar.js": [
     "stellar?:.min?.js?:\\?ver=?:\\d+.+\\d+?"
   ],
   "Stimulus": [
-    "stimulus_application",
-    "stimulus.application"
+    "stimulus.application",
+    "stimulus_application"
   ],
   "Strato Website": [
     "strftime.configuration",
     "strato-editor.com/"
   ],
   "Stripe": [
-    "stripepublickey",
-    "__stripe_sid",
-    "__stripe_mid",
-    "checkout.enabledpayments.stripe",
-    "true",
-    "js.stripe.com",
     "__next_data__.props.pageprops.appsettings.stripe_api_public_key",
-    "stripe.version"
+    "checkout.enabledpayments.stripe",
+    "__stripe_sid",
+    "js.stripe.com",
+    "stripe.version",
+    "true",
+    "__stripe_mid",
+    "stripepublickey"
   ],
   "Substack": [
+    "x-cluster",
     "x-served-by",
-    "substack",
-    "x-cluster"
+    "substack"
   ],
   "Sucuri": [
-    "x-sucuri-id",
-    "x-sucuri-cache:"
-  ],
-  "SuperLemon app": [
-    "/files/superlemon_.+.js"
+    "x-sucuri-cache:",
+    "x-sucuri-id"
   ],
   "Supersized": [
     "supersized?:."
@@ -2607,68 +1981,62 @@
     "sweet?:-?alert?:.min?.js"
   ],
   "SweetAlert2": [
-    "sweetalert2@",
     "sweetalert2?:.all??:.min?.js",
+    "sweetalert2@",
+    "limonte-sweetalert2/",
     "/npm/sweetalert2@",
-    "sweetalert2",
-    "limonte-sweetalert2/"
+    "sweetalert2"
   ],
   "SWFObject": [
     "swfobject"
   ],
   "Swiper": [
-    "swiper?:.min?.js",
-    "swiper"
+    "swiper",
+    "swiper?:.min?.js"
   ],
   "Symfony": [
-    "sfjs",
-    "sf_redirect"
+    "sf_redirect",
+    "sfjs"
   ],
   "SyntaxHighlighter": [
+    "link",
+    "brush",
     "syntaxhighlighter",
     "themedefault",
-    "link",
-    "<?:script",
-    "brush"
+    "<?:script"
   ],
   "Tablesorter": [
     "?:?:\\d+.+\\d+"
   ],
-  "Tail": [
-    ".tailtarget.com/"
-  ],
   "Tailwind CSS": [
-    "grayscale",
-    "--tw-?:rotate",
-    "/npm/@tailwindcss/browser",
-    "sepia",
-    "ring",
-    "translate",
-    "bg-opacity",
-    "application-name",
-    "blur",
-    "tailwind css",
-    "space-x",
-    "tailwind",
-    "hextotailwindcolorvar",
-    ".tailwindcss?:tailwind-config-cdn?.?:com",
     "text-opacity",
-    "contrast",
+    "hextotailwindcolorvar",
     "shadow",
-    "invert",
+    "ring",
+    "tailwind",
     "border-opacity",
+    "translate",
+    "grayscale",
+    "invert",
+    "blur",
+    "--tw-?:rotate",
+    "sepia",
+    "bg-opacity",
+    ".tailwindcss?:tailwind-config-cdn?.?:com",
+    "contrast",
     "scale",
-    "brightness"
+    "space-x",
+    "tailwind css",
+    "application-name",
+    "brightness",
+    "/npm/@tailwindcss/browser"
   ],
   "Tengine": [
     "tengine"
   ],
-  "Tern": [
-    "live.tern-returns.eastsideapps.io/"
-  ],
   "The Events Calendar": [
-    "tribe_l10n_datatables",
     "tribecalendar",
+    "tribe_l10n_datatables",
     "/wp-content/plugins/the-events-calendar?:-pro?/"
   ],
   "ThemeGrill ColorMag": [
@@ -2679,20 +2047,20 @@
   ],
   "ThinkPHP": [
     "thinkphp_show_page_trace",
-    "thinkphp",
-    "x-powered-by"
+    "x-powered-by",
+    "thinkphp"
   ],
   "Three.js": [
     "__three__",
-    "three?:.min?.js",
-    "three.revision"
+    "three.revision",
+    "three?:.min?.js"
   ],
   "Thrive Architect": [
     "/wp-content/plugins/thrive-visual-editor/.+.js?:\\?ver=\\d+?:.\\d++?"
   ],
   "Tidio": [
-    "tidiochatapi",
-    "code.tidio.co"
+    "code.tidio.co",
+    "tidiochatapi"
   ],
   "Tilda": [
     "-blocks",
@@ -2706,32 +2074,20 @@
     "timeago"
   ],
   "TinyMCE": [
+    "/tiny_?mce?:.min?.js",
     "tinymce.majorversion",
-    "tinymce",
-    "/tiny_?mce?:.min?.js"
+    "tinymce"
   ],
   "Tippy.js": [
-    "tippy.defaultprops",
-    "/tippy.js?:@"
-  ],
-  "TN Express Web": [
-    "tnew"
-  ],
-  "Trac": [
-    "powered by <a href=\"",
-    "<a id=\"tracpowered",
-    "trac_form_token",
-    "trac_session"
+    "/tippy.js?:@",
+    "tippy.defaultprops"
   ],
   "Translate WordPress": [
     "/wp-content/plugins/google-language-translator/.+scripts.js?:\\?ver=\\d+?:.\\d++?"
   ],
-  "Trix": [
-    "trix.version"
-  ],
   "Trustpilot": [
-    ".trustpilot.com",
-    "trustpilot"
+    "trustpilot",
+    ".trustpilot.com"
   ],
   "Twenty Fifteen": [
     "/wp-content/themes/twentyfifteen/"
@@ -2740,8 +2096,8 @@
     "/wp-content/themes/twentyfourteen/"
   ],
   "Twenty Seventeen": [
-    "/wp-content/themes/twentyseventeen/",
-    "twentyseventeenscreenreadertext"
+    "twentyseventeenscreenreadertext",
+    "/wp-content/themes/twentyseventeen/"
   ],
   "Twenty Sixteen": [
     "/wp-content/themes/twentysixteen/"
@@ -2750,95 +2106,61 @@
     "/wp-content/themes/twentytwelve/"
   ],
   "Twenty Twenty": [
-    "twentytwenty",
-    "/wp-content/themes/twentytwenty/"
-  ],
-  "Twenty Twenty-Five": [
-    "/wp-content/themes/twentytwentyfive/"
-  ],
-  "Twenty Twenty-Four": [
-    "/wp-content/themes/twentytwentyfour/"
+    "/wp-content/themes/twentytwenty/",
+    "twentytwenty"
   ],
   "Twenty Twenty-One": [
-    "twentytwentyonecollapsemenuonclickoutside",
+    "/wp-content/themes/twentytwentyone/",
     "twentytwentyoneresponsiveembeds",
-    "/wp-content/themes/twentytwentyone/"
+    "twentytwentyonecollapsemenuonclickoutside"
   ],
   "Twitter": [
     "//platform.twitter.com/widgets.js"
   ],
-  "Twitter Ads": [
-    "twttr",
-    "static.ads-twitter.com/uwt.js"
-  ],
-  "Twitter Analytics": [
-    "analytics.twitter.com"
-  ],
-  "Twitter Emoji (Twemoji)": [
-    "twemoji?:.min?.js",
-    "twemoji.base",
-    "twemoji",
-    "twemoji.maxcdn.com/v/"
-  ],
-  "Twitter Flight": [
-    "flight"
-  ],
   "Twitter typeahead.js": [
-    "bloodhound.?:jquery",
     "?:typeahead",
-    "typeahead",
-    "bundle??:.min?.js"
+    "bloodhound.?:jquery",
+    "bundle??:.min?.js",
+    "typeahead"
   ],
   "Typed.js": [
     "typed?:.min?.js?:\\?v?:er?=?:\\d+.+\\d+?"
   ],
   "Typeform": [
-    "embed.typeform.com/",
     "tf.createpopover",
+    "embed.typeform.com/",
     "tf.createwidget"
   ],
   "Typekit": [
-    "typekit.config.js",
-    "use.typekit.com"
+    "use.typekit.com",
+    "typekit.config.js"
   ],
   "TYPO3 CMS": [
-    "/?typo3?:conf",
-    "/typo3/",
-    "webpackchunktypo3webpack",
     "temp/",
-    "generator",
-    "typo3\\s+?:cms\\s+??:"
+    "/typo3/",
+    "/?typo3?:conf",
+    "webpackchunktypo3webpack",
+    "typo3\\s+?:cms\\s+??:",
+    "generator"
   ],
   "Ubuntu": [
-    "x-powered-by",
-    "ubuntu"
+    "ubuntu",
+    "x-powered-by"
   ],
   "UIKit": [
-    "uk-section",
-    "uikit"
-  ],
-  "Ultimate": [
-    "ultimateailogin",
-    "ultimateaiupdateuser"
-  ],
-  "Ultimate Addons for Elementor": [
-    "uael_particles_script.particles_url",
-    "/wp-content/plugins/ultimate-elementor/"
+    "uikit",
+    "uk-section"
   ],
   "UltimatelySocial": [
     "/wp-content/plugins/ultimate-social-media-icons/"
   ],
   "Underscore.js": [
     "underscore",
-    "_.restarguments",
-    "_.version"
+    "_.version",
+    "_.restarguments"
   ],
   "UNIX": [
     "unix"
-  ],
-  "Unless": [
-    ".unless.com/",
-    "unlesscomponentcleanup"
   ],
   "Unpkg": [
     "unpkg.com/"
@@ -2853,51 +2175,38 @@
   "ValueCommerce": [
     ".valuecommerce.com"
   ],
-  "Vant": [
-    "vant.version"
-  ],
-  "Vanta": [
-    "static.vanta.com/"
-  ],
   "Varnish": [
-    "x-varnish-hostname",
     "x-varnish-cache",
+    "x-varnish-action",
+    "x-varnish-age",
     "via",
     "x-varnish",
-    "x-varnish-age",
-    "x-varnish-action",
+    "x-varnish-hostname",
     "varnish?: \\varnish/"
   ],
   "Vercel": [
-    "x-vercel-id",
-    "x-vercel-cache",
-    "vercel",
     "now",
-    "x-now-trace"
-  ],
-  "Vercel Analytics": [
-    "/_vercel/insights/script.js",
-    "/va/script.js"
-  ],
-  "Vercel Speed Insights": [
-    "/_vercel/speed-insights/script.js"
+    "x-vercel-id",
+    "x-now-trace",
+    "vercel",
+    "x-vercel-cache"
   ],
   "VK Pixel": [
     "vk.com/js/api/openapi.js"
   ],
   "Vue.js": [
-    "<?!svg",
     "vue.version",
-    "__vue_hot_map__",
     "vueroot",
-    ".vue-notification-group",
+    "__vue_hot_map__",
     "vuedll",
-    "__vue__"
+    "__vue__",
+    "<?!svg",
+    ".vue-notification-group"
   ],
   "W3 Total Cache": [
-    "w3 total cache?:/",
     "<!--",
-    "x-powered-by"
+    "x-powered-by",
+    "w3 total cache?:/"
   ],
   "waitForImages": [
     "?:?:jquery.??waitforimages?:-?:\\d+.+\\d+-modded??:.min?.js",
@@ -2906,78 +2215,62 @@
   "Web Font Loader": [
     "?:?:\\d+.+\\d+/?webfontloader?:.min??:"
   ],
-  "Web Stories for WordPress": [
-    "amp-story-generator-version",
-    "amp-story-generator-name",
-    "web stories for wordpress"
-  ],
   "Webflow": [
-    "webflow",
+    "webflow._.version",
     "generator",
-    "webflow._.version"
-  ],
-  "Webflow Ecommerce": [
-    "__webflow_currency_settings"
+    "webflow"
   ],
   "WebNode": [
     "webnode?:\\s",
-    "wnd.system",
+    "_gat_wnd_header",
     "generator",
-    "_gat_wnd_header"
+    "wnd.system"
   ],
   "Webpack": [
     "webpackjsonp",
     "webpackchunk"
   ],
-  "Website Creator": [
-    "website creator by hosttech",
-    "generator",
-    "wsc_rendermode"
-  ],
   "Weebly": [
-    "_w.configdomain",
-    "cdn\\d+.editmysite.com"
+    "cdn\\d+.editmysite.com",
+    "_w.configdomain"
   ],
   "Weglot": [
     "weglot-translated",
-    "cdn.weglot.com",
-    "wp-content/plugins/weglot"
+    "wp-content/plugins/weglot",
+    "cdn.weglot.com"
   ],
   "Windows Server": [
     "win64",
     "win32"
   ],
   "Wistia": [
-    "wistia",
-    ".wistia.com",
     "wistiautils",
-    "wistiaembeds"
+    ".wistia.com",
+    "wistiaembeds",
+    "wistia"
   ],
   "Wix": [
-    "static.parastorage.com",
-    "wixperformancemeasurements",
-    "domain",
-    "x-wix-request-id",
-    "wix.com website builder",
-    "x-wix-server-artifact-id",
-    ".wix.com",
-    "x-wix-renderer-server",
     "wixbisession",
-    "generator"
+    "wixperformancemeasurements",
+    ".wix.com",
+    "static.parastorage.com",
+    "x-wix-renderer-server",
+    "x-wix-request-id",
+    "generator",
+    "x-wix-server-artifact-id",
+    "wix.com website builder",
+    "domain"
   ],
   "WooCommerce": [
-    "woocommerce_recently_viewed",
-    "/woocommerce?:.min?.js?:\\?ver=",
+    "woocommerce_params",
     "woocommerce",
-    "wc_add_to_cart_params",
+    "/woocommerce?:.min?.js?:\\?ver=",
     "generator",
-    "woocommerce_params"
+    "wc_add_to_cart_params",
+    "woocommerce_recently_viewed"
   ],
   "WooCommerce Multilingual": [
     "/wp-content/plugins/woocommerce-multilingual/.+.js?:\\?ver=\\d+?:.\\d++?"
-  ],
-  "WooCommerce PayPal Checkout Payment Gateway": [
-    "/wp-content/plugins/woocommerce-gateway-paypal-express-checkout/.+.js?:\\?ver=\\d+?:.\\d++?"
   ],
   "WooCommerce PayPal Payments": [
     "/wp-content/plugins/woocommerce-paypal-payments/.+.js?:\\?ver=\\d+?:.\\d++?"
@@ -2986,63 +2279,47 @@
     "/wp-content/plugins/woocommerce-gateway-stripe/"
   ],
   "WookMark": [
-    "wookmark",
-    "wookmark.min.js?:\\?ver="
+    "wookmark.min.js?:\\?ver=",
+    "wookmark"
   ],
   "WordPress": [
-    "shareaholic:wp_version",
-    "x-pingback",
-    "/xmlrpc.php",
+    "rel=\"https://api.w.org/\"",
     "includes/",
-    "wp-embed.min.js",
+    "link",
+    "/xmlrpc.php",
+    "wp.receiveembedmessage",
     "wp.ajax",
     "wp-static.assets.sh/",
-    "<link rel=",
-    "link",
-    "rel=\"https://api.w.org/\"",
-    "wpb_prepare_tab_content",
-    "/wp-?:content",
-    "wordpress?:",
-    "wp.receiveembedmessage",
     "wp_username",
-    "generator"
-  ],
-  "WordPress Default": [
-    "/wp-content/themes/default/"
+    "wpb_prepare_tab_content",
+    "shareaholic:wp_version",
+    "wp-embed.min.js",
+    "generator",
+    "/wp-?:content",
+    "<link rel=",
+    "x-pingback",
+    "wordpress?:"
   ],
   "WordPress Popular Posts": [
     "/wp-content/plugins/wordpress-popular-posts/.+wpp.min.js?:\\?ver=\\d+?:.\\d++?",
     "wordpresspopularposts"
   ],
-  "WordPress Project Manager": [
-    "/wp-content/plugins/wedevs-project-manager/"
-  ],
   "WordPress Site Editor": [
     "<div class=\"wp-site-blocks\">"
   ],
   "WordPress Super Cache": [
-    "wp-super-cache",
-    "<!--"
-  ],
-  "WordPress VIP": [
-    "wpvip.com",
-    "wordpress vip",
-    "x-powered-by"
-  ],
-  "WordPress.com": [
-    "host-header",
-    "wordpress.com",
-    "wordpresspopularposts"
+    "<!--",
+    "wp-super-cache"
   ],
   "WOW": [
     "wow?:.min?.js?:\\?ver=?:\\d+.+\\d+?"
   ],
   "WP Engine": [
-    "wpe-backend",
+    "wp engine",
     "x-powered-by",
     "x-pass-why",
-    "wp engine",
-    "x-wpe-loopback-upstream-addr"
+    "x-wpe-loopback-upstream-addr",
+    "wpe-backend"
   ],
   "WP Fastest Cache": [
     "/wp-content/cache/wpfc-minified/",
@@ -3056,114 +2333,91 @@
     "/wp-content/plugins/wp-google-map-plugin/.+.js?:\\?ver=\\d+?:.\\d++?"
   ],
   "WP Rocket": [
-    "rocket_lazy",
-    "x-rocket-nginx-bypass",
-    "wp rocket",
-    "rocketpreloadlinksconfig",
-    "<!--",
-    "x-powered-by",
-    "rocketlazyloadscripts",
     "rocketbrowsercompatibilitychecker",
     "rocket_lazyload_css_data",
+    "rocketpreloadlinksconfig",
+    "<!--",
+    "rocketlazyloadscripts",
     "/wp-content/plugins/wp-rocket/",
+    "x-powered-by",
     "wp rocket?:/",
-    "generator"
+    "x-rocket-nginx-bypass",
+    "wp rocket",
+    "generator",
+    "rocket_lazy"
   ],
   "WP-Optimize": [
     "<!--"
   ],
   "wpBakery": [
-    "generator",
-    "wpbakery"
+    "wpbakery",
+    "generator"
   ],
   "WPForms": [
+    "wpforms.js?:\\?ver=\\d+?:.\\d++?",
     "wpforms",
     "wpforms_settings",
-    "/wp-content/plugins/wpforms?:-lite?/.+?:frontend.min",
-    "wpforms.js?:\\?ver=\\d+?:.\\d++?"
+    "/wp-content/plugins/wpforms?:-lite?/.+?:frontend.min"
   ],
   "WPML": [
     "wp-wpml_current_language",
-    "generator",
     "/wp-content/plugins/sitepress-multilingual-cms/",
+    "generator",
     "wpml\\sver\\:"
   ],
   "WPMU DEV Smush": [
     "/wp-content/plugins/wp-smushit?:-pro?/.+.js?:\\?ver=\\d+?:.\\d++?"
   ],
   "Yandex.Metrika": [
-    "mc.yandex.ru/metrika/?:tag",
     "yandex_metrika",
+    "watch.js",
     "cdn.jsdelivr.net/npm/yandex\\-metrica\\-watch/watch.js",
-    "watch.js"
+    "mc.yandex.ru/metrika/?:tag"
   ],
   "Yii": [
-    "yii_csrf_token",
-    "??:validation",
-    "body-begin",
-    "activeform.js",
-    "yii.init",
-    "<input type=\"hidden\" value=\"",
+    "powered by <a href=\"http://www.yiiframework.com/\" rel=\"external\">yii framework</a>",
     "body-end\\]",
-    "yii?:.",
-    "powered by <a href=\"http://www.yiiframework.com/\" rel=\"external\">yii framework</a>"
+    "yii.init",
+    "body-begin",
+    "??:validation",
+    "yii_csrf_token",
+    "<input type=\"hidden\" value=\"",
+    "activeform.js",
+    "yii?:."
   ],
   "Yoast SEO": [
     "<!-- this site is optimized with the yoast seo premium plugin v?:",
     "<!-- this site is optimized with the yoast ?:wordpress ?seo plugin v"
-  ],
-  "Yoast SEO for Shopify": [
-    "<!-- this site is optimized with yoast seo for shopify -->"
   ],
   "Yoast SEO Premium": [
     "<!-- this site is optimized with the yoast seo premium plugin v"
   ],
   "YouTube": [
     "embed",
-    "iframe",
+    "<?:param",
     ".youtube.com/",
-    "<?:param"
+    "iframe"
   ],
   "YUI": [
-    "yui.version",
     "yui.yahooapis.com",
+    "yahoo.version",
     "?:/yui/",
-    "yahoo.version"
-  ],
-  "Zend": [
-    "zendserversessid",
-    "zend?:server??:",
-    "x-powered-by"
+    "yui.version"
   ],
   "Zendesk": [
-    "x-zendesk-user-id",
-    "_zendesk_shared_session",
-    "_help_center_session",
-    "static.zdassets.com",
     "zendesk",
+    "_zendesk_shared_session",
+    "static.zdassets.com",
+    "_help_center_session",
+    "x-zendesk-user-id",
     "_zendesk_cookie"
-  ],
-  "Zendesk Chat": [
-    "v2.zopim.com"
-  ],
-  "Zendesk Sunshine Conversations": [
-    "cdn.smooch.io/"
   ],
   "Zepto": [
     "zepto"
   ],
-  "Zip": [
-    "quadpayshopify",
-    "quadpayid",
-    "static.zipmoney.com.au",
-    "true",
-    "zip.co",
-    "quadpay.com",
-    "checkout.enabledpayments.zip"
-  ],
   "ZURB Foundation": [
-    "medium",
+    "large-\\d{1,2} columns",
     "foundation.version",
-    "large-\\d{1,2} columns"
+    "medium"
   ]
 }
