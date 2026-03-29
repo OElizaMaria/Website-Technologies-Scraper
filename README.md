@@ -43,8 +43,19 @@ When I first started this project I had no experience with web scrapers, therefo
 
 
     Fixes:
-        - 
-        -
-        -
+
+        - for next iterations of the code, a library such as Pupeteer can be used to fully render pages before analyzing the content, to make sure this doesn't slow us down it will be used only as a fallback if no technologies have been found
+
+        - the library can be widened by including more technologies, either by looking for a wider list of ranked technologies or parsing each letter in the wappalyzer dictionary and choosing a set number of technologies at random. To fix the extra time caused by extra matching operations we could increase the number of threads and parallelizing the fingerprint evaluation
+
+        - some pages might be very large, for future iterations it would be helpful to limit the amount of the page we load or analyze smaller chunks at a time. Instead of loading the dictionary from a .json file we could use small databases such as SQL or Firebase which would be more efficient 
+
+
 2. How would you scale this solution for millions of domains crawled in a timely manner (1-2 months)?
+
+Easiest fix would be to move from a single-machine implementation to multiple ones. Instead of running the scraper on one computer with limited concurrency, the workload could be divided across multiple computers that process domains in parallel. Containerization tools such as Docker and Kubernetes could help manage the machines, automatically scaling the number of running instances. We could also prioritize faster detection even if it might give some false positives (for example trying cases such as the Hail Marry one first). ANy local saving logic should be completly removed, opting for online databases for easier handling.
+
+
 3. How would you discover new technologies in the future?
+
+Any unknown patterns found in the scraped websites could be colected and analyzed by a machine learning model which would categorize them by similarity. AI could also help automatically generate fingerprints for new technologies. Once a potential technology is identified, a model could analyze the html data and convert patterns into possible fingerprints.
