@@ -1,10 +1,11 @@
-#Website Technologies Scraper
 
-##Content:
-##1. Results
-##2. Pipeline explanation
-##3. How the solution came to be
-##4. Debate Topics
+# Website Technologies Scraper
+
+## Content:
+## 1. Results
+## 2. Pipeline explanation
+## 3. How the solution came to be
+## 4. Debate Topics
 
 ##        Results
 
