@@ -3,8 +3,10 @@
 
 ##        Usage
 
-python DictionaryBuilder.py (to build the librares)
-python Code.py (to check for technologies in the domains given in the input file)
+    python DictionaryBuilder.py (to build the librares)
+
+
+    python Code.py (to check for technologies in the domains given in the input file)
 
 ## Content:
 ## 1. Contents of the repository
